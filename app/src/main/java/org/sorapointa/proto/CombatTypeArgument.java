@@ -1,0 +1,26 @@
+package org.sorapointa.proto;
+import io.github.sainttheana.proto.core.Tag;
+import java.util.List;
+import java.util.ArrayList;
+
+public enum CombatTypeArgument {
+        @Tag(tag=0) COMBAT_TYPE_ARGUMENT_NONE ,
+        @Tag(tag=1) COMBAT_TYPE_ARGUMENT_EVT_BEING_HIT ,
+        @Tag(tag=2) COMBAT_TYPE_ARGUMENT_ANIMATOR_STATE_CHANGED ,
+        @Tag(tag=3) COMBAT_TYPE_ARGUMENT_FACE_TO_DIR ,
+        @Tag(tag=4) COMBAT_TYPE_ARGUMENT_SET_ATTACK_TARGET ,
+        @Tag(tag=5) COMBAT_TYPE_ARGUMENT_RUSH_MOVE ,
+        @Tag(tag=6) COMBAT_TYPE_ARGUMENT_ANIMATOR_PARAMETER_CHANGED ,
+        @Tag(tag=7) COMBAT_TYPE_ARGUMENT_ENTITY_MOVE ,
+        @Tag(tag=8) COMBAT_TYPE_ARGUMENT_SYNC_ENTITY_POSITION ,
+        @Tag(tag=9) COMBAT_TYPE_ARGUMENT_STEER_MOTION_INFO ,
+        @Tag(tag=10) COMBAT_TYPE_ARGUMENT_FORCE_SET_POS_INFO ,
+        @Tag(tag=11) COMBAT_TYPE_ARGUMENT_COMPENSATE_POS_DIFF ,
+        @Tag(tag=12) COMBAT_TYPE_ARGUMENT_MONSTER_DO_BLINK ,
+        @Tag(tag=13) COMBAT_TYPE_ARGUMENT_FIXED_RUSH_MOVE ,
+        @Tag(tag=14) COMBAT_TYPE_ARGUMENT_SYNC_TRANSFORM ,
+        @Tag(tag=15) COMBAT_TYPE_ARGUMENT_LIGHT_CORE_MOVE ,
+        @Tag(tag=16) COMBAT_TYPE_ARGUMENT_BEING_HEALED_NTF ,
+        @Tag(tag=17) COMBAT_TYPE_ARGUMENT_SKILL_ANCHOR_POSITION_NTF ,
+        @Tag(tag=18) COMBAT_TYPE_ARGUMENT_GRAPPLING_HOOK_MOVE ;
+}

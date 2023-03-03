@@ -1,0 +1,45 @@
+package org.sorapointa.proto;
+import io.github.sainttheana.proto.core.Tag;
+import java.util.List;
+import java.util.ArrayList;
+import org.sorapointa.proto.AbilityIdentifier.*;
+import org.sorapointa.proto.AbilityIdentifier;
+import org.sorapointa.proto.AttackHitEffectResult.*;
+import org.sorapointa.proto.AttackHitEffectResult;
+import org.sorapointa.proto.HitCollision.*;
+import org.sorapointa.proto.HitCollision;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+
+public class AttackResult {
+    @Tag(tag=1858) public Boolean isResistText = null;
+    @Tag(tag=1011) public Integer createCountSyncToServer = null;
+    @Tag(tag=2005) public Integer amplifyReactionType = null;
+    @Tag(tag=7) public Integer endureBreak = null;
+    @Tag(tag=5) public Integer elementType = null;
+    @Tag(tag=425,isFloat=true) public Float elementDurabilityAttenuation = null;
+    @Tag(tag=15) public Integer defenseId = null;
+    @Tag(tag=1188) public Integer attackTimestampMs = null;
+    @Tag(tag=91) public Integer bulletFlyTimeMs = null;
+    @Tag(tag=13) public Boolean isCrit = null;
+    @Tag(tag=900,isFloat=true) public Float elementAmplifyRate = null;
+    @Tag(tag=1564) public Integer attackCount = null;
+    @Tag(tag=1664) public Integer criticalRand = null;
+    @Tag(tag=2) public Integer hitPosType = null;
+    @Tag(tag=4) public String animEventId = null;
+    @Tag(tag=8) public AttackHitEffectResult hitEffResult = null;
+    @Tag(tag=1202,isFloat=true) public Float damageShield = null;
+    @Tag(tag=430,isFloat=true) public Float endureDelta = null;
+    @Tag(tag=1) public Vector resolvedDir = null;
+    @Tag(tag=6,isFloat=true) public Float damage = null;
+    @Tag(tag=1887) public Integer addhurtReactionType = null;
+    @Tag(tag=278) public Integer hashedAnimEventId = null;
+    @Tag(tag=1418) public Boolean useGadgetDamageAction = null;
+    @Tag(tag=9,isSigned=true) public Integer hitRetreatAngleCompat = null;
+    @Tag(tag=14) public AbilityIdentifier abilityIdentifier = null;
+    @Tag(tag=11) public Integer attackerId = null;
+    @Tag(tag=1530) public Boolean muteElementHurt = null;
+    @Tag(tag=1366) public Integer targetType = null;
+    @Tag(tag=10) public HitCollision hitCollision = null;
+    @Tag(tag=1110) public Integer gadgetDamageActionIdx = null;
+}

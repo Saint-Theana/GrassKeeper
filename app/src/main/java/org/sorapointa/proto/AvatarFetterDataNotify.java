@@ -1,0 +1,15 @@
+package org.sorapointa.proto;
+import io.github.sainttheana.proto.core.Tag;
+import java.util.List;
+import java.util.ArrayList;
+import org.sorapointa.proto.AvatarFetterInfo.*;
+import org.sorapointa.proto.AvatarFetterInfo;
+
+public class AvatarFetterDataNotify {
+    public static class MapFetterInfoMap {
+        @Tag(tag=1) public Long key = null;
+        @Tag(tag=2) public AvatarFetterInfo value = null;
+    }
+
+    @Tag(tag=15) public List<MapFetterInfoMap> fetterInfoMap = new ArrayList<>();
+}

@@ -1,0 +1,9 @@
+build
+bin
+conf
+plugin
+.history
+*.log
+*.bak
+.*
+!/.gitignore

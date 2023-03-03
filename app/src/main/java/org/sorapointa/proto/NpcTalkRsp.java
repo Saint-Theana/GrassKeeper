@@ -1,0 +1,11 @@
+package org.sorapointa.proto;
+import io.github.sainttheana.proto.core.Tag;
+import java.util.List;
+import java.util.ArrayList;
+
+public class NpcTalkRsp {
+    @Tag(tag=9) public Integer curTalkId = null;
+    @Tag(tag=6) public Integer npcEntityId = null;
+    @Tag(tag=3,isSigned=true) public Integer retcode = null;
+    @Tag(tag=13) public Integer entityId = null;
+}
