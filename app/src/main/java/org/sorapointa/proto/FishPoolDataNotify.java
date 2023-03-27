@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FishPoolDataNotify {
-    @Tag(tag=6) public Integer entityId = null;
-    @Tag(tag=2) public Integer todayFishNum = null;
+    public enum FishPoolDataNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5806) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=10) public Integer todayFishNum = null;
+    @Tag(tag=5) public Integer entityId = null;
 }

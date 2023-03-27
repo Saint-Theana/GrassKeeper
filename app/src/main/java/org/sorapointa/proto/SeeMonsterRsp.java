@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SeeMonsterRsp {
-    @Tag(tag=9,isSigned=true) public Integer retcode = null;
+    public enum SeeMonsterRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=249) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=3,isSigned=true) public Integer retcode = null;
 }

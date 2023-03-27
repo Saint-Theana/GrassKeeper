@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum MatchType {
-        @Tag(tag=0) MATCH_TYPE_NONE ,
-        @Tag(tag=1) MATCH_TYPE_DUNGEON ,
-        @Tag(tag=2) MATCH_TYPE_MP_PLAY ,
-        @Tag(tag=3) MATCH_TYPE_MECHANICUS ,
-        @Tag(tag=4) MATCH_TYPE_GENERAL ,
-        @Tag(tag=5) MATCH_TYPE_GCG ;
+        @Tag(tag=0) None ,
+        @Tag(tag=1) Dungeon ,
+        @Tag(tag=2) MpPlay ,
+        @Tag(tag=3) Mechanicus ,
+        @Tag(tag=4) General ,
+        @Tag(tag=5) Gcg ;
 }

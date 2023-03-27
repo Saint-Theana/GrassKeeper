@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class HomeBlockDotPattern {
-    @Tag(tag=8) public Integer width = null;
-    @Tag(tag=11) public Integer height = null;
-    @Tag(tag=9) public byte[] data = null;
+    @Tag(tag=3) public Integer width = null;
+    @Tag(tag=14) public byte[] data = null;
+    @Tag(tag=8) public Integer height = null;
 }

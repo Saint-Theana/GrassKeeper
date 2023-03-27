@@ -4,4 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class BlessingGetAllRecvPicRecordListReq {
+    public enum BlessingGetAllRecvPicRecordListReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2042) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
 }

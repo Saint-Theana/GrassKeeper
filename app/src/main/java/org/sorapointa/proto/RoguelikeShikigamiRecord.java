@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RoguelikeShikigamiRecord {
-    @Tag(tag=6) public Integer id = null;
-    @Tag(tag=3) public Integer level = null;
+    @Tag(tag=8) public Integer id = null;
+    @Tag(tag=4) public Integer level = null;
 }

@@ -9,6 +9,14 @@ public class HomeExchangeWoodReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=3) public List<MapMaterialCountMap> materialCountMap = new ArrayList<>();
-    @Tag(tag=12) public Integer woodId = null;
+    public enum NIIPNNDOJGL {
+        @Tag(tag=0) None ,
+        @Tag(tag=4672) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=1) public List<MapMaterialCountMap> materialCountMap = new ArrayList<>();
+    @Tag(tag=8) public Integer woodId = null;
 }

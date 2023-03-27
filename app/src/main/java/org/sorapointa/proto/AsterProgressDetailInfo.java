@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AsterProgressDetailInfo {
-    @Tag(tag=3) public Integer lastAutoAddTime = null;
-    @Tag(tag=1) public Integer count = null;
+    @Tag(tag=14) public Integer lastAutoAddTime = null;
+    @Tag(tag=8) public Integer count = null;
 }

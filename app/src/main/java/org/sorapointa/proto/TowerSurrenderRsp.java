@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class TowerSurrenderRsp {
-    @Tag(tag=9,isSigned=true) public Integer retcode = null;
+    public enum TowerSurrenderRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2488) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=2,isSigned=true) public Integer retcode = null;
 }

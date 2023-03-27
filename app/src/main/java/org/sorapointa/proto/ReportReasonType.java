@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum ReportReasonType {
-        @Tag(tag=0) REPORT_REASON_TYPE_NONE ,
-        @Tag(tag=1) REPORT_REASON_TYPE_DECEPTIVE_ADS ,
-        @Tag(tag=2) REPORT_REASON_TYPE_ABUSING ,
-        @Tag(tag=3) REPORT_REASON_TYPE_CHEAT ,
-        @Tag(tag=4) REPORT_REASON_TYPE_POLITICAL ,
-        @Tag(tag=5) REPORT_REASON_TYPE_OTHER ,
-        @Tag(tag=6) REPORT_REASON_TYPE_HOME ;
+        @Tag(tag=0) ReportReasonNone ,
+        @Tag(tag=1) ReportReasonDeceptiveAds ,
+        @Tag(tag=2) ReportReasonAbusing ,
+        @Tag(tag=3) ReportReasonCheat ,
+        @Tag(tag=4) ReportReasonPolitical ,
+        @Tag(tag=5) ReportReasonOther ,
+        @Tag(tag=6) ReportReasonHome ;
 }

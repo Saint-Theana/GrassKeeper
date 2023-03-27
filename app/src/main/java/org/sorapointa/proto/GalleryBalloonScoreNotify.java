@@ -9,6 +9,13 @@ public class GalleryBalloonScoreNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=9) public Integer galleryId = null;
-    @Tag(tag=7) public List<MapUidScoreMap> uidScoreMap = new ArrayList<>();
+    public enum GalleryBalloonScoreNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5587) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=12) public List<MapUidScoreMap> uidScoreMap = new ArrayList<>();
+    @Tag(tag=2) public Integer galleryId = null;
 }

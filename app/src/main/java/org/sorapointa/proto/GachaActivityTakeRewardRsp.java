@@ -9,6 +9,13 @@ public class GachaActivityTakeRewardRsp {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=3) public List<MapRobotNumMap> robotNumMap = new ArrayList<>();
-    @Tag(tag=13,isSigned=true) public Integer retcode = null;
+    public enum GachaActivityTakeRewardRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8228) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=14,isSigned=true) public Integer retcode = null;
+    @Tag(tag=2) public List<MapRobotNumMap> robotNumMap = new ArrayList<>();
 }

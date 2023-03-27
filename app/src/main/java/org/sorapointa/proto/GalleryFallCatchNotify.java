@@ -9,10 +9,17 @@ public class GalleryFallCatchNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=6) public Integer curScore = null;
-    @Tag(tag=11) public Integer timeCost = null;
+    public enum GalleryFallCatchNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5520) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1) public Integer timeCost = null;
+    @Tag(tag=4) public Integer addScore = null;
+    @Tag(tag=2) public Integer galleryId = null;
+    @Tag(tag=5) public Integer curScore = null;
+    @Tag(tag=3) public Boolean isGround = null;
     @Tag(tag=15) public List<MapBallCatchCountMap> ballCatchCountMap = new ArrayList<>();
-    @Tag(tag=1) public Integer addScore = null;
-    @Tag(tag=12) public Boolean isGround = null;
-    @Tag(tag=10) public Integer galleryId = null;
 }

@@ -9,7 +9,7 @@ public class GachaStageData {
         @Tag(tag=2) public Integer value = null;
     }
 
+    @Tag(tag=11) public List<MapTargetNumMap> targetNumMap = new ArrayList<>();
     @Tag(tag=15) public Integer stageId = null;
-    @Tag(tag=14) public List<MapTargetNumMap> targetNumMap = new ArrayList<>();
-    @Tag(tag=13) public Boolean isOpen = null;
+    @Tag(tag=4) public Boolean isOpen = null;
 }

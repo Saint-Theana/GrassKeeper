@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinFieldEntityCountChange {
-    @Tag(tag=14) public Integer fieldEntityCount = null;
+    @Tag(tag=4) public Integer fieldEntityCount = null;
 }

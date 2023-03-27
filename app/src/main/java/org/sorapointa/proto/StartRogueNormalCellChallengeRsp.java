@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class StartRogueNormalCellChallengeRsp {
-    @Tag(tag=10) public Integer dungeonId = null;
-    @Tag(tag=2) public Integer cellId = null;
-    @Tag(tag=6,isSigned=true) public Integer retcode = null;
+    public enum StartRogueNormalCellChallengeRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8485) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public Integer dungeonId = null;
+    @Tag(tag=2,isSigned=true) public Integer retcode = null;
+    @Tag(tag=7) public Integer cellId = null;
 }

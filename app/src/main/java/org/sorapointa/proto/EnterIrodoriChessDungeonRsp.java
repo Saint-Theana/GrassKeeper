@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EnterIrodoriChessDungeonRsp {
-    @Tag(tag=5,isSigned=true) public Integer retcode = null;
-    @Tag(tag=7) public Boolean isHardMap = null;
-    @Tag(tag=13) public Integer levelId = null;
+    public enum EnterIrodoriChessDungeonRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8598) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=11) public Integer levelId = null;
+    @Tag(tag=4,isSigned=true) public Integer retcode = null;
+    @Tag(tag=3) public Boolean isHardMap = null;
 }

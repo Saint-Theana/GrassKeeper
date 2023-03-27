@@ -9,6 +9,13 @@ public class EntityFightPropNotify {
         @Tag(tag=2,isFloat=true) public Float value = null;
     }
 
-    @Tag(tag=4) public Integer entityId = null;
-    @Tag(tag=8) public List<MapFightPropMap> fightPropMap = new ArrayList<>();
+    public enum EntityFightPropNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1287) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public Integer entityId = null;
+    @Tag(tag=15) public List<MapFightPropMap> fightPropMap = new ArrayList<>();
 }

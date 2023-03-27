@@ -9,5 +9,12 @@ public class DungeonDataNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=1) public List<MapDungeonDataMap> dungeonDataMap = new ArrayList<>();
+    public enum DungeonDataNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=906) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=6) public List<MapDungeonDataMap> dungeonDataMap = new ArrayList<>();
 }

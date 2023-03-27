@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DraftInviteResultNotify {
-    @Tag(tag=9) public Boolean isAllAgree = null;
-    @Tag(tag=13) public Integer draftId = null;
+    public enum DraftInviteResultNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5462) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1) public Boolean isAllArgee = null;
+    @Tag(tag=5) public Integer draftId = null;
 }

@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ScenePlayGuestReplyInviteReq {
-    @Tag(tag=15) public Boolean isAgree = null;
-    @Tag(tag=6) public Integer playId = null;
+    public enum ScenePlayGuestReplyInviteReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4430) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=9) public Integer playId = null;
+    @Tag(tag=1) public Boolean isAgree = null;
 }

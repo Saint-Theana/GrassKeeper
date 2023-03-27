@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ChangeMailStarNotify {
-    @Tag(tag=14) public Boolean isStar = null;
-    @Tag(tag=2) public List<Integer> mailIdList = new ArrayList<>();
+    public enum ChangeMailStarNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1478) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=11) public List<Integer> mailIdList = new ArrayList<>();
+    @Tag(tag=12) public Boolean isStar = null;
 }

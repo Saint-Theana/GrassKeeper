@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MaterialDeleteInfo {
-    public static class CountDownDelete {
+    public static class MaterialDeleteInfo_CountDownDelete {
         public static class MapDeleteTimeNumMap {
             @Tag(tag=1) public Integer key = null;
             @Tag(tag=2) public Integer value = null;
@@ -14,11 +14,11 @@ public class MaterialDeleteInfo {
         @Tag(tag=2) public Integer configCountDownTime = null;
     }
 
-    public static class DateTimeDelete {
+    public static class MaterialDeleteInfo_DateTimeDelete {
         @Tag(tag=1) public Integer deleteTime = null;
     }
 
-    public static class DelayWeekCountDownDelete {
+    public static class MaterialDeleteInfo_DelayWeekCountDownDelete {
         public static class MapDeleteTimeNumMap {
             @Tag(tag=1) public Integer key = null;
             @Tag(tag=2) public Integer value = null;
@@ -30,7 +30,7 @@ public class MaterialDeleteInfo {
     }
 
     @Tag(tag=1) public Boolean hasDeleteConfig = null;
-    @Tag(tag=2) public CountDownDelete countDownDelete = null;
-    @Tag(tag=3) public DateTimeDelete dateDelete = null;
-    @Tag(tag=4) public DelayWeekCountDownDelete delayWeekCountDownDelete = null;
+    @Tag(tag=2) public MaterialDeleteInfo_CountDownDelete countDownDelete = null;
+    @Tag(tag=3) public MaterialDeleteInfo_DateTimeDelete dateDelete = null;
+    @Tag(tag=4) public MaterialDeleteInfo_DelayWeekCountDownDelete delayWeekCountDownDelete = null;
 }

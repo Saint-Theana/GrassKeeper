@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class HomeAvtarAllFinishRewardNotify {
-    @Tag(tag=13) public List<Integer> eventIdList = new ArrayList<>();
+    public enum HomeAvtarAllFinishRewardNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4650) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public List<Integer> eventIdList = new ArrayList<>();
 }

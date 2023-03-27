@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum RecordUsage {
-        @Tag(tag=0) RECORD_USAGE_UGC_RECORD_USAGE_NONE ,
-        @Tag(tag=1) RECORD_USAGE_UGC_RECORD_USAGE_IMPORT ,
-        @Tag(tag=2) RECORD_USAGE_UGC_RECORD_USAGE_PLAY ,
-        @Tag(tag=3) RECORD_USAGE_UGC_RECORD_USAGE_TRIAL ,
-        @Tag(tag=4) RECORD_USAGE_UGC_RECORD_USAGE_COMPARE ;
+        @Tag(tag=0) UgcRecordUsageNone ,
+        @Tag(tag=1) UgcRecordUsageImport ,
+        @Tag(tag=2) UgcRecordUsagePlay ,
+        @Tag(tag=3) UgcRecordUsageTrial ,
+        @Tag(tag=4) UgcRecordUsageCompare ;
 }

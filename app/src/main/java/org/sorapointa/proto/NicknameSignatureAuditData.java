@@ -2,10 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ContentAuditAuxiliaryField.*;
-import org.sorapointa.proto.ContentAuditAuxiliaryField;
-import org.sorapointa.proto.ContentAuditField.*;
-import org.sorapointa.proto.ContentAuditField;
 
 public class NicknameSignatureAuditData {
     @Tag(tag=1) public String aid = null;

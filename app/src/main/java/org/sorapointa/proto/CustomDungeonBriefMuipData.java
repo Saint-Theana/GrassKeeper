@@ -2,12 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.CustomDungeonAbstractMuipData.*;
-import org.sorapointa.proto.CustomDungeonAbstractMuipData;
-import org.sorapointa.proto.CustomDungeonSettingMuipData.*;
-import org.sorapointa.proto.CustomDungeonSettingMuipData;
-import org.sorapointa.proto.CustomDungeonSocialMuipData.*;
-import org.sorapointa.proto.CustomDungeonSocialMuipData;
 
 public class CustomDungeonBriefMuipData {
     @Tag(tag=1) public Long dungeonGuid = null;

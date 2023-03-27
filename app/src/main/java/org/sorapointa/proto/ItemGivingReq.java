@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ItemParam.*;
-import org.sorapointa.proto.ItemParam;
 
 public class ItemGivingReq {
     public static class MapItemGuidCountMap {
@@ -11,13 +9,16 @@ public class ItemGivingReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    public enum ItemGivingType {
-        @Tag(tag=0) ITEM_GIVING_TYPE_QUEST ,
-        @Tag(tag=1) ITEM_GIVING_TYPE_GADGET ;
+    public enum ItemGivingReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=101) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
     }
 
-    @Tag(tag=15) public List<MapItemGuidCountMap> itemGuidCountMap = new ArrayList<>();
-    @Tag(tag=13) public Integer givingId = null;
-    @Tag(tag=4) public List<ItemParam> itemParamList = new ArrayList<>();
-    @Tag(tag=2) public ItemGivingType itemGivingType = null;
+    @Tag(tag=13) public List<MapItemGuidCountMap> itemGuidCountMap = new ArrayList<>();
+    @Tag(tag=7) public Integer givingId = null;
+    @Tag(tag=9) public List<ItemParam> itemParamList = new ArrayList<>();
+    @Tag(tag=8) public Integer itemGivingType = null;
 }

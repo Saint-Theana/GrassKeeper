@@ -9,6 +9,14 @@ public class SetSceneWeatherAreaReq {
         @Tag(tag=2) public String value = null;
     }
 
-    @Tag(tag=13) public Integer weatherGadgetId = null;
-    @Tag(tag=4) public List<MapWeatherValueMap> weatherValueMap = new ArrayList<>();
+    public enum SetSceneWeatherAreaReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=208) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=15) public Integer weatherGadgetId = null;
+    @Tag(tag=6) public List<MapWeatherValueMap> weatherValueMap = new ArrayList<>();
 }

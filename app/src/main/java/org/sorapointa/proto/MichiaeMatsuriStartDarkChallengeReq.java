@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MichiaeMatsuriStartDarkChallengeReq {
-    @Tag(tag=2) public Integer worktopEntityId = null;
+    public enum MichiaeMatsuriStartDarkChallengeReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8004) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=4) public Integer worktopEntityId = null;
 }

@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class QuestDestroyNpcRsp {
-    @Tag(tag=12) public Integer npcId = null;
-    @Tag(tag=4) public Integer parentQuestId = null;
-    @Tag(tag=5,isSigned=true) public Integer retcode = null;
+    public enum QuestDestroyNpcRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=488) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public Integer npcId = null;
+    @Tag(tag=6) public Integer parentQuestId = null;
+    @Tag(tag=2,isSigned=true) public Integer retcode = null;
 }

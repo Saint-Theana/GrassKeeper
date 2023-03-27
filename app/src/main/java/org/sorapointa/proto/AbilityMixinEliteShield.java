@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinEliteShield {
-    @Tag(tag=2,isFloat=true) public Float subShield = null;
+    @Tag(tag=13,isFloat=true) public Float subShield = null;
 }

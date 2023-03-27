@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMetaModifierDurabilityChange {
-    @Tag(tag=6,isFloat=true) public Float reduceDurability = null;
-    @Tag(tag=15,isFloat=true) public Float remainDurability = null;
+    @Tag(tag=14,isFloat=true) public Float remainDurability = null;
+    @Tag(tag=7,isFloat=true) public Float reduceDurability = null;
 }

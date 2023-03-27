@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EffigyChallengeV2ChooseSkillReq {
-    @Tag(tag=6) public Integer levelId = null;
-    @Tag(tag=7) public Integer challengeModeSkillNo = null;
+    public enum PNOLANBPFKF {
+        @Tag(tag=0) None ,
+        @Tag(tag=22489) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=15) public Integer levelId = null;
+    @Tag(tag=12) public Integer challengeModeSkillNo = null;
 }

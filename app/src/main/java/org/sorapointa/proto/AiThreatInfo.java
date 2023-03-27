@@ -9,5 +9,5 @@ public class AiThreatInfo {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=11) public List<MapAiThreatMap> aiThreatMap = new ArrayList<>();
+    @Tag(tag=13) public List<MapAiThreatMap> aiThreatMap = new ArrayList<>();
 }

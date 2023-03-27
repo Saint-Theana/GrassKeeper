@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinDoActionByElementReaction {
-    @Tag(tag=1) public Integer targetEntityId = null;
+    @Tag(tag=10) public Integer targetEntityId = null;
 }

@@ -2,9 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.Achievement.*;
-import org.sorapointa.proto.Achievement;
 
 public class AchievementUpdateNotify {
-    @Tag(tag=14) public List<Achievement> achievementList = new ArrayList<>();
+    public enum AchievementUpdateNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2695) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public List<Achievement> achievementList = new ArrayList<>();
 }

@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinCostStamina {
-    @Tag(tag=3) public Boolean isSwim = null;
+    @Tag(tag=13) public Boolean isSwim = null;
 }

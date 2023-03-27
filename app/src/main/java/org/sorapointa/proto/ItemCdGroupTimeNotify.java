@@ -9,5 +9,12 @@ public class ItemCdGroupTimeNotify {
         @Tag(tag=2) public Long value = null;
     }
 
-    @Tag(tag=9) public List<MapItemCdMap> itemCdMap = new ArrayList<>();
+    public enum ItemCdGroupTimeNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=651) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=13) public List<MapItemCdMap> itemCdMap = new ArrayList<>();
 }

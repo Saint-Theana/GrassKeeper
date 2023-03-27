@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class HuntingPair {
-    @Tag(tag=9) public Integer refreshId = null;
-    @Tag(tag=4) public Integer monsterConfigId = null;
+    @Tag(tag=5) public Integer refreshId = null;
+    @Tag(tag=12) public Integer monsterConfigId = null;
 }

@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SetPlayerHeadImageReq {
-    @Tag(tag=7) public Integer avatarId = null;
+    public enum SetPlayerHeadImageReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4006) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=10) public Integer avatarId = null;
 }

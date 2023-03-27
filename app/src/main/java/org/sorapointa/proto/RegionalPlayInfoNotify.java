@@ -2,13 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.RegionalPlayVar.*;
-import org.sorapointa.proto.RegionalPlayVar;
 
 public class RegionalPlayInfoNotify {
-    @Tag(tag=5) public List<RegionalPlayVar> varList = new ArrayList<>();
-    @Tag(tag=9) public String playName = null;
-    @Tag(tag=15) public Boolean isEnabled = null;
-    @Tag(tag=7) public Integer playType = null;
-    @Tag(tag=4) public Boolean isInRegion = null;
+    public enum RegionalPlayInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=6288) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=8) public String playName = null;
+    @Tag(tag=11) public List<RegionalPlayVar> varList = new ArrayList<>();
+    @Tag(tag=14) public Integer playType = null;
+    @Tag(tag=2) public Boolean isEnabled = null;
+    @Tag(tag=7) public Boolean isInRegion = null;
 }

@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class StopReminderNotify {
-    @Tag(tag=15) public Integer reminderId = null;
+    public enum StopReminderNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=3423) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=12) public Integer reminderId = null;
 }

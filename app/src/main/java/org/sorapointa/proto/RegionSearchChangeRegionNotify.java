@@ -4,12 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RegionSearchChangeRegionNotify {
-    public enum RegionEvent {
-        @Tag(tag=0) REGION_EVENT_NONE ,
-        @Tag(tag=1) REGION_EVENT_ENTER ,
-        @Tag(tag=2) REGION_EVENT_LEAVE ;
+    public enum RegionSearchChangeRegionNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5645) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
     }
 
-    @Tag(tag=1) public RegionEvent event = null;
-    @Tag(tag=10) public Integer regionId = null;
+    @Tag(tag=8) public Integer regionId = null;
+    @Tag(tag=12) public Integer event = null;
 }

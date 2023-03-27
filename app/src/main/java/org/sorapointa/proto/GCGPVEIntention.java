@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGPVEIntention {
-    @Tag(tag=9) public Integer cardGuid = null;
-    @Tag(tag=7) public List<Integer> skillIdList = new ArrayList<>();
+    @Tag(tag=11) public Integer cardGuid = null;
+    @Tag(tag=3) public List<Integer> skillIdList = new ArrayList<>();
 }

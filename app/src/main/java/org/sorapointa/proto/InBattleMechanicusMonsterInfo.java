@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class InBattleMechanicusMonsterInfo {
-    @Tag(tag=1) public Integer monsterId = null;
+    @Tag(tag=3) public Integer count = null;
     @Tag(tag=14) public Integer level = null;
-    @Tag(tag=13) public Integer count = null;
+    @Tag(tag=10) public Integer monsterId = null;
 }

@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ClientReportNotify {
-    @Tag(tag=1) public String reportType = null;
-    @Tag(tag=4) public String reportValue = null;
+    public enum ClientReportNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=13) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=7) public String reportValue = null;
+    @Tag(tag=12) public String reportType = null;
 }

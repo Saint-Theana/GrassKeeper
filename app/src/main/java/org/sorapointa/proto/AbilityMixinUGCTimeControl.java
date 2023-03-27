@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinUGCTimeControl {
-    @Tag(tag=13) public Long startMoveTimeMs = null;
-    @Tag(tag=3) public Integer startMoveTime = null;
+    @Tag(tag=6) public Integer startMoveTime = null;
+    @Tag(tag=5) public Long startMoveTimeMs = null;
 }

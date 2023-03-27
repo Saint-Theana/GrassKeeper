@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PushTipsReadFinishRsp {
-    @Tag(tag=3) public Integer pushTipsId = null;
-    @Tag(tag=9,isSigned=true) public Integer retcode = null;
+    public enum PushTipsReadFinishRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2258) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1,isSigned=true) public Integer retcode = null;
+    @Tag(tag=15) public Integer pushTipsId = null;
 }

@@ -13,7 +13,15 @@ jar {
             'Main-Class': 'com.ulcade.Main'
         )
     }
-	exclude 'META-INF/INDEX.LIST'
+	dependsOn configurations.runtimeClasspath
+	from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+		exclude 'META-INF/*.LIST'
+    }
 }
 
 run{
@@ -24,29 +32,10 @@ tasks.withType(Jar.class).configureEach {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
-tasks.register('fatjar', Jar) {
-  
-  manifest.from jar.manifest
-  classifier = 'all'
-  from {
-    configurations.runtimeClasspath.collect {
-		it.isDirectory() ? it : zipTree(it).matching{
-		    exclude{
-			    it.name == 'INDEX.LIST'||
-				it.name == 'BCKEY.DSA' ||
-				it.name == 'BCKEY.SF'
-		    }
-	    }
-	}
-  } {
-    
-  }
-  with jar
-}
 
 dependencies {
 	implementation 'com.github.Saint-Theana:ASPEX:1.0.2'
-	implementation 'com.github.Saint-Theana:IOSTerm-X:1.0.13'
+	implementation 'com.github.Saint-Theana:IOSTerm-X:1.0.21'
 	implementation 'com.github.Saint-Theana:kcp-netty:1.0.0'
 	implementation 'io.netty:netty-buffer:4.1.68.Final'
 	implementation 'io.netty:netty-transport:4.1.68.Final'

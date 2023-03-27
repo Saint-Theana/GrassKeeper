@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum FriendOnlineState {
-        @Tag(tag=0) FRIEND_ONLINE_STATE_DISCONNECT ,
-        @Tag(tag=1) FRIEND_ONLINE_STATE_ONLINE ;
+        @Tag(tag=0) FreiendDisconnect ,
+        @Tag(tag=1) FriendOnline ;
 }

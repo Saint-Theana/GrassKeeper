@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class LanternRiteFireworksReformFactorInfo {
-    @Tag(tag=5) public Integer factorValue = null;
-    @Tag(tag=13) public Integer factorId = null;
+    @Tag(tag=1) public Integer factorId = null;
+    @Tag(tag=4) public Integer factorValue = null;
 }

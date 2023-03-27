@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum MonsterBornType {
-        @Tag(tag=0) MONSTER_BORN_TYPE_NONE ,
-        @Tag(tag=1) MONSTER_BORN_TYPE_DEFAULT ,
-        @Tag(tag=2) MONSTER_BORN_TYPE_RANDOM ;
+        @Tag(tag=0) MonsterBornNone ,
+        @Tag(tag=1) MonsterBornDefault ,
+        @Tag(tag=2) MonsterBornRandom ;
 }

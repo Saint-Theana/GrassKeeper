@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GachaOpenWishNotify {
-    @Tag(tag=2) public Integer gachaType = null;
-    @Tag(tag=9) public Integer gachaScheduleId = null;
+    public enum GachaOpenWishNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1580) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=1) public Integer gachaType = null;
+    @Tag(tag=13) public Integer gachaScheduleId = null;
 }

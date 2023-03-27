@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum ExpeditionState {
-        @Tag(tag=0) EXPEDITION_STATE_NONE ,
-        @Tag(tag=1) EXPEDITION_STATE_STARTED ,
-        @Tag(tag=2) EXPEDITION_STATE_FINISHED ,
-        @Tag(tag=3) EXPEDITION_STATE_REWARDED ,
-        @Tag(tag=4) EXPEDITION_STATE_LOCKED ;
+        @Tag(tag=0) ExpeditionNone ,
+        @Tag(tag=1) ExpeditionStarted ,
+        @Tag(tag=2) ExpeditionFinished ,
+        @Tag(tag=3) ExpeditionRewarded ,
+        @Tag(tag=4) ExpeditionLocked ;
 }

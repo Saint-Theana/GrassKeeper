@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum AsterLittleStageState {
-        @Tag(tag=0) ASTER_LITTLE_STAGE_STATE_NONE ,
-        @Tag(tag=1) ASTER_LITTLE_STAGE_STATE_UNSTARTED ,
-        @Tag(tag=2) ASTER_LITTLE_STAGE_STATE_STARTED ,
-        @Tag(tag=3) ASTER_LITTLE_STAGE_STATE_FINISHED ;
+        @Tag(tag=0) AsterLittleStageNone ,
+        @Tag(tag=1) AsterLittleStageUnstarted ,
+        @Tag(tag=2) AsterLittleStageStarted ,
+        @Tag(tag=3) AsterLittleStageFinished ;
 }

@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class WidgetCameraInfo {
-    @Tag(tag=4) public Integer targetEntityId = null;
+    @Tag(tag=6) public Integer targetEntityId = null;
 }

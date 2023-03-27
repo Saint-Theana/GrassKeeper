@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinShieldBar {
-    @Tag(tag=14) public Integer playerNum = null;
-    @Tag(tag=15,isFloat=true) public Float maxShield = null;
-    @Tag(tag=12,isFloat=true) public Float shield = null;
-    @Tag(tag=13) public Integer elementType = null;
+    @Tag(tag=8,isFloat=true) public Float shield = null;
+    @Tag(tag=11,isFloat=true) public Float maxShield = null;
+    @Tag(tag=1) public Integer elementType = null;
+    @Tag(tag=7) public Integer playerNum = null;
 }

@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SelectRoguelikeDungeonCardRsp {
-    @Tag(tag=9) public Integer cardId = null;
-    @Tag(tag=8,isSigned=true) public Integer retcode = null;
+    public enum SelectRoguelikeDungeonCardRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8445) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=13,isSigned=true) public Integer retcode = null;
+    @Tag(tag=4) public Integer cardId = null;
 }

@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PlantFlowerGiveFriendFlowerRsp {
-    @Tag(tag=5) public List<Integer> limitFlowerList = new ArrayList<>();
-    @Tag(tag=3,isSigned=true) public Integer retcode = null;
-    @Tag(tag=14) public Integer scheduleId = null;
+    public enum PlantFlowerGiveFriendFlowerRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8151) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=9) public Integer scheduleId = null;
+    @Tag(tag=1,isSigned=true) public Integer retcode = null;
+    @Tag(tag=13) public List<Integer> limitFlowerList = new ArrayList<>();
 }

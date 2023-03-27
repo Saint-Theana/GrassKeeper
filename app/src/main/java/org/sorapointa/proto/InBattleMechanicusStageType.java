@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum InBattleMechanicusStageType {
-        @Tag(tag=0) IN_BATTLE_MECHANICUS_STAGE_TYPE_NONE ,
-        @Tag(tag=1) IN_BATTLE_MECHANICUS_STAGE_TYPE_BUILD ,
-        @Tag(tag=2) IN_BATTLE_MECHANICUS_STAGE_TYPE_CARD_FLIP ,
-        @Tag(tag=3) IN_BATTLE_MECHANICUS_STAGE_TYPE_KILL ;
+        @Tag(tag=0) InBattleMechanicusStageNone ,
+        @Tag(tag=1) InBattleMechanicusStageBuild ,
+        @Tag(tag=2) InBattleMechanicusStageCardFlip ,
+        @Tag(tag=3) InBattleMechanicusStageKill ;
 }

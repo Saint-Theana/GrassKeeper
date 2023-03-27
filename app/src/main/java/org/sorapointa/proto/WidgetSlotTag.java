@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum WidgetSlotTag {
-        @Tag(tag=0) WIDGET_SLOT_TAG_QUICK_USE ,
-        @Tag(tag=1) WIDGET_SLOT_TAG_ATTACH_AVATAR ;
+        @Tag(tag=0) WidgetSlotQuickUse ,
+        @Tag(tag=1) WidgetSlotAttachAvatar ;
 }

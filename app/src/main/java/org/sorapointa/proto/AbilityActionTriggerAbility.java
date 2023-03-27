@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityActionTriggerAbility {
-    @Tag(tag=14) public Integer otherId = null;
+    @Tag(tag=10) public Integer otherId = null;
 }

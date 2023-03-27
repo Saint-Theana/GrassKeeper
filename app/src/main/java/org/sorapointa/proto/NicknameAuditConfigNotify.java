@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class NicknameAuditConfigNotify {
-    @Tag(tag=8) public Boolean isOpen = null;
-    @Tag(tag=12) public Integer submitLimit = null;
+    public enum NicknameAuditConfigNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=186) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public Integer submitLimit = null;
+    @Tag(tag=5) public Boolean isOpen = null;
 }

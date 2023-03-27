@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum MaterialDeleteReturnType {
-        @Tag(tag=0) MATERIAL_DELETE_RETURN_TYPE_BAG ,
-        @Tag(tag=1) MATERIAL_DELETE_RETURN_TYPE_SEED ;
+        @Tag(tag=0) MaterialDeleteReturnBag ,
+        @Tag(tag=1) MaterialDeleteReturnSeed ;
 }

@@ -2,14 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.HuntingPair.*;
-import org.sorapointa.proto.HuntingPair;
-import org.sorapointa.proto.Vector.*;
-import org.sorapointa.proto.Vector;
 
 public class HuntingStartNotify {
-    @Tag(tag=4) public Vector cluePosition = null;
-    @Tag(tag=15) public Integer failTime = null;
-    @Tag(tag=3) public HuntingPair huntingPair = null;
-    @Tag(tag=8) public Boolean isFinal = null;
+    public enum HuntingStartNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4331) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public Integer failTime = null;
+    @Tag(tag=12) public HuntingPair huntingPair = null;
+    @Tag(tag=7) public Boolean isFinal = null;
+    @Tag(tag=14) public Vector cluePosition = null;
 }

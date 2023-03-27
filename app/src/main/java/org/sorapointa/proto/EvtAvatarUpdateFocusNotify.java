@@ -2,13 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ForwardType.*;
-import org.sorapointa.proto.ForwardType;
-import org.sorapointa.proto.Vector.*;
-import org.sorapointa.proto.Vector;
 
 public class EvtAvatarUpdateFocusNotify {
-    @Tag(tag=7) public Integer forwardType = null;
-    @Tag(tag=11) public Vector focusForward = null;
-    @Tag(tag=10) public Integer entityId = null;
+    public enum EvtAvatarUpdateFocusNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=318) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=5) public Integer entityId = null;
+    @Tag(tag=15) public Integer forwardType = null;
+    @Tag(tag=3) public Vector focusForward = null;
 }

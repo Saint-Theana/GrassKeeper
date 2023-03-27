@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GameplayRecommendationReliquaryRequest {
-    @Tag(tag=6) public Integer equipType = null;
+    @Tag(tag=7) public Integer equipType = null;
 }

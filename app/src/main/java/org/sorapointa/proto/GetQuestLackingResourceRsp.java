@@ -14,10 +14,17 @@ public class GetQuestLackingResourceRsp {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=4) public Integer questId = null;
-    @Tag(tag=11,isSigned=true) public Integer retcode = null;
-    @Tag(tag=8) public List<Integer> lackedNpcList = new ArrayList<>();
-    @Tag(tag=5) public List<Integer> lackedPlaceList = new ArrayList<>();
-    @Tag(tag=10) public List<MapLackedNpcMap> lackedNpcMap = new ArrayList<>();
-    @Tag(tag=2) public List<MapLackedPlaceMap> lackedPlaceMap = new ArrayList<>();
+    public enum GetQuestLackingResourceRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=483) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=3) public List<MapLackedNpcMap> lackedNpcMap = new ArrayList<>();
+    @Tag(tag=14,isSigned=true) public Integer retcode = null;
+    @Tag(tag=9) public List<Integer> lackedPlaceList = new ArrayList<>();
+    @Tag(tag=15) public List<Integer> lackedNpcList = new ArrayList<>();
+    @Tag(tag=6) public Integer questId = null;
+    @Tag(tag=1) public List<MapLackedPlaceMap> lackedPlaceMap = new ArrayList<>();
 }

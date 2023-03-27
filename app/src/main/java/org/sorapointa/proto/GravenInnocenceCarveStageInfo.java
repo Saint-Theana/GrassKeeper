@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GravenInnocenceCarveStageInfo {
-    @Tag(tag=9) public Integer stageId = null;
-    @Tag(tag=1) public Boolean isOpen = null;
+    @Tag(tag=12) public Boolean isOpen = null;
+    @Tag(tag=2) public Integer stageId = null;
 }

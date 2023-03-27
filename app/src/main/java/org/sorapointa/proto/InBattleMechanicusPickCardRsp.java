@@ -4,8 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class InBattleMechanicusPickCardRsp {
-    @Tag(tag=11,isSigned=true) public Integer retcode = null;
-    @Tag(tag=2) public Integer cardId = null;
-    @Tag(tag=4) public Integer playIndex = null;
-    @Tag(tag=9) public Integer groupId = null;
+    public enum InBattleMechanicusPickCardRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5362) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=15) public Integer playIndex = null;
+    @Tag(tag=13) public Integer groupId = null;
+    @Tag(tag=5) public Integer cardId = null;
+    @Tag(tag=4,isSigned=true) public Integer retcode = null;
 }

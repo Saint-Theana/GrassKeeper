@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DungeonCandidateTeamSetChangingAvatarReq {
-    @Tag(tag=12) public Boolean isChangingAvatar = null;
+    public enum DungeonCandidateTeamSetChangingAvatarReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=937) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=4) public Boolean isChangingAvatar = null;
 }

@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class WorldRoutineInfo {
-    @Tag(tag=4) public Integer progress = null;
-    @Tag(tag=14) public Boolean isFinished = null;
-    @Tag(tag=3) public Integer finishProgress = null;
-    @Tag(tag=11) public Integer routineId = null;
+    @Tag(tag=9) public Boolean isFinished = null;
+    @Tag(tag=15) public Integer finishProgress = null;
+    @Tag(tag=5) public Integer progress = null;
+    @Tag(tag=4) public Integer routineId = null;
 }

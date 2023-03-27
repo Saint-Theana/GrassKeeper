@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class VintageHuntingFirstStageInfo {
-    @Tag(tag=15) public Integer timidCnt = null;
-    @Tag(tag=7) public Integer brutalCnt = null;
-    @Tag(tag=14) public Integer score = null;
-    @Tag(tag=11) public Integer eliteCnt = null;
+    @Tag(tag=14) public Integer brutalCnt = null;
+    @Tag(tag=1) public Integer eliteCnt = null;
+    @Tag(tag=12) public Integer timidCnt = null;
+    @Tag(tag=15) public Integer score = null;
 }

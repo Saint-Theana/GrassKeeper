@@ -2,9 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.HomeBasicInfo.*;
-import org.sorapointa.proto.HomeBasicInfo;
 
 public class HomeBasicInfoNotify {
-    @Tag(tag=15) public HomeBasicInfo basicInfo = null;
+    public enum HomeBasicInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4607) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public HomeBasicInfo basicInfo = null;
 }

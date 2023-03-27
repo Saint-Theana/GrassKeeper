@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.VehicleMember.*;
-import org.sorapointa.proto.VehicleMember;
 
 public class VehicleInfo {
     @Tag(tag=1) public List<VehicleMember> memberList = new ArrayList<>();

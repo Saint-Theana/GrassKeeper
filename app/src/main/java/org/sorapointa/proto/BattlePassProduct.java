@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class BattlePassProduct {
-    @Tag(tag=13) public String normalProductId = null;
-    @Tag(tag=10) public String extraProductId = null;
-    @Tag(tag=6) public String upgradeProductId = null;
+    @Tag(tag=4) public String normalProductId = null;
+    @Tag(tag=14) public String extraProductId = null;
+    @Tag(tag=7) public String upgradeProductId = null;
 }

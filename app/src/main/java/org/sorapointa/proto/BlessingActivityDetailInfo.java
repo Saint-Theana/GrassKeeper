@@ -9,12 +9,12 @@ public class BlessingActivityDetailInfo {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=9) public Integer curDayScanType = null;
-    @Tag(tag=11) public Boolean isContentClosed = null;
-    @Tag(tag=15) public List<MapPicNumMap> picNumMap = new ArrayList<>();
-    @Tag(tag=2) public Integer contentCloseTime = null;
-    @Tag(tag=4) public Integer curDayScanNum = null;
-    @Tag(tag=1) public Integer redeemRewardNum = null;
-    @Tag(tag=13) public Boolean isActivated = null;
-    @Tag(tag=6) public Integer nextRefreshTime = null;
+    @Tag(tag=5) public Boolean isContentClosed = null;
+    @Tag(tag=11) public Integer contentCloseTime = null;
+    @Tag(tag=12) public Integer curDayScanNum = null;
+    @Tag(tag=15) public Integer curDayScanType = null;
+    @Tag(tag=9) public Integer redeemRewardNum = null;
+    @Tag(tag=7) public List<MapPicNumMap> picNumMap = new ArrayList<>();
+    @Tag(tag=14) public Integer nextRefreshTime = null;
+    @Tag(tag=8) public Boolean isActivated = null;
 }

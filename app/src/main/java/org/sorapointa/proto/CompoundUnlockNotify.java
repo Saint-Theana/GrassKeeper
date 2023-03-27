@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CompoundUnlockNotify {
-    @Tag(tag=3) public Integer compoundId = null;
+    public enum CompoundUnlockNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=159) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=6) public Integer compoundId = null;
 }

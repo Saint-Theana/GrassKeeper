@@ -4,14 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RemoveRandTaskInfoNotify {
-    public enum FinishReason {
-        @Tag(tag=0) FINISH_REASON_DEFAULT ,
-        @Tag(tag=1) FINISH_REASON_CLEAR ,
-        @Tag(tag=2) FINISH_REASON_DISTANCE ,
-        @Tag(tag=3) FINISH_REASON_FINISH ;
+    public enum RemoveRandTaskInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=115) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
     }
 
-    @Tag(tag=9) public Boolean isSucc = null;
-    @Tag(tag=10) public FinishReason reason = null;
-    @Tag(tag=13) public Integer randTaskId = null;
+    @Tag(tag=9) public Integer randTaskId = null;
+    @Tag(tag=7) public Boolean isSucc = null;
+    @Tag(tag=2) public Integer reason = null;
 }

@@ -14,7 +14,7 @@ public class PlantFlowerAcceptFlowerResultInfo {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=4) public List<MapUnacceptFlowerNumMap> unacceptFlowerNumMap = new ArrayList<>();
-    @Tag(tag=7) public Integer uid = null;
-    @Tag(tag=10) public List<MapAcceptFlowerNumMap> acceptFlowerNumMap = new ArrayList<>();
+    @Tag(tag=9) public List<MapUnacceptFlowerNumMap> unacceptFlowerNumMap = new ArrayList<>();
+    @Tag(tag=10) public Integer uid = null;
+    @Tag(tag=4) public List<MapAcceptFlowerNumMap> acceptFlowerNumMap = new ArrayList<>();
 }

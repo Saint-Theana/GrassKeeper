@@ -2,14 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.AvatarExcelInfo.*;
-import org.sorapointa.proto.AvatarExcelInfo;
-import org.sorapointa.proto.AvatarFetterInfo.*;
-import org.sorapointa.proto.AvatarFetterInfo;
-import org.sorapointa.proto.PropValue.*;
-import org.sorapointa.proto.PropValue;
-import org.sorapointa.proto.ShowEquip.*;
-import org.sorapointa.proto.ShowEquip;
 
 public class ShowAvatarInfo {
     public static class MapPropMap {

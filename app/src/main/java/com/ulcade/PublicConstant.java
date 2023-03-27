@@ -13,5 +13,5 @@ public class PublicConstant
 	
 	public static File userConfigFile=new File("conf/user.json");
 	
-	public static boolean printCmd=false;
+	public static boolean printCmd=true;
 }

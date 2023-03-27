@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinAvatarCombat {
-    @Tag(tag=9) public Boolean isEnterCombat = null;
+    @Tag(tag=15) public Boolean isEnterCombat = null;
 }

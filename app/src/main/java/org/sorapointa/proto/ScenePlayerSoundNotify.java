@@ -2,17 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.Vector.*;
-import org.sorapointa.proto.Vector;
 
 public class ScenePlayerSoundNotify {
-    public enum PlaySoundType {
-        @Tag(tag=0) PLAY_SOUND_TYPE_NONE ,
-        @Tag(tag=1) PLAY_SOUND_TYPE_START ,
-        @Tag(tag=2) PLAY_SOUND_TYPE_STOP ;
+    public enum ScenePlayerSoundNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=291) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
     }
 
-    @Tag(tag=4) public String soundName = null;
-    @Tag(tag=8) public PlaySoundType playType = null;
-    @Tag(tag=3) public Vector playPos = null;
+    @Tag(tag=11) public String soundName = null;
+    @Tag(tag=6) public Vector playPos = null;
+    @Tag(tag=10) public Integer playType = null;
 }

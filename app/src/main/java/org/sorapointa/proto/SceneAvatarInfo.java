@@ -2,16 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.AvatarExcelInfo.*;
-import org.sorapointa.proto.AvatarExcelInfo;
-import org.sorapointa.proto.CurVehicleInfo.*;
-import org.sorapointa.proto.CurVehicleInfo;
-import org.sorapointa.proto.SceneReliquaryInfo.*;
-import org.sorapointa.proto.SceneReliquaryInfo;
-import org.sorapointa.proto.SceneWeaponInfo.*;
-import org.sorapointa.proto.SceneWeaponInfo;
-import org.sorapointa.proto.ServerBuff.*;
-import org.sorapointa.proto.ServerBuff;
 
 public class SceneAvatarInfo {
     public static class MapSkillLevelMap {

@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum FoundationOpType {
-        @Tag(tag=0) FOUNDATION_OP_TYPE_NONE ,
-        @Tag(tag=1) FOUNDATION_OP_TYPE_BUILD ,
-        @Tag(tag=2) FOUNDATION_OP_TYPE_DEMOLITION ,
-        @Tag(tag=3) FOUNDATION_OP_TYPE_REBUILD ,
-        @Tag(tag=4) FOUNDATION_OP_TYPE_ROTATE ,
-        @Tag(tag=5) FOUNDATION_OP_TYPE_LOCK ,
-        @Tag(tag=6) FOUNDATION_OP_TYPE_UNLOCK ;
+        @Tag(tag=0) FoundationOpNone ,
+        @Tag(tag=1) FoundationOpBuild ,
+        @Tag(tag=2) FoundationOpDemolition ,
+        @Tag(tag=3) FoundationOpRebuild ,
+        @Tag(tag=4) FoundationOpRotate ,
+        @Tag(tag=5) FoundationOpLock ,
+        @Tag(tag=6) FoundationOpUnlock ;
 }

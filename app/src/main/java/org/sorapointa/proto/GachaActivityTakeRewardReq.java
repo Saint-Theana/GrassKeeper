@@ -9,5 +9,13 @@ public class GachaActivityTakeRewardReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=12) public List<MapRobotNumMap> robotNumMap = new ArrayList<>();
+    public enum GachaActivityTakeRewardReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8947) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=1) public List<MapRobotNumMap> robotNumMap = new ArrayList<>();
 }

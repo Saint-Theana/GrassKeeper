@@ -9,7 +9,14 @@ public class ActivityCoinInfoNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=8) public Integer scheduleId = null;
-    @Tag(tag=10) public Integer activityId = null;
-    @Tag(tag=2) public List<MapActivityCoinMap> activityCoinMap = new ArrayList<>();
+    public enum ActivityCoinInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2055) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public Integer activityId = null;
+    @Tag(tag=14) public List<MapActivityCoinMap> activityCoinMap = new ArrayList<>();
+    @Tag(tag=15) public Integer scheduleId = null;
 }

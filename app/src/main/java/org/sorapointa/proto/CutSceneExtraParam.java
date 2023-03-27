@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CutSceneExtraParam {
-    @Tag(tag=1,isFloat=true) public List<Double> detailParamList = new ArrayList<>();
+    @Tag(tag=3,isFloat=true) public List<Double> detailParamList = new ArrayList<>();
 }

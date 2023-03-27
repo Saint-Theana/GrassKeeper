@@ -2,11 +2,9 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ItemParam.*;
-import org.sorapointa.proto.ItemParam;
 
 public class ShopCardProduct {
-    public static class ResinCard {
+    public static class ShopCardProduct_ResinCard {
         @Tag(tag=1) public List<ItemParam> baseItemList = new ArrayList<>();
         @Tag(tag=2) public List<ItemParam> perDayItemList = new ArrayList<>();
     }
@@ -18,5 +16,5 @@ public class ShopCardProduct {
     @Tag(tag=5) public Integer days = null;
     @Tag(tag=6) public Integer remainRewardDays = null;
     @Tag(tag=7) public Integer cardProductType = null;
-    @Tag(tag=101) public ResinCard resinCard = null;
+    @Tag(tag=101) public ShopCardProduct_ResinCard resinCard = null;
 }

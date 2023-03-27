@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DungeonEnterPosInfo {
-    @Tag(tag=13) public Integer questId = null;
-    @Tag(tag=6) public Integer pointId = null;
+    @Tag(tag=15) public Integer questId = null;
+    @Tag(tag=7) public Integer pointId = null;
 }

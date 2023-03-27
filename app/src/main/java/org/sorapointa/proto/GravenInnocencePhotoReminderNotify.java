@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GravenInnocencePhotoReminderNotify {
-    @Tag(tag=14) public Integer groupBundleId = null;
-    @Tag(tag=6) public Integer reminderId = null;
+    public enum PBOIDLBBNDM {
+        @Tag(tag=0) None ,
+        @Tag(tag=20385) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=9) public Integer reminderId = null;
+    @Tag(tag=11) public Integer groupBundleId = null;
 }

@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PlayerRoutineInfo {
-    @Tag(tag=8) public Integer routineType = null;
-    @Tag(tag=15) public Integer finishedNum = null;
+    @Tag(tag=2) public Integer routineType = null;
+    @Tag(tag=13) public Integer finishedNum = null;
 }

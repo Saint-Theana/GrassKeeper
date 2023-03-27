@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ServerTryCancelGeneralMatchNotify {
-    @Tag(tag=9) public Integer matchId = null;
+    public enum ServerTryCancelGeneralMatchNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4165) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1) public Integer matchId = null;
 }

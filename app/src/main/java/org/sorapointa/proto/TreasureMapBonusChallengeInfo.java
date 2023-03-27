@@ -9,9 +9,9 @@ public class TreasureMapBonusChallengeInfo {
         @Tag(tag=2) public Boolean value = null;
     }
 
-    @Tag(tag=5) public Boolean isDone = null;
-    @Tag(tag=10) public Integer configId = null;
-    @Tag(tag=1) public Boolean isActive = null;
-    @Tag(tag=12) public List<MapFragmentMap> fragmentMap = new ArrayList<>();
-    @Tag(tag=8) public Integer solutionId = null;
+    @Tag(tag=5) public Boolean isActive = null;
+    @Tag(tag=13) public List<MapFragmentMap> fragmentMap = new ArrayList<>();
+    @Tag(tag=14) public Integer solutionId = null;
+    @Tag(tag=2) public Boolean isDone = null;
+    @Tag(tag=9) public Integer configId = null;
 }

@@ -4,8 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EvtBeingHealedNotify {
-    @Tag(tag=1) public Integer targetId = null;
-    @Tag(tag=5,isFloat=true) public Float realHealAmount = null;
+    public enum EvtBeingHealedNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=391) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
     @Tag(tag=13) public Integer sourceId = null;
-    @Tag(tag=4,isFloat=true) public Float healAmount = null;
+    @Tag(tag=12,isFloat=true) public Float realHealAmount = null;
+    @Tag(tag=11,isFloat=true) public Float healAmount = null;
+    @Tag(tag=8) public Integer targetId = null;
 }

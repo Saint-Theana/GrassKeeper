@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGMsgCharDie {
-    @Tag(tag=5) public Integer controllerId = null;
-    @Tag(tag=11) public Integer cardGuid = null;
+    @Tag(tag=10) public Integer cardGuid = null;
+    @Tag(tag=9) public Integer controllerId = null;
 }

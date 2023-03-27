@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.VintagePresentLevelData.*;
-import org.sorapointa.proto.VintagePresentLevelData;
 
 public class VintagePresentStageData {
     public static class MapPresentLevelMap {
@@ -11,9 +9,9 @@ public class VintagePresentStageData {
         @Tag(tag=2) public VintagePresentLevelData value = null;
     }
 
-    @Tag(tag=1) public Integer openTime = null;
+    @Tag(tag=4) public Boolean isFinish = null;
+    @Tag(tag=14) public Integer openTime = null;
+    @Tag(tag=9) public Boolean isOpen = null;
+    @Tag(tag=7) public List<MapPresentLevelMap> presentLevelMap = new ArrayList<>();
     @Tag(tag=15) public Integer stageId = null;
-    @Tag(tag=13) public Boolean isFinish = null;
-    @Tag(tag=10) public Boolean isOpen = null;
-    @Tag(tag=2) public List<MapPresentLevelMap> presentLevelMap = new ArrayList<>();
 }

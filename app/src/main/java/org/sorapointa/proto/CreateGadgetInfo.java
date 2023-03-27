@@ -2,15 +2,13 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.GadgetBornType.*;
-import org.sorapointa.proto.GadgetBornType;
 
 public class CreateGadgetInfo {
-    public static class Chest {
+    public static class CreateGadgetInfo_Chest {
         @Tag(tag=1) public Integer chestDropId = null;
         @Tag(tag=2) public Boolean isShowCutscene = null;
     }
 
     @Tag(tag=1) public Integer bornType = null;
-    @Tag(tag=2) public Chest chest = null;
+    @Tag(tag=2) public CreateGadgetInfo_Chest chest = null;
 }

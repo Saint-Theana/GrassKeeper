@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class UnlockedFurnitureFormulaDataNotify {
-    @Tag(tag=15) public List<Integer> furnitureIdList = new ArrayList<>();
-    @Tag(tag=11) public Boolean isAll = null;
+    public enum UnlockedFurnitureFormulaDataNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4510) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=14) public Boolean isAll = null;
+    @Tag(tag=8) public List<Integer> furnitureIdList = new ArrayList<>();
 }

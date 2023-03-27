@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PlayerRTTInfo {
-    @Tag(tag=2) public Integer rtt = null;
-    @Tag(tag=1) public Integer uid = null;
+    @Tag(tag=7) public Integer rtt = null;
+    @Tag(tag=13) public Integer uid = null;
 }

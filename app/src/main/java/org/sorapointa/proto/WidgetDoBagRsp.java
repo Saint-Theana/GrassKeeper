@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class WidgetDoBagRsp {
-    @Tag(tag=10,isSigned=true) public Integer retcode = null;
-    @Tag(tag=3) public Integer materialId = null;
+    public enum WidgetDoBagRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4258) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=6) public Integer materialId = null;
+    @Tag(tag=1,isSigned=true) public Integer retcode = null;
 }

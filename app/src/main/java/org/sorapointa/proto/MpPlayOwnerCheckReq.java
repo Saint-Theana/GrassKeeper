@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MpPlayOwnerCheckReq {
-    @Tag(tag=9) public Integer mpPlayId = null;
-    @Tag(tag=3) public Boolean isSkipMatch = null;
+    public enum MpPlayOwnerCheckReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1842) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=5) public Boolean isSkipMatch = null;
+    @Tag(tag=13) public Integer mpPlayId = null;
 }

@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GetSceneAreaReq {
-    @Tag(tag=4) public Integer sceneId = null;
-    @Tag(tag=7) public Integer belongUid = null;
+    public enum GetSceneAreaReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=288) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=6) public Integer sceneId = null;
+    @Tag(tag=5) public Integer belongUid = null;
 }

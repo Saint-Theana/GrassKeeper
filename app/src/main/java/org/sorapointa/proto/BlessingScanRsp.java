@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class BlessingScanRsp {
-    @Tag(tag=4) public Integer scanPicId = null;
-    @Tag(tag=11,isSigned=true) public Integer retcode = null;
-    @Tag(tag=1) public Integer curDayScanNum = null;
+    public enum BlessingScanRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2122) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=8,isSigned=true) public Integer retcode = null;
+    @Tag(tag=4) public Integer curDayScanNum = null;
+    @Tag(tag=9) public Integer scanPicId = null;
 }

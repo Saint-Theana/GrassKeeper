@@ -4,12 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AnchorPointOpReq {
-    public enum AnchorPointOpType {
-        @Tag(tag=0) ANCHOR_POINT_OP_TYPE_NONE ,
-        @Tag(tag=1) ANCHOR_POINT_OP_TYPE_TELEPORT ,
-        @Tag(tag=2) ANCHOR_POINT_OP_TYPE_REMOVE ;
+    public enum AnchorPointOpReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4291) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
     }
 
-    @Tag(tag=9) public Integer anchorPointId = null;
-    @Tag(tag=12) public Integer anchorPointOpType = null;
+    @Tag(tag=15) public Integer anchorPointId = null;
+    @Tag(tag=3) public Integer anchorPointOpType = null;
 }

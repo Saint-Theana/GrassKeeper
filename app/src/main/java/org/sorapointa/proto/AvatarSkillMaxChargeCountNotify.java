@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AvatarSkillMaxChargeCountNotify {
-    @Tag(tag=6) public Integer skillId = null;
-    @Tag(tag=11) public Integer maxChargeCount = null;
+    public enum AvatarSkillMaxChargeCountNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1080) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=3) public Integer skillId = null;
     @Tag(tag=7) public Long avatarGuid = null;
+    @Tag(tag=1) public Integer maxChargeCount = null;
 }

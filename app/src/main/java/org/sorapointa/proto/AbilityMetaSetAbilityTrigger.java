@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMetaSetAbilityTrigger {
-    @Tag(tag=11) public Integer triggerAbilityEntityId = null;
+    @Tag(tag=15) public Integer triggerAbilityEntityId = null;
 }

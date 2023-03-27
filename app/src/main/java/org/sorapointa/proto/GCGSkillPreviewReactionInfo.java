@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGSkillPreviewReactionInfo {
-    @Tag(tag=13) public Integer sourceElement = null;
-    @Tag(tag=1) public Integer targetElement = null;
+    @Tag(tag=9) public Integer targetElement = null;
+    @Tag(tag=10) public Integer sourceElement = null;
 }

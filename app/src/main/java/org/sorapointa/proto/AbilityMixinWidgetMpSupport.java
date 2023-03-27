@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinWidgetMpSupport {
-    @Tag(tag=9) public Integer targetEntityId = null;
+    @Tag(tag=7) public Integer targetEntityId = null;
 }

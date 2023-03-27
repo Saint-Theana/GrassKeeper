@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ActivityScheduleInfo {
+    @Tag(tag=12) public Integer activityId = null;
     @Tag(tag=13) public Integer scheduleId = null;
-    @Tag(tag=2) public Boolean isOpen = null;
-    @Tag(tag=14) public Integer activityId = null;
-    @Tag(tag=1) public Integer endTime = null;
-    @Tag(tag=10) public Integer beginTime = null;
+    @Tag(tag=2) public Integer beginTime = null;
+    @Tag(tag=9) public Integer endTime = null;
+    @Tag(tag=7) public Boolean isOpen = null;
 }

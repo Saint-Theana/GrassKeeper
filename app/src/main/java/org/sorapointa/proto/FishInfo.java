@@ -4,6 +4,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FishInfo {
-    @Tag(tag=11) public Integer freeCount = null;
-    @Tag(tag=12) public Integer intoBagCount = null;
+    @Tag(tag=1) public Integer fishId = null;
+    @Tag(tag=2) public Integer fishPoolEntityId = null;
+    @Tag(tag=3) public Vector fishPoolPos = null;
+    @Tag(tag=4) public Integer fishPoolGadgetId = null;
+    @Tag(tag=5) public Integer lastShockTime = null;
 }

@@ -9,5 +9,12 @@ public class GroupSuiteNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=3) public List<MapGroupMap> groupMap = new ArrayList<>();
+    public enum GroupSuiteNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=3115) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=12) public List<MapGroupMap> groupMap = new ArrayList<>();
 }

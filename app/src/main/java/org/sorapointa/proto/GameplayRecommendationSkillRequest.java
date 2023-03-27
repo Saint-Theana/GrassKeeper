@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GameplayRecommendationSkillRequest {
-    @Tag(tag=1) public Integer skillDepotId = null;
+    @Tag(tag=9) public Integer skillDepotId = null;
 }

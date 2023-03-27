@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class TanukiTravelLevelData {
-    @Tag(tag=5) public Boolean isOpen = null;
-    @Tag(tag=9) public Integer routeId = null;
-    @Tag(tag=15) public Boolean isFinish = null;
+    @Tag(tag=2) public Boolean isFinish = null;
+    @Tag(tag=1) public Integer routeId = null;
+    @Tag(tag=8) public Boolean isOpen = null;
 }

@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FishingScore {
-    @Tag(tag=2) public Integer fishingScore = null;
-    @Tag(tag=4) public Boolean isNewRecord = null;
+    @Tag(tag=13) public Boolean isNewRecord = null;
+    @Tag(tag=10) public Integer FishingScore_ = null;
 }

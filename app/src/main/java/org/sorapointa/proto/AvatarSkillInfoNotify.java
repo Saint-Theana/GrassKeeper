@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.AvatarSkillInfo.*;
-import org.sorapointa.proto.AvatarSkillInfo;
 
 public class AvatarSkillInfoNotify {
     public static class MapSkillMap {
@@ -11,6 +9,13 @@ public class AvatarSkillInfoNotify {
         @Tag(tag=2) public AvatarSkillInfo value = null;
     }
 
-    @Tag(tag=11) public List<MapSkillMap> skillMap = new ArrayList<>();
+    public enum AvatarSkillInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1070) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=2) public List<MapSkillMap> skillMap = new ArrayList<>();
     @Tag(tag=4) public Long guid = null;
 }

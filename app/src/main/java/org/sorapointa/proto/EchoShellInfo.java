@@ -4,5 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EchoShellInfo {
-    @Tag(tag=1) public Integer shellId = null;
+    @Tag(tag=10) public List<Integer> shellList = new ArrayList<>();
+    @Tag(tag=5) public List<Integer> passDungeonList = new ArrayList<>();
+    @Tag(tag=14) public List<Integer> takenRewardList = new ArrayList<>();
+    @Tag(tag=13) public List<SummerTimeDungeonInfo> summerTimeDungeonList = new ArrayList<>();
 }

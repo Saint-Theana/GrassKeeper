@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum GCGClientPerformType {
-        @Tag(tag=0) GCG_CLIENT_PERFORM_TYPE_INVALID ,
-        @Tag(tag=1) GCG_CLIENT_PERFORM_TYPE_CARD_EXCHANGE ;
+        @Tag(tag=0) GCGClientPerformTypeInvalid ,
+        @Tag(tag=1) GCGClientPerformTypeCardExchange ,
+        @Tag(tag=2) GCGClientPerformTypeFirstHand ,
+        @Tag(tag=3) GCGClientPerformTypeReroll ;
 }

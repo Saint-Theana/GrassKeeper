@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DraftOwnerInviteNotify {
-    @Tag(tag=4) public Integer draftId = null;
-    @Tag(tag=15) public Integer inviteDeadlineTime = null;
+    public enum DraftOwnerInviteNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5420) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=9) public Integer draftId = null;
+    @Tag(tag=1) public Integer inviteDeadlineTime = null;
 }

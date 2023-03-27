@@ -4,8 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MechanicusLevelupGearRsp {
-    @Tag(tag=7) public Integer gearId = null;
-    @Tag(tag=2) public Integer mechanicusId = null;
-    @Tag(tag=12) public Integer afterGearLevel = null;
-    @Tag(tag=8,isSigned=true) public Integer retcode = null;
+    public enum MechanicusLevelupGearRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=3914) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=5,isSigned=true) public Integer retcode = null;
+    @Tag(tag=1) public Integer mechanicusId = null;
+    @Tag(tag=10) public Integer gearId = null;
+    @Tag(tag=9) public Integer afterGearLevel = null;
 }

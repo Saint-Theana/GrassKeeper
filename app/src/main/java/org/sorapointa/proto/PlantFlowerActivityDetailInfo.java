@@ -14,10 +14,10 @@ public class PlantFlowerActivityDetailInfo {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=3) public Boolean isContentClosed = null;
-    @Tag(tag=10) public List<MapWishFlowerNumMap> wishFlowerNumMap = new ArrayList<>();
-    @Tag(tag=11) public Integer todaySeedRewardId = null;
-    @Tag(tag=1) public Integer dayIndex = null;
-    @Tag(tag=13) public Boolean isTodayHasAwarded = null;
-    @Tag(tag=7) public List<MapUsedFlowerNumMap> usedFlowerNumMap = new ArrayList<>();
+    @Tag(tag=14) public List<MapWishFlowerNumMap> wishFlowerNumMap = new ArrayList<>();
+    @Tag(tag=8) public Integer dayIndex = null;
+    @Tag(tag=2) public Boolean isTodayHasAwarded = null;
+    @Tag(tag=1) public Boolean isContentClosed = null;
+    @Tag(tag=11) public List<MapUsedFlowerNumMap> usedFlowerNumMap = new ArrayList<>();
+    @Tag(tag=4) public Integer todaySeedRewardId = null;
 }

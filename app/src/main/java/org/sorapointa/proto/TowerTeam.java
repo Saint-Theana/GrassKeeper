@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class TowerTeam {
-    @Tag(tag=3) public Integer towerTeamId = null;
-    @Tag(tag=14) public List<Long> avatarGuidList = new ArrayList<>();
+    @Tag(tag=4) public List<Long> avatarGuidList = new ArrayList<>();
+    @Tag(tag=10) public Integer towerTeamId = null;
 }

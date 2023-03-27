@@ -2,10 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.HomePlantFieldData.*;
-import org.sorapointa.proto.HomePlantFieldData;
 
 public class HomePlantInfoRsp {
-    @Tag(tag=7,isSigned=true) public Integer retcode = null;
-    @Tag(tag=15) public List<HomePlantFieldData> fieldList = new ArrayList<>();
+    public enum HomePlantInfoRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4512) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=8) public List<HomePlantFieldData> fieldList = new ArrayList<>();
+    @Tag(tag=10,isSigned=true) public Integer retcode = null;
 }

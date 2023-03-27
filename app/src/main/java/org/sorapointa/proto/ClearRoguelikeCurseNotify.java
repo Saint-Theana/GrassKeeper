@@ -9,8 +9,15 @@ public class ClearRoguelikeCurseNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=10) public List<MapClearCurseMap> clearCurseMap = new ArrayList<>();
-    @Tag(tag=11) public Boolean isClearAll = null;
-    @Tag(tag=8) public Integer cardId = null;
-    @Tag(tag=1) public Boolean isCurseAllClear = null;
+    public enum ClearRoguelikeCurseNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8183) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=14) public Boolean isCurseAllClear = null;
+    @Tag(tag=9) public Boolean isClearAll = null;
+    @Tag(tag=12) public List<MapClearCurseMap> clearCurseMap = new ArrayList<>();
+    @Tag(tag=6) public Integer cardId = null;
 }

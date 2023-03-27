@@ -4,5 +4,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ChessEscapedMonstersNotify {
-    @Tag(tag=14) public Integer escapedMonsters = null;
+    public enum ChessEscapedMonstersNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=5312) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=10) public Integer excapedMonsters = null;
 }

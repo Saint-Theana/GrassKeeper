@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class TowerDailyRewardProgressChangeNotify {
-    @Tag(tag=15) public Integer dailyFloorId = null;
-    @Tag(tag=9) public Integer dailyLevelIndex = null;
+    public enum TowerDailyRewardProgressChangeNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2498) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public Integer dailyLevelIndex = null;
+    @Tag(tag=3) public Integer dailyFloorId = null;
 }

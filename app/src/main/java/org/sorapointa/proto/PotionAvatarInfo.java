@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class PotionAvatarInfo {
-    @Tag(tag=6) public Boolean isTrial = null;
-    @Tag(tag=8) public Long avatarId = null;
+    @Tag(tag=10) public Long avatarId = null;
+    @Tag(tag=3) public Boolean isTrial = null;
 }

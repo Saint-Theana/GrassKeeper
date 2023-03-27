@@ -4,16 +4,16 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CheckAddItemExceedLimitNotify {
-    public enum ItemExceedLimitMsgType {
-        @Tag(tag=0) ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT ,
-        @Tag(tag=1) ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT ,
-        @Tag(tag=2) ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG ,
-        @Tag(tag=3) ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK ;
+    public enum CheckAddItemExceedLimitNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=634) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
     }
 
-    @Tag(tag=5) public Boolean isDrop = null;
-    @Tag(tag=4) public ItemExceedLimitMsgType msgType = null;
-    @Tag(tag=10) public List<Integer> exceededItemTypeList = new ArrayList<>();
-    @Tag(tag=12) public List<Integer> exceededItemList = new ArrayList<>();
-    @Tag(tag=14) public Integer reason = null;
+    @Tag(tag=15) public List<Integer> exceededItemTypeList = new ArrayList<>();
+    @Tag(tag=5) public List<Integer> exceededItemList = new ArrayList<>();
+    @Tag(tag=2) public Integer reason = null;
+    @Tag(tag=7) public Integer msgType = null;
+    @Tag(tag=1) public Boolean isDrop = null;
 }

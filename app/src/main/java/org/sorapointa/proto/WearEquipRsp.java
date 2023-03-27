@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class WearEquipRsp {
-    @Tag(tag=5,isSigned=true) public Integer retcode = null;
-    @Tag(tag=1) public Long equipGuid = null;
-    @Tag(tag=7) public Long avatarGuid = null;
+    public enum WearEquipRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=613) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=9,isSigned=true) public Integer retcode = null;
+    @Tag(tag=6) public Long avatarGuid = null;
+    @Tag(tag=13) public Long equipGuid = null;
 }

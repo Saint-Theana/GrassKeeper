@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ActivityWatcherInfo {
-    @Tag(tag=8) public Boolean isTakenReward = null;
-    @Tag(tag=2) public Integer curProgress = null;
-    @Tag(tag=4) public Integer totalProgress = null;
-    @Tag(tag=5) public Integer watcherId = null;
+    @Tag(tag=8) public Integer curProgress = null;
+    @Tag(tag=12) public Boolean isTakenReward = null;
+    @Tag(tag=1) public Integer totalProgress = null;
+    @Tag(tag=10) public Integer watcherId = null;
 }

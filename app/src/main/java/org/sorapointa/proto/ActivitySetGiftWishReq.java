@@ -9,6 +9,14 @@ public class ActivitySetGiftWishReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=2) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
-    @Tag(tag=14) public Integer scheduleId = null;
+    public enum ActivitySetGiftWishReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8597) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=2) public Integer scheduleId = null;
+    @Tag(tag=7) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
 }

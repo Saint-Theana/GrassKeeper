@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.MaterialDeleteReturnType.*;
-import org.sorapointa.proto.MaterialDeleteReturnType;
 
 public class MaterialDeleteReturnNotify {
     public static class MapReturnItemMap {
@@ -16,7 +14,14 @@ public class MaterialDeleteReturnNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=5) public List<MapReturnItemMap> returnItemMap = new ArrayList<>();
-    @Tag(tag=8) public Integer type = null;
-    @Tag(tag=6) public List<MapDeleteMaterialMap> deleteMaterialMap = new ArrayList<>();
+    public enum MaterialDeleteReturnNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=615) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public List<MapReturnItemMap> returnItemMap = new ArrayList<>();
+    @Tag(tag=10) public List<MapDeleteMaterialMap> deleteMaterialMap = new ArrayList<>();
+    @Tag(tag=11) public Integer type = null;
 }

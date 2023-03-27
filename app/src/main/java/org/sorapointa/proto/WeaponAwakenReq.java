@@ -9,7 +9,15 @@ public class WeaponAwakenReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=10) public Long itemGuid = null;
-    @Tag(tag=7) public List<MapAffixLevelMap> affixLevelMap = new ArrayList<>();
+    public enum WeaponAwakenReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=645) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=12) public List<MapAffixLevelMap> affixLevelMap = new ArrayList<>();
+    @Tag(tag=2) public Long itemGuid = null;
     @Tag(tag=9) public Long targetWeaponGuid = null;
 }

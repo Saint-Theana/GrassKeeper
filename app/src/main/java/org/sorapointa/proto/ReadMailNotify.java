@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ReadMailNotify {
-    @Tag(tag=2) public List<Integer> mailIdList = new ArrayList<>();
+    public enum ReadMailNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1487) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=15) public List<Integer> mailIdList = new ArrayList<>();
 }

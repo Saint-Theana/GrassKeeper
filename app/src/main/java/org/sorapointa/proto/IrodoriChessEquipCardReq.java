@@ -4,7 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class IrodoriChessEquipCardReq {
-    @Tag(tag=2) public Boolean isHardMap = null;
+    public enum IrodoriChessEquipCardReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8093) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=1) public Integer cardId = null;
+    @Tag(tag=7) public Boolean isHardMap = null;
     @Tag(tag=12) public Integer levelId = null;
-    @Tag(tag=9) public Integer cardId = null;
 }

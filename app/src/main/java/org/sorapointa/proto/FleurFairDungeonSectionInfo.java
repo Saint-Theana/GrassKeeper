@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FleurFairDungeonSectionInfo {
-    @Tag(tag=10) public Integer sectionId = null;
-    @Tag(tag=13) public Integer openTime = null;
-    @Tag(tag=1) public Boolean isOpen = null;
+    @Tag(tag=11) public Integer openTime = null;
+    @Tag(tag=2) public Integer sectionId = null;
+    @Tag(tag=5) public Boolean isOpen = null;
 }

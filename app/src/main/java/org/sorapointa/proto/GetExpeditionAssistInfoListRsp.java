@@ -2,10 +2,15 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ExpeditionAssistInfo.*;
-import org.sorapointa.proto.ExpeditionAssistInfo;
 
 public class GetExpeditionAssistInfoListRsp {
-    @Tag(tag=6) public List<ExpeditionAssistInfo> assistInfoList = new ArrayList<>();
-    @Tag(tag=7,isSigned=true) public Integer retcode = null;
+    public enum GetExpeditionAssistInfoListRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2028) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1,isSigned=true) public Integer retcode = null;
+    @Tag(tag=2) public List<ExpeditionAssistInfo> assistInfoList = new ArrayList<>();
 }

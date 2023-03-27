@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum RogueCellState {
-        @Tag(tag=0) ROGUE_CELL_STATE_NONE ,
-        @Tag(tag=1) ROGUE_CELL_STATE_BATTLE ,
-        @Tag(tag=2) ROGUE_CELL_STATE_SUCCESS ,
-        @Tag(tag=3) ROGUE_CELL_STATE_FINISH ,
-        @Tag(tag=4) ROGUE_CELL_STATE_TAKEN_CHEST ;
+        @Tag(tag=0) RogueCellNone ,
+        @Tag(tag=1) RogueCellBattle ,
+        @Tag(tag=2) RogueCellSuccess ,
+        @Tag(tag=3) RogueCellFinish ,
+        @Tag(tag=4) RogueCellTakenChest ;
 }

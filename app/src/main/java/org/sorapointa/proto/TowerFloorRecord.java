@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.TowerLevelRecord.*;
-import org.sorapointa.proto.TowerLevelRecord;
 
 public class TowerFloorRecord {
     public static class MapPassedLevelMap {
@@ -11,8 +9,8 @@ public class TowerFloorRecord {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=15) public Integer floorStarRewardProgress = null;
-    @Tag(tag=8) public List<MapPassedLevelMap> passedLevelMap = new ArrayList<>();
-    @Tag(tag=12) public Integer floorId = null;
-    @Tag(tag=2) public List<TowerLevelRecord> passedLevelRecordList = new ArrayList<>();
+    @Tag(tag=4) public Integer floorStarRewardProgress = null;
+    @Tag(tag=6) public List<MapPassedLevelMap> passedLevelMap = new ArrayList<>();
+    @Tag(tag=7) public List<TowerLevelRecord> passedLevelRecordList = new ArrayList<>();
+    @Tag(tag=15) public Integer floorId = null;
 }

@@ -2,9 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.TreasureMapRegionInfo.*;
-import org.sorapointa.proto.TreasureMapRegionInfo;
 
 public class TreasureMapRegionInfoNotify {
-    @Tag(tag=14) public TreasureMapRegionInfo regionInfo = null;
+    public enum TreasureMapRegionInfoNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2064) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=6) public TreasureMapRegionInfo regionInfo = null;
 }

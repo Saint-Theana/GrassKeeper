@@ -2,11 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.ObstacleInfo.*;
-import org.sorapointa.proto.ObstacleInfo;
 
 public class ObstacleModifyNotify {
-    @Tag(tag=9,isSigned=true) public List<Integer> removeObstacleIds = new ArrayList<>();
-    @Tag(tag=6) public List<ObstacleInfo> addObstacles = new ArrayList<>();
-    @Tag(tag=5) public Integer sceneId = null;
+    public enum ObstacleModifyNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2387) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=14) public List<ObstacleInfo> addObstacles = new ArrayList<>();
+    @Tag(tag=7,isSigned=true) public List<Integer> removeObstacleIds = new ArrayList<>();
+    @Tag(tag=9) public Integer sceneId = null;
 }

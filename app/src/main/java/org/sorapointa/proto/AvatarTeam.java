@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AvatarTeam {
-    @Tag(tag=7) public List<Long> avatarGuidList = new ArrayList<>();
-    @Tag(tag=14) public String teamName = null;
+    @Tag(tag=11) public String teamName = null;
+    @Tag(tag=5) public List<Long> avatarGuidList = new ArrayList<>();
 }

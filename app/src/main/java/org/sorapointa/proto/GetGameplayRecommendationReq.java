@@ -2,16 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.GameplayRecommendationElementReliquaryRequest.*;
-import org.sorapointa.proto.GameplayRecommendationElementReliquaryRequest;
-import org.sorapointa.proto.GameplayRecommendationReliquaryRequest.*;
-import org.sorapointa.proto.GameplayRecommendationReliquaryRequest;
-import org.sorapointa.proto.GameplayRecommendationSkillRequest.*;
-import org.sorapointa.proto.GameplayRecommendationSkillRequest;
 
 public class GetGameplayRecommendationReq {
-    @Tag(tag=9) public Integer avatarId = null;
-    @Tag(tag=553) public GameplayRecommendationSkillRequest skillRequest = null;
-    @Tag(tag=1993) public GameplayRecommendationReliquaryRequest reliquaryRequest = null;
-    @Tag(tag=1489) public GameplayRecommendationElementReliquaryRequest elementReliquaryRequest = null;
+    public enum GetGameplayRecommendationReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=149) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=8) public Integer avatarId = null;
+    @Tag(tag=1689) public SkillRequest skillRequest = null;
+    @Tag(tag=118) public ReliquaryRequest reliquaryRequest = null;
+    @Tag(tag=1105) public ElementReliquaryRequest elementReliquaryRequest = null;
 }

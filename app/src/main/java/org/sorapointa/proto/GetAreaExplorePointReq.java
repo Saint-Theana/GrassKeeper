@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GetAreaExplorePointReq {
-    @Tag(tag=14) public List<Integer> areaIdList = new ArrayList<>();
+    public enum GetAreaExplorePointReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=207) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=5) public List<Integer> areaIdList = new ArrayList<>();
 }

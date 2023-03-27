@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ParamList {
-    @Tag(tag=1) public List<Integer> paramList = new ArrayList<>();
+    @Tag(tag=1) public List<Integer> ParamList_ = new ArrayList<>();
 }

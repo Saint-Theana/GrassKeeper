@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RogueResumeDungeonRsp {
-    @Tag(tag=12) public Integer stageId = null;
-    @Tag(tag=15,isSigned=true) public Integer retcode = null;
+    public enum RogueResumeDungeonRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8241) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1) public Integer stageId = null;
+    @Tag(tag=11,isSigned=true) public Integer retcode = null;
 }

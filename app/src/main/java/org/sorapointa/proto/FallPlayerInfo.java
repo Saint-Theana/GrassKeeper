@@ -9,9 +9,9 @@ public class FallPlayerInfo {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=11) public Integer timeCost = null;
-    @Tag(tag=9) public Integer uid = null;
-    @Tag(tag=6) public List<MapBallCatchCountMap> ballCatchCountMap = new ArrayList<>();
-    @Tag(tag=7) public Integer curScore = null;
+    @Tag(tag=10) public Integer timeCost = null;
+    @Tag(tag=4) public Integer uid = null;
+    @Tag(tag=8) public List<MapBallCatchCountMap> ballCatchCountMap = new ArrayList<>();
+    @Tag(tag=11) public Integer curScore = null;
     @Tag(tag=15) public Boolean isGround = null;
 }

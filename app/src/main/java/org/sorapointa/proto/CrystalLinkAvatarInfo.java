@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CrystalLinkAvatarInfo {
-    @Tag(tag=3) public Long avatarId = null;
-    @Tag(tag=13) public Boolean isTrial = null;
+    @Tag(tag=9) public Boolean isTrial = null;
+    @Tag(tag=7) public Long avatarId = null;
 }

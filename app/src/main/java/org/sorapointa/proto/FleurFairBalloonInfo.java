@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FleurFairBalloonInfo {
-    @Tag(tag=4) public Integer bestScore = null;
+    @Tag(tag=7) public Integer bestScore = null;
 }

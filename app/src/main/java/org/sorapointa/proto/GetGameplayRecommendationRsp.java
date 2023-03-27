@@ -2,17 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.GameplayRecommendationElementReliquaryResponse.*;
-import org.sorapointa.proto.GameplayRecommendationElementReliquaryResponse;
-import org.sorapointa.proto.GameplayRecommendationReliquaryResponse.*;
-import org.sorapointa.proto.GameplayRecommendationReliquaryResponse;
-import org.sorapointa.proto.GameplayRecommendationSkillResponse.*;
-import org.sorapointa.proto.GameplayRecommendationSkillResponse;
 
 public class GetGameplayRecommendationRsp {
-    @Tag(tag=6,isSigned=true) public Integer retcode = null;
-    @Tag(tag=15) public Integer avatarId = null;
-    @Tag(tag=1022) public GameplayRecommendationSkillResponse skillResponse = null;
-    @Tag(tag=196) public GameplayRecommendationReliquaryResponse reliquaryResponse = null;
-    @Tag(tag=167) public GameplayRecommendationElementReliquaryResponse elementReliquaryResponse = null;
+    public enum GetGameplayRecommendationRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=196) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=1) public Integer avatarId = null;
+    @Tag(tag=12,isSigned=true) public Integer retcode = null;
+    @Tag(tag=223) public SkillResponse skillResponse = null;
+    @Tag(tag=1964) public ReliquaryResponse reliquaryResponse = null;
+    @Tag(tag=1912) public ElementReliquaryResponse elementReliquaryResponse = null;
 }

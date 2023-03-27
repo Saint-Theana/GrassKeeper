@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGOperationRedraw {
-    @Tag(tag=2) public List<Integer> cardList = new ArrayList<>();
+    @Tag(tag=12) public List<Integer> cardList = new ArrayList<>();
 }

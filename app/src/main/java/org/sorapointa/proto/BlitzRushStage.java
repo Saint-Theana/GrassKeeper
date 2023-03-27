@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class BlitzRushStage {
-    @Tag(tag=13) public Boolean isOpen = null;
-    @Tag(tag=11) public Integer openTime = null;
+    @Tag(tag=14) public Integer openTime = null;
+    @Tag(tag=6) public Boolean isOpen = null;
 }

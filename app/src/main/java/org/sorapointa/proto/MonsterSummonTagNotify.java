@@ -9,6 +9,13 @@ public class MonsterSummonTagNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=1) public List<MapSummonTagMap> summonTagMap = new ArrayList<>();
-    @Tag(tag=8) public Integer monsterEntityId = null;
+    public enum MonsterSummonTagNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1305) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=13) public List<MapSummonTagMap> summonTagMap = new ArrayList<>();
+    @Tag(tag=3) public Integer monsterEntityId = null;
 }

@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CookRecipeData {
-    @Tag(tag=13) public Integer proficiency = null;
-    @Tag(tag=9) public Integer recipeId = null;
+    @Tag(tag=1) public Integer proficiency = null;
+    @Tag(tag=6) public Integer recipeId = null;
 }

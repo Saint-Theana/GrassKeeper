@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.PropValue.*;
-import org.sorapointa.proto.PropValue;
 
 public class WorldDataNotify {
     public static class MapWorldPropMap {
@@ -11,11 +9,13 @@ public class WorldDataNotify {
         @Tag(tag=2) public PropValue value = null;
     }
 
-    public enum DataType {
-        @Tag(tag=0) DATA_TYPE_NONE ,
-        @Tag(tag=1) DATA_TYPE_WORLD_LEVEL ,
-        @Tag(tag=2) DATA_TYPE_IS_IN_MP_MODE ;
+    public enum WorldDataNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=3244) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
     }
 
-    @Tag(tag=9) public List<MapWorldPropMap> worldPropMap = new ArrayList<>();
+    @Tag(tag=3) public List<MapWorldPropMap> worldPropMap = new ArrayList<>();
 }

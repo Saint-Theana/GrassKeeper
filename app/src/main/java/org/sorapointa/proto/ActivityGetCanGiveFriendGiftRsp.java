@@ -9,7 +9,14 @@ public class ActivityGetCanGiveFriendGiftRsp {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=7) public Integer scheduleId = null;
-    @Tag(tag=3,isSigned=true) public Integer retcode = null;
-    @Tag(tag=14) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
+    public enum ActivityGetCanGiveFriendGiftRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8965) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=10) public Integer scheduleId = null;
+    @Tag(tag=4) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
+    @Tag(tag=12,isSigned=true) public Integer retcode = null;
 }

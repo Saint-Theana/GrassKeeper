@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityActionServerMonsterLog {
-    @Tag(tag=2,isSigned=true) public List<Integer> paramList = new ArrayList<>();
+    @Tag(tag=5,isSigned=true) public List<Integer> paramList = new ArrayList<>();
 }

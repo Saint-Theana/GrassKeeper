@@ -2,11 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.CutSceneExtraParam.*;
-import org.sorapointa.proto.CutSceneExtraParam;
 
 public class CutSceneBeginNotify {
-    @Tag(tag=9) public Boolean isWaitOthers = null;
-    @Tag(tag=14) public Integer cutsceneId = null;
-    @Tag(tag=3) public List<CutSceneExtraParam> extraParamList = new ArrayList<>();
+    public enum CutSceneBeginNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=217) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=3) public Boolean isWaitOthers = null;
+    @Tag(tag=14) public List<CutSceneExtraParam> extraParamList = new ArrayList<>();
+    @Tag(tag=2) public Integer cutsceneId = null;
 }

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum VehicleInteractType {
-        @Tag(tag=0) VEHICLE_INTERACT_TYPE_NONE ,
-        @Tag(tag=1) VEHICLE_INTERACT_TYPE_IN ,
-        @Tag(tag=2) VEHICLE_INTERACT_TYPE_OUT ;
+        @Tag(tag=0) VehicleInteractNone ,
+        @Tag(tag=1) VehicleInteractIn ,
+        @Tag(tag=2) VehicleInteractOut ;
 }

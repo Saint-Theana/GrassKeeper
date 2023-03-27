@@ -2,9 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.EntityMoveFailInfo.*;
-import org.sorapointa.proto.EntityMoveFailInfo;
 
 public class SceneEntitiesMovesRsp {
-    @Tag(tag=11) public List<EntityMoveFailInfo> entityMoveFailInfoList = new ArrayList<>();
+    public enum SceneEntitiesMovesRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=293) CmdId ,
+        @Tag(tag=1) EnetChannelId ,
+        @Tag(tag=0) EnetIsReliable ;
+    }
+
+    @Tag(tag=5) public List<EntityMoveFailInfo> entityMoveFailInfoList = new ArrayList<>();
 }

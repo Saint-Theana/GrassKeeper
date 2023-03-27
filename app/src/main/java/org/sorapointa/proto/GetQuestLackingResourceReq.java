@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GetQuestLackingResourceReq {
-    @Tag(tag=4) public Integer questId = null;
+    public enum GetQuestLackingResourceReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=464) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=15) public Integer questId = null;
 }

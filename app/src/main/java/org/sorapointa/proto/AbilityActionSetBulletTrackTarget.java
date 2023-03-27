@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityActionSetBulletTrackTarget {
-    @Tag(tag=1) public Integer chasedEntityId = null;
-    @Tag(tag=2) public Integer lockPointIndex = null;
+    @Tag(tag=5) public Integer chasedEntityId = null;
+    @Tag(tag=7) public Integer lockPointIndex = null;
 }

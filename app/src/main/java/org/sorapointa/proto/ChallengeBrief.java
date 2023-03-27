@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ChallengeBrief {
     @Tag(tag=9) public Integer curProgress = null;
-    @Tag(tag=10) public Integer challengeIndex = null;
-    @Tag(tag=4) public Boolean isSuccess = null;
-    @Tag(tag=8) public Integer challengeId = null;
+    @Tag(tag=5) public Boolean isSuccess = null;
+    @Tag(tag=15) public Integer challengeIndex = null;
+    @Tag(tag=2) public Integer challengeId = null;
 }

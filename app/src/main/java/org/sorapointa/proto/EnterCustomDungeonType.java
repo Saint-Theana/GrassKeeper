@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum EnterCustomDungeonType {
-        @Tag(tag=0) ENTER_CUSTOM_DUNGEON_TYPE_NONE ,
-        @Tag(tag=1) ENTER_CUSTOM_DUNGEON_TYPE_EDIT ,
-        @Tag(tag=2) ENTER_CUSTOM_DUNGEON_TYPE_PLAY ,
-        @Tag(tag=3) ENTER_CUSTOM_DUNGEON_TYPE_OFFICIAL ;
+        @Tag(tag=0) EnterCustomDungeonNone ,
+        @Tag(tag=1) EnterCustomDungeonEdit ,
+        @Tag(tag=2) EnterCustomDungeonPlay ,
+        @Tag(tag=3) EnterCustomDungeonOfficial ;
 }

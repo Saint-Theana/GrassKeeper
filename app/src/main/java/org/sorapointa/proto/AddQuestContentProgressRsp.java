@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AddQuestContentProgressRsp {
-    @Tag(tag=13,isSigned=true) public Integer retcode = null;
-    @Tag(tag=4) public Integer contentType = null;
+    public enum AddQuestContentProgressRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=480) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=13) public Integer contentType = null;
+    @Tag(tag=8,isSigned=true) public Integer retcode = null;
 }

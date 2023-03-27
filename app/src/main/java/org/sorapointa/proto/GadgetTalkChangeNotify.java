@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GadgetTalkChangeNotify {
-    @Tag(tag=5) public Integer gadgetEntityId = null;
-    @Tag(tag=15) public Integer curGadgetTalkState = null;
+    public enum GadgetTalkChangeNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=846) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=10) public Integer gadgetEntityId = null;
+    @Tag(tag=2) public Integer curGadgetTalkState = null;
 }

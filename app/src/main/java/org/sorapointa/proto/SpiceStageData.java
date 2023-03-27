@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SpiceStageData {
-    @Tag(tag=12) public Boolean isOpen = null;
-    @Tag(tag=1) public Integer successTimes = null;
-    @Tag(tag=6) public Integer stageId = null;
+    @Tag(tag=10) public Boolean isOpen = null;
+    @Tag(tag=3) public Integer successTimes = null;
+    @Tag(tag=9) public Integer stageId = null;
 }

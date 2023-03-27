@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGMsgSelectOnStageByEffect {
-    @Tag(tag=12) public Integer skillId = null;
-    @Tag(tag=15) public Integer controllerId = null;
-    @Tag(tag=1) public Integer cardGuid = null;
+    @Tag(tag=4) public Integer skillId = null;
+    @Tag(tag=2) public Integer cardGuid = null;
+    @Tag(tag=13) public Integer controllerId = null;
 }

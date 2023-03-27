@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AcceptCityReputationRequestReq {
-    @Tag(tag=14) public Integer cityId = null;
-    @Tag(tag=5) public Integer requestId = null;
+    public enum AcceptCityReputationRequestReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2870) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=2) public Integer cityId = null;
+    @Tag(tag=12) public Integer requestId = null;
 }

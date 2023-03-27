@@ -9,7 +9,15 @@ public class ActivityGiveFriendGiftReq {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=5) public Integer uid = null;
-    @Tag(tag=1) public Integer scheduleId = null;
-    @Tag(tag=4) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
+    public enum ActivityGiveFriendGiftReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8919) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=15) public Integer uid = null;
+    @Tag(tag=9) public List<MapGiftNumMap> giftNumMap = new ArrayList<>();
+    @Tag(tag=13) public Integer scheduleId = null;
 }

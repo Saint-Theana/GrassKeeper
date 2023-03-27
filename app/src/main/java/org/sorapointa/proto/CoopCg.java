@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class CoopCg {
-    @Tag(tag=14) public Boolean isUnlock = null;
-    @Tag(tag=8) public Integer id = null;
+    @Tag(tag=15) public Boolean isUnlock = null;
+    @Tag(tag=5) public Integer id = null;
 }

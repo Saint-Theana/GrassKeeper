@@ -2,10 +2,15 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.SalvagePreventSettleInfo.*;
-import org.sorapointa.proto.SalvagePreventSettleInfo;
 
 public class SalvagePreventSettleNotify {
-    @Tag(tag=13) public Integer galleryId = null;
-    @Tag(tag=12) public SalvagePreventSettleInfo settleInfo = null;
+    public enum SalvagePreventSettleNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8036) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=5) public Integer galleryId = null;
+    @Tag(tag=6) public SalvagePreventSettleInfo settleInfo = null;
 }

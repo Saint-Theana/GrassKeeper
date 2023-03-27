@@ -2,13 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.CustomDungeonBanInfo.*;
-import org.sorapointa.proto.CustomDungeonBanInfo;
-import org.sorapointa.proto.CustomDungeonBrief.*;
-import org.sorapointa.proto.CustomDungeonBrief;
 
 public class GetCustomDungeonRsp {
-    @Tag(tag=10,isSigned=true) public Integer retcode = null;
+    public enum GetCustomDungeonRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=6234) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
     @Tag(tag=14) public CustomDungeonBanInfo banInfo = null;
-    @Tag(tag=5) public List<CustomDungeonBrief> briefList = new ArrayList<>();
+    @Tag(tag=8,isSigned=true) public Integer retcode = null;
+    @Tag(tag=12) public List<CustomDungeonBrief> briefList = new ArrayList<>();
 }

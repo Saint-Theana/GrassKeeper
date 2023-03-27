@@ -4,7 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class QuestUpdateQuestVarNotify {
-    @Tag(tag=1,isSigned=true) public List<Integer> questVar = new ArrayList<>();
-    @Tag(tag=12) public Integer parentQuestId = null;
-    @Tag(tag=8) public Integer parentQuestVarSeq = null;
+    public enum QuestUpdateQuestVarNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=500) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=11) public Integer parentQuestId = null;
+    @Tag(tag=14) public Integer parentQuestVarSeq = null;
+    @Tag(tag=7,isSigned=true) public List<Integer> questVar = new ArrayList<>();
 }

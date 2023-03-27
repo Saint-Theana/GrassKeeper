@@ -9,6 +9,13 @@ public class QuestUpdateQuestTimeVarNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=1) public List<MapTimeVarMap> timeVarMap = new ArrayList<>();
-    @Tag(tag=3) public Integer parentQuestId = null;
+    public enum QuestUpdateQuestTimeVarNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=436) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=5) public Integer parentQuestId = null;
+    @Tag(tag=8) public List<MapTimeVarMap> timeVarMap = new ArrayList<>();
 }

@@ -2,13 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.CustomDungeonRoom.*;
-import org.sorapointa.proto.CustomDungeonRoom;
-import org.sorapointa.proto.CustomDungeonSetting.*;
-import org.sorapointa.proto.CustomDungeonSetting;
 
 public class SaveCustomDungeonRoomReq {
-    @Tag(tag=5) public CustomDungeonRoom customDungeonRoom = null;
-    @Tag(tag=7) public Boolean isUpdateSetting = null;
-    @Tag(tag=13) public CustomDungeonSetting setting = null;
+    public enum SaveCustomDungeonRoomReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=6246) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=14) public CustomDungeonSetting setting = null;
+    @Tag(tag=15) public CustomDungeonRoom customDungeonRoom = null;
+    @Tag(tag=3) public Boolean isUpdateSetting = null;
 }

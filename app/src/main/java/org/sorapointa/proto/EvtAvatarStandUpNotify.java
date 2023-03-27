@@ -4,8 +4,16 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class EvtAvatarStandUpNotify {
+    public enum EvtAvatarStandUpNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=336) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
     @Tag(tag=11) public Long chairId = null;
-    @Tag(tag=6,isSigned=true) public Integer performId = null;
-    @Tag(tag=1,isSigned=true) public Integer direction = null;
-    @Tag(tag=9) public Integer entityId = null;
+    @Tag(tag=14,isSigned=true) public Integer performID = null;
+    @Tag(tag=5,isSigned=true) public Integer direction = null;
+    @Tag(tag=4) public Integer entityId = null;
 }

@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DailyTaskFilterCityRsp {
-    @Tag(tag=5,isSigned=true) public Integer retcode = null;
-    @Tag(tag=9) public Integer cityId = null;
+    public enum DailyTaskFilterCityRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=172) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=15,isSigned=true) public Integer retcode = null;
+    @Tag(tag=14) public Integer cityId = null;
 }

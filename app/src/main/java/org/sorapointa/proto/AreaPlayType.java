@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum AreaPlayType {
-        @Tag(tag=0) AREA_PLAY_TYPE_NONE ,
-        @Tag(tag=1) AREA_PLAY_TYPE_CLIMATE ,
-        @Tag(tag=2) AREA_PLAY_TYPE_REGIONAL_PLAY ;
+        @Tag(tag=0) AreaPlayNone ,
+        @Tag(tag=1) AreaPlayClimate ,
+        @Tag(tag=2) AreaPlayRegionalPlay ;
 }

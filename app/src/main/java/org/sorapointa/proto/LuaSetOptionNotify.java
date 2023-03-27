@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class LuaSetOptionNotify {
-    public enum LuaOptionType {
-        @Tag(tag=0) LUA_OPTION_TYPE_NONE ,
-        @Tag(tag=1) LUA_OPTION_TYPE_PLAYER_INPUT ;
+    public enum LuaSetOptionNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=395) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
     }
 
-    @Tag(tag=8) public String luaSetParam = null;
-    @Tag(tag=10) public LuaOptionType optionType = null;
+    @Tag(tag=4) public String luaSetParam = null;
+    @Tag(tag=14) public Integer optionType = null;
 }

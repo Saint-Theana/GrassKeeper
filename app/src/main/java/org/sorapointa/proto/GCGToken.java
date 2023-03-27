@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGToken {
-    @Tag(tag=11) public Integer value = null;
-    @Tag(tag=4) public Integer key = null;
+    @Tag(tag=9) public Integer key = null;
+    @Tag(tag=5) public Integer value = null;
 }

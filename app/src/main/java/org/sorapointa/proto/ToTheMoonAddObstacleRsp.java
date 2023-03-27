@@ -2,11 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.DynamicNodes.*;
-import org.sorapointa.proto.DynamicNodes;
 
 public class ToTheMoonAddObstacleRsp {
-    @Tag(tag=2) public DynamicNodes dynamicNodes = null;
-    @Tag(tag=13,isSigned=true) public Integer queryId = null;
+    public enum FAJPJAOONHC {
+        @Tag(tag=0) None ,
+        @Tag(tag=6180) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
     @Tag(tag=11,isSigned=true) public Integer retcode = null;
+    @Tag(tag=8,isSigned=true) public Integer queryId = null;
+    @Tag(tag=4) public DynamicNodes dynamicNodes = null;
 }

@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGSkillPreviewOnstageChangeInfo {
-    @Tag(tag=6) public Integer targetOnstageCardGuid = null;
-    @Tag(tag=15) public Integer sourceOnstageCardGuid = null;
+    @Tag(tag=5) public Integer sourceOnstageCardGuid = null;
+    @Tag(tag=3) public Integer targetOnstageCardGuid = null;
 }

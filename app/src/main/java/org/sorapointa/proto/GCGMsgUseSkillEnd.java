@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGMsgUseSkillEnd {
-    @Tag(tag=11) public Integer cardGuid = null;
-    @Tag(tag=12) public Integer skillId = null;
+    @Tag(tag=5) public Integer skillId = null;
+    @Tag(tag=13) public Integer cardGuid = null;
 }

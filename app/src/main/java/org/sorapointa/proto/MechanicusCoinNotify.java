@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MechanicusCoinNotify {
-    @Tag(tag=7) public Integer mechanicusId = null;
-    @Tag(tag=4) public Integer coin = null;
+    public enum MechanicusCoinNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=3998) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=8) public Integer mechanicusId = null;
+    @Tag(tag=13) public Integer coin = null;
 }

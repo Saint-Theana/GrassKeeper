@@ -2,11 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.InvestigationMonster.*;
-import org.sorapointa.proto.InvestigationMonster;
 
 public class GetInvestigationMonsterRsp {
-    @Tag(tag=10) public List<InvestigationMonster> monsterList = new ArrayList<>();
-    @Tag(tag=1,isSigned=true) public Integer retcode = null;
-    @Tag(tag=2) public Boolean isForMark = null;
+    public enum GetInvestigationMonsterRsp_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1927) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=6,isSigned=true) public Integer retcode = null;
+    @Tag(tag=2) public List<InvestigationMonster> monsterList = new ArrayList<>();
+    @Tag(tag=11) public Boolean isForMark = null;
 }

@@ -2,8 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.FleurFairFallSettleInfo.*;
-import org.sorapointa.proto.FleurFairFallSettleInfo;
 
 public class FleurFairFallSettleNotify {
     public static class MapSettleInfoMap {
@@ -11,6 +9,13 @@ public class FleurFairFallSettleNotify {
         @Tag(tag=2) public FleurFairFallSettleInfo value = null;
     }
 
-    @Tag(tag=15) public Integer minigameId = null;
-    @Tag(tag=11) public List<MapSettleInfoMap> settleInfoMap = new ArrayList<>();
+    public enum FleurFairFallSettleNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2150) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=5) public List<MapSettleInfoMap> settleInfoMap = new ArrayList<>();
+    @Tag(tag=12) public Integer minigameId = null;
 }

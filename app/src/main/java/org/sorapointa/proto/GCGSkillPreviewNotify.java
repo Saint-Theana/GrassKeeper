@@ -2,11 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.GCGSkillPreviewInfo.*;
-import org.sorapointa.proto.GCGSkillPreviewInfo;
 
 public class GCGSkillPreviewNotify {
-    @Tag(tag=9) public List<GCGSkillPreviewInfo> skillPreviewList = new ArrayList<>();
-    @Tag(tag=5) public Integer onstageCardGuid = null;
-    @Tag(tag=15) public Integer controllerId = null;
+    public enum EBIPPGMBKOL {
+        @Tag(tag=0) None ,
+        @Tag(tag=7368) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=2) public List<GCGChangeOnstageInfo> changeOnstagePreviewList = new ArrayList<>();
+    @Tag(tag=3) public Integer controllerId = null;
+    @Tag(tag=6) public List<GCGSkillPreviewInfo> skillPreviewList = new ArrayList<>();
+    @Tag(tag=9) public List<GCGSkillPreviewPlayCardInfo> playCardList = new ArrayList<>();
+    @Tag(tag=10) public Integer onstageCardGuid = null;
 }

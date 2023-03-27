@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum FishEscapeReason {
-        @Tag(tag=0) FISH_ESCAPE_REASON_NONE ,
-        @Tag(tag=1) FISH_ESCAPE_REASON_SHOCKED ,
-        @Tag(tag=2) FISH_ESCAPE_REASON_UNHOOK ;
+        @Tag(tag=0) FisnEscapeNone ,
+        @Tag(tag=1) FishEscapeShocked ,
+        @Tag(tag=2) FishEscapeUnhook ;
 }

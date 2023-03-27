@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RogueAvatarInfo {
-    @Tag(tag=5) public Boolean isOnstage = null;
-    @Tag(tag=3) public Boolean isAlive = null;
-    @Tag(tag=14) public Integer avatarId = null;
+    @Tag(tag=15) public Integer avatarId = null;
+    @Tag(tag=5) public Boolean isAlive = null;
+    @Tag(tag=1) public Boolean isOnstage = null;
 }

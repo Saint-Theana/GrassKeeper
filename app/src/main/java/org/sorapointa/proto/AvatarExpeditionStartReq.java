@@ -4,7 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AvatarExpeditionStartReq {
-    @Tag(tag=9) public Integer expId = null;
-    @Tag(tag=10) public Long avatarGuid = null;
-    @Tag(tag=2) public Integer hourTime = null;
+    public enum AvatarExpeditionStartReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=1656) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=12) public Integer hourTime = null;
+    @Tag(tag=8) public Long avatarGuid = null;
+    @Tag(tag=14) public Integer expId = null;
 }

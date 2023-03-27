@@ -2,10 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.AbilitySyncStateInfo.*;
-import org.sorapointa.proto.AbilitySyncStateInfo;
-import org.sorapointa.proto.EntityRendererChangedInfo.*;
-import org.sorapointa.proto.EntityRendererChangedInfo;
 
 public class SceneWeaponInfo {
     public static class MapAffixMap {

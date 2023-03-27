@@ -5,5 +5,5 @@ import java.util.ArrayList;
 
 public class AsterLargeDetailInfo {
     @Tag(tag=3) public Boolean isOpen = null;
-    @Tag(tag=13) public Integer beginTime = null;
+    @Tag(tag=7) public Integer beginTime = null;
 }

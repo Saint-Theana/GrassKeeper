@@ -2,12 +2,17 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.Vector.*;
-import org.sorapointa.proto.Vector;
 
 public class SeaLampFlyLampNotify {
-    @Tag(tag=11) public Vector pos = null;
-    @Tag(tag=10) public Integer itemNum = null;
-    @Tag(tag=7) public Integer itemId = null;
-    @Tag(tag=5,isSigned=true) public Integer param = null;
+    public enum SeaLampFlyLampNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2014) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=7) public Integer itemNum = null;
+    @Tag(tag=5) public Vector pos = null;
+    @Tag(tag=10,isSigned=true) public Integer param = null;
+    @Tag(tag=3) public Integer itemId = null;
 }

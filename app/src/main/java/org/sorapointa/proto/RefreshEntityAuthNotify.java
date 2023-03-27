@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class RefreshEntityAuthNotify {
-    @Tag(tag=7) public List<Integer> entityIdList = new ArrayList<>();
+    public enum DAAFMJIGPNM {
+        @Tag(tag=0) None ,
+        @Tag(tag=3280) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=11) public List<Integer> entityIdList = new ArrayList<>();
 }

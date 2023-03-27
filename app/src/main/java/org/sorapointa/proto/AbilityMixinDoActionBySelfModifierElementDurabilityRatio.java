@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMixinDoActionBySelfModifierElementDurabilityRatio {
-    @Tag(tag=9,isFloat=true) public Float lastDurabilityRatio = null;
+    @Tag(tag=1,isFloat=true) public Float lastDuabilityRatio = null;
 }

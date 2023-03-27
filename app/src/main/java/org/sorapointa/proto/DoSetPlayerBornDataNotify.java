@@ -4,4 +4,11 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class DoSetPlayerBornDataNotify {
+    public enum DoSetPlayerBornDataNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=139) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
 }

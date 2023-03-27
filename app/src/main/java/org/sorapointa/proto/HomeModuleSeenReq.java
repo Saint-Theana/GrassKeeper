@@ -4,5 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class HomeModuleSeenReq {
-    @Tag(tag=5) public List<Integer> seenModuleIdList = new ArrayList<>();
+    public enum HomeModuleSeenReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4817) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=4) public List<Integer> seenModuleIdList = new ArrayList<>();
 }

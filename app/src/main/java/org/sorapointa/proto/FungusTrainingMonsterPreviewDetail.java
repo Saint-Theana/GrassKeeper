@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class FungusTrainingMonsterPreviewDetail {
-    @Tag(tag=8) public Integer monsterId = null;
-    @Tag(tag=10) public Integer level = null;
-    @Tag(tag=7) public List<Integer> affixList = new ArrayList<>();
+    @Tag(tag=3) public Integer monsterId = null;
+    @Tag(tag=5) public Integer level = null;
+    @Tag(tag=11) public List<Integer> affixList = new ArrayList<>();
 }

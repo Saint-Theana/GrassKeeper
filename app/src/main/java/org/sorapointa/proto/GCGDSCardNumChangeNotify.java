@@ -4,6 +4,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GCGDSCardNumChangeNotify {
-    @Tag(tag=4) public Integer cardId = null;
-    @Tag(tag=10) public Integer num = null;
+    public enum ILMHAKGOCAK {
+        @Tag(tag=0) None ,
+        @Tag(tag=7605) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=6) public Integer cardId = null;
+    @Tag(tag=3) public Integer num = null;
 }

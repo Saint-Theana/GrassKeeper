@@ -9,8 +9,15 @@ public class GachaActivityPercentNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
+    public enum GachaActivityPercentNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=8200) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=5) public List<MapTargetNumMap> targetNumMap = new ArrayList<>();
+    @Tag(tag=13) public Integer subItemStage = null;
     @Tag(tag=14) public Integer itemStage = null;
-    @Tag(tag=6) public List<MapTargetNumMap> targetNumMap = new ArrayList<>();
-    @Tag(tag=2) public Integer subItemStage = null;
-    @Tag(tag=13) public Integer percent = null;
+    @Tag(tag=15) public Integer percent = null;
 }

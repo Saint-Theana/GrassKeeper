@@ -9,5 +9,12 @@ public class OpenStateChangeNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=4) public List<MapOpenStateMap> openStateMap = new ArrayList<>();
+    public enum OpenStateChangeNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=118) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=15) public List<MapOpenStateMap> openStateMap = new ArrayList<>();
 }

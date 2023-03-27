@@ -2,12 +2,6 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.Equip.*;
-import org.sorapointa.proto.Equip;
-import org.sorapointa.proto.Furniture.*;
-import org.sorapointa.proto.Furniture;
-import org.sorapointa.proto.Material.*;
-import org.sorapointa.proto.Material;
 
 public class Item {
     @Tag(tag=1) public Integer itemId = null;

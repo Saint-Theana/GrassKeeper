@@ -9,5 +9,12 @@ public class GadgetChainLevelUpdateNotify {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=12) public List<MapGadgetChainLevelMap> gadgetChainLevelMap = new ArrayList<>();
+    public enum GadgetChainLevelUpdateNotify_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=900) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ;
+    }
+
+    @Tag(tag=4) public List<MapGadgetChainLevelMap> gadgetChainLevelMap = new ArrayList<>();
 }

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum LunaRiteHintPointType {
-        @Tag(tag=0) LUNA_RITE_HINT_POINT_TYPE_NONE ,
-        @Tag(tag=1) LUNA_RITE_HINT_POINT_TYPE_RUNE ,
-        @Tag(tag=2) LUNA_RITE_HINT_POINT_TYPE_CHEST ;
+        @Tag(tag=0) LunaRiteHintTypeNone ,
+        @Tag(tag=1) LunaRiteHintTypeRune ,
+        @Tag(tag=2) LunaRiteHintTypeChest ;
 }

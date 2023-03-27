@@ -5,6 +5,6 @@ import java.util.ArrayList;
 
 public class AbilityEmbryo {
     @Tag(tag=1) public Integer abilityId = null;
-    @Tag(tag=2,isFixed=true) public Integer abilityNameHash = null;
-    @Tag(tag=3,isFixed=true) public Integer abilityOverrideNameHash = null;
+    @Tag(tag=2) public Integer abilityNameHash = null;
+    @Tag(tag=3) public Integer abilityOverrideNameHash = null;
 }

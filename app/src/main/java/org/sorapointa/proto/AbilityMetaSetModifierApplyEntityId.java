@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class AbilityMetaSetModifierApplyEntityId {
-    @Tag(tag=10) public Integer applyEntityId = null;
+    @Tag(tag=6) public Integer applyEntityId = null;
 }

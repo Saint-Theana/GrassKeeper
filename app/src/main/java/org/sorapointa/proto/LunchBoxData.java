@@ -9,5 +9,5 @@ public class LunchBoxData {
         @Tag(tag=2) public Integer value = null;
     }
 
-    @Tag(tag=3) public List<MapSlotMaterialMap> slotMaterialMap = new ArrayList<>();
+    @Tag(tag=6) public List<MapSlotMaterialMap> slotMaterialMap = new ArrayList<>();
 }

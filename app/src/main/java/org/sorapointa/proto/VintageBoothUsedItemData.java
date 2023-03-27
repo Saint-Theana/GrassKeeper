@@ -4,6 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class VintageBoothUsedItemData {
-    @Tag(tag=7) public Boolean isOpen = null;
-    @Tag(tag=8) public Integer gadgetId = null;
+    @Tag(tag=12) public Integer gadgetId = null;
+    @Tag(tag=2) public Boolean isOpen = null;
 }

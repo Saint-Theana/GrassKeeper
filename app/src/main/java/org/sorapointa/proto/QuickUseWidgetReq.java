@@ -2,18 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
-import org.sorapointa.proto.WidgetCameraInfo.*;
-import org.sorapointa.proto.WidgetCameraInfo;
-import org.sorapointa.proto.WidgetCreateLocationInfo.*;
-import org.sorapointa.proto.WidgetCreateLocationInfo;
-import org.sorapointa.proto.WidgetCreatorInfo.*;
-import org.sorapointa.proto.WidgetCreatorInfo;
-import org.sorapointa.proto.WidgetThunderBirdFeatherInfo.*;
-import org.sorapointa.proto.WidgetThunderBirdFeatherInfo;
 
 public class QuickUseWidgetReq {
-    @Tag(tag=676) public WidgetCreateLocationInfo locationInfo = null;
-    @Tag(tag=478) public WidgetCameraInfo cameraInfo = null;
-    @Tag(tag=812) public WidgetCreatorInfo creatorInfo = null;
-    @Tag(tag=1859) public WidgetThunderBirdFeatherInfo thunderBirdFeatherInfo = null;
+    public enum QuickUseWidgetReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=4275) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=1542) public LocationInfo locationInfo = null;
+    @Tag(tag=1754) public CameraInfo cameraInfo = null;
+    @Tag(tag=825) public CreatorInfo creatorInfo = null;
+    @Tag(tag=1365) public ThunderBirdFeatherInfo thunderBirdFeatherInfo = null;
 }

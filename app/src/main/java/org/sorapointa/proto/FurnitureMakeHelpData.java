@@ -5,5 +5,5 @@ import java.util.ArrayList;
 
 public class FurnitureMakeHelpData {
     @Tag(tag=2) public Integer times = null;
-    @Tag(tag=13) public Integer uid = null;
+    @Tag(tag=6) public Integer uid = null;
 }

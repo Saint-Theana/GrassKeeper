@@ -4,7 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class StartArenaChallengeLevelReq {
-    @Tag(tag=4) public Integer arenaChallengeId = null;
-    @Tag(tag=5) public Integer gadgetEntityId = null;
-    @Tag(tag=2) public Integer arenaChallengeLevel = null;
+    public enum StartArenaChallengeLevelReq_CmdId {
+        @Tag(tag=0) None ,
+        @Tag(tag=2033) CmdId ,
+        @Tag(tag=0) EnetChannelId ,
+        @Tag(tag=1) EnetIsReliable ,
+        @Tag(tag=1) IsAllowClient ;
+    }
+
+    @Tag(tag=4) public Integer arenaChallengeLevel = null;
+    @Tag(tag=5) public Integer arenaChallengeId = null;
+    @Tag(tag=7) public Integer gadgetEntityId = null;
 }
