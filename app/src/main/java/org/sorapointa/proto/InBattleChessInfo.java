@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ChessMysteryInfo.*;
+import org.sorapointa.proto.ChessMysteryInfo;
+import org.sorapointa.proto.ChessPlayerInfo.*;
+import org.sorapointa.proto.ChessPlayerInfo;
+import org.sorapointa.proto.ChessCardInfo.*;
+import org.sorapointa.proto.ChessCardInfo;
 
 public class InBattleChessInfo {
     public static class MapPlayerInfoMap {

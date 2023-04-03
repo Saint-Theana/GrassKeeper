@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FishingScore.*;
+import org.sorapointa.proto.FishingScore;
+import org.sorapointa.proto.FishInfo.*;
+import org.sorapointa.proto.FishInfo;
 
 public class FishingGallerySettleInfo {
     public static class MapFishMap {

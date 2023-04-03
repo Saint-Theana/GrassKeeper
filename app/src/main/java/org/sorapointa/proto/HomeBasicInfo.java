@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeLimitedShopInfo.*;
+import org.sorapointa.proto.HomeLimitedShopInfo;
 
 public class HomeBasicInfo {
     @Tag(tag=11) public Integer homeOwnerUid = null;

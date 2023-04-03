@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LocationInfo.*;
+import org.sorapointa.proto.LocationInfo;
+import org.sorapointa.proto.CreatorInfo.*;
+import org.sorapointa.proto.CreatorInfo;
 
 public class WidgetDoBagReq {
     public enum WidgetDoBagReq_CmdId {

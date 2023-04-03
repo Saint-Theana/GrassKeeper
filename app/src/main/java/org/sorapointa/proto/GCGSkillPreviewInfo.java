@@ -2,6 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGSkillPreviewExtraInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewExtraInfo;
+import org.sorapointa.proto.GCGSkillPreviewTokenChangeInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewTokenChangeInfo;
+import org.sorapointa.proto.GCGSkillPreviewOnstageChangeInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewOnstageChangeInfo;
+import org.sorapointa.proto.GCGSkillPreviewHpInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewHpInfo;
+import org.sorapointa.proto.GCGSkillPreviewElementReactionInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewElementReactionInfo;
+import org.sorapointa.proto.GCGSkillPreviewCardInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewCardInfo;
 
 public class GCGSkillPreviewInfo {
     public static class MapCardTokenChangeMap {

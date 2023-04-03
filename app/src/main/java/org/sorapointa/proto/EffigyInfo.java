@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.EffigyDailyInfo.*;
+import org.sorapointa.proto.EffigyDailyInfo;
 
 public class EffigyInfo {
     @Tag(tag=7) public List<Integer> takenRewardIndexList = new ArrayList<>();

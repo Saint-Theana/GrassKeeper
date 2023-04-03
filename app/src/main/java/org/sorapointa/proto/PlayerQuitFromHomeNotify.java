@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PlayerQuitFromHomeNotify_QuitReason.*;
+import org.sorapointa.proto.PlayerQuitFromHomeNotify_QuitReason;
 
 public class PlayerQuitFromHomeNotify {
     public enum PlayerQuitFromHomeNotify_CmdId {

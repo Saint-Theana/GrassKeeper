@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RogueDiaryAvatar.*;
+import org.sorapointa.proto.RogueDiaryAvatar;
+import org.sorapointa.proto.RogueDiaryRoomInfo.*;
+import org.sorapointa.proto.RogueDiaryRoomInfo;
 
 public class RogueDiaryRepairInfoNotify {
     public enum RogueDiaryRepairInfoNotify_CmdId {

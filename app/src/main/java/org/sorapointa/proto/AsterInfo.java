@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AsterLargeDetailInfo.*;
+import org.sorapointa.proto.AsterLargeDetailInfo;
+import org.sorapointa.proto.AsterLittleDetailInfo.*;
+import org.sorapointa.proto.AsterLittleDetailInfo;
+import org.sorapointa.proto.AsterMidDetailInfo.*;
+import org.sorapointa.proto.AsterMidDetailInfo;
+import org.sorapointa.proto.AsterProgressDetailInfo.*;
+import org.sorapointa.proto.AsterProgressDetailInfo;
 
 public class AsterInfo {
     @Tag(tag=2) public AsterLargeDetailInfo asterLarge = null;

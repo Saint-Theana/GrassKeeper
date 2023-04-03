@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RegionSearchState.*;
+import org.sorapointa.proto.RegionSearchState;
 
 public class RegionSearch {
     @Tag(tag=1) public Integer regionSearchId = null;

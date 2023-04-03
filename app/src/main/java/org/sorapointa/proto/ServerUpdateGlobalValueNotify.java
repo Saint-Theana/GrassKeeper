@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ServerUpdateGlobalValueNotify_UpdateType.*;
+import org.sorapointa.proto.ServerUpdateGlobalValueNotify_UpdateType;
 
 public class ServerUpdateGlobalValueNotify {
     public enum ServerUpdateGlobalValueNotify_CmdId {

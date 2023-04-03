@@ -2,6 +2,22 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SkyCrystalDetectorData.*;
+import org.sorapointa.proto.SkyCrystalDetectorData;
+import org.sorapointa.proto.WeatherWizardData.*;
+import org.sorapointa.proto.WeatherWizardData;
+import org.sorapointa.proto.LunchBoxData.*;
+import org.sorapointa.proto.LunchBoxData;
+import org.sorapointa.proto.WidgetCoolDownData.*;
+import org.sorapointa.proto.WidgetCoolDownData;
+import org.sorapointa.proto.WidgetSlotData.*;
+import org.sorapointa.proto.WidgetSlotData;
+import org.sorapointa.proto.AnchorPointData.*;
+import org.sorapointa.proto.AnchorPointData;
+import org.sorapointa.proto.ClientCollectorData.*;
+import org.sorapointa.proto.ClientCollectorData;
+import org.sorapointa.proto.DetectorData.*;
+import org.sorapointa.proto.DetectorData;
 
 public class AllWidgetDataNotify {
     public enum AllWidgetDataNotify_CmdId {

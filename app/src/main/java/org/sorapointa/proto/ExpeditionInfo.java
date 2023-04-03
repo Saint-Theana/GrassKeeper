@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ExpeditionChallengeInfo.*;
+import org.sorapointa.proto.ExpeditionChallengeInfo;
+import org.sorapointa.proto.ExpeditionPathInfo.*;
+import org.sorapointa.proto.ExpeditionPathInfo;
 
 public class ExpeditionInfo {
     @Tag(tag=2) public List<ExpeditionChallengeInfo> challengeInfoList = new ArrayList<>();

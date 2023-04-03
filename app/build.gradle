@@ -6,7 +6,7 @@ mainClassName = 'com.ulcade.Main'
 
 jar {
     archiveBaseName = 'output'
-    archiveVersion =  '0.1.0'
+    archiveVersion =  '1.0.1'
 	manifest {
         attributes(
             //'Class-Path': configurations.compile.collect { it.getName() }.join(' '),

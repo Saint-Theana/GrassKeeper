@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LuaSetOptionNotify_LuaOptionType.*;
+import org.sorapointa.proto.LuaSetOptionNotify_LuaOptionType;
 
 public class LuaSetOptionNotify {
     public enum LuaSetOptionNotify_CmdId {

@@ -2,6 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilityControlBlock.*;
+import org.sorapointa.proto.AbilityControlBlock;
+import org.sorapointa.proto.AbilitySyncStateInfo.*;
+import org.sorapointa.proto.AbilitySyncStateInfo;
+import org.sorapointa.proto.Avatar.*;
+import org.sorapointa.proto.Avatar;
+import org.sorapointa.proto.AvatarInfo.*;
+import org.sorapointa.proto.AvatarInfo;
+import org.sorapointa.proto.SceneEntityInfo.*;
+import org.sorapointa.proto.SceneEntityInfo;
+import org.sorapointa.proto.ServerBuff.*;
+import org.sorapointa.proto.ServerBuff;
 
 public class SceneTeamAvatar {
     @Tag(tag=8) public Boolean isReconnect = null;

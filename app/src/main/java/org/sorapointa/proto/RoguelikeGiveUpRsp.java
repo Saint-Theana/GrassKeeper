@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RoguelikeDungeonSettleInfo.*;
+import org.sorapointa.proto.RoguelikeDungeonSettleInfo;
 
 public class RoguelikeGiveUpRsp {
     public enum RoguelikeGiveUpRsp_CmdId {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
 
 public class MarkEntityInMinMapNotify {
     public enum MarkEntityInMinMapNotify_CmdId {

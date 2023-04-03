@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BalloonInfo.*;
+import org.sorapointa.proto.BalloonInfo;
+import org.sorapointa.proto.FallInfo.*;
+import org.sorapointa.proto.FallInfo;
+import org.sorapointa.proto.MusicInfo.*;
+import org.sorapointa.proto.MusicInfo;
 
 public class FleurFairMinigameInfo {
     @Tag(tag=14) public Integer minigameId = null;

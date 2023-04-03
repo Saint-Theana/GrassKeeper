@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SummerTimeSprintBoatInfo.*;
+import org.sorapointa.proto.SummerTimeSprintBoatInfo;
+import org.sorapointa.proto.SummerTimeStageInfo.*;
+import org.sorapointa.proto.SummerTimeStageInfo;
 
 public class SummerTimeInfo {
     public static class MapStageMap {

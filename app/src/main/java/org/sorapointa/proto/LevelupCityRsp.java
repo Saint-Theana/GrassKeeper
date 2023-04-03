@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CityInfo.*;
+import org.sorapointa.proto.CityInfo;
 
 public class LevelupCityRsp {
     public enum LevelupCityRsp_CmdId {

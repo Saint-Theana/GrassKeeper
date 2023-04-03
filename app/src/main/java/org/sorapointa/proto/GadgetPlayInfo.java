@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CrucibleInfo.*;
+import org.sorapointa.proto.CrucibleInfo;
 
 public class GadgetPlayInfo {
     @Tag(tag=1) public Integer playType = null;

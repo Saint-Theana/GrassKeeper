@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CityReputationHuntInfo.*;
+import org.sorapointa.proto.CityReputationHuntInfo;
+import org.sorapointa.proto.CityReputationExploreInfo.*;
+import org.sorapointa.proto.CityReputationExploreInfo;
+import org.sorapointa.proto.CityReputationQuestInfo.*;
+import org.sorapointa.proto.CityReputationQuestInfo;
+import org.sorapointa.proto.CityReputationRequestInfo.*;
+import org.sorapointa.proto.CityReputationRequestInfo;
 
 public class CityReputationInfo {
     @Tag(tag=11) public Integer totalAcceptRequestNum = null;

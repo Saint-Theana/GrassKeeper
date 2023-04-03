@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BattlePassCycle.*;
+import org.sorapointa.proto.BattlePassCycle;
+import org.sorapointa.proto.BattlePassUnlockStatus.*;
+import org.sorapointa.proto.BattlePassUnlockStatus;
+import org.sorapointa.proto.BattlePassProduct.*;
+import org.sorapointa.proto.BattlePassProduct;
+import org.sorapointa.proto.BattlePassRewardTag.*;
+import org.sorapointa.proto.BattlePassRewardTag;
 
 public class BattlePassSchedule {
     @Tag(tag=11) public Integer scheduleId = null;

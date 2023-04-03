@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AsterMidCampInfo.*;
+import org.sorapointa.proto.AsterMidCampInfo;
 
 public class AsterMidDetailInfo {
     @Tag(tag=2) public List<AsterMidCampInfo> campList = new ArrayList<>();

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomePlantFieldStatus.*;
+import org.sorapointa.proto.HomePlantFieldStatus;
 
 public class HomePlantSubFieldData {
     @Tag(tag=15) public Integer endTime = null;

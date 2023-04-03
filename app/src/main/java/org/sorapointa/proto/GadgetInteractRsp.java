@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.InteractType.*;
+import org.sorapointa.proto.InteractType;
+import org.sorapointa.proto.InterOpType.*;
+import org.sorapointa.proto.InterOpType;
 
 public class GadgetInteractRsp {
     public enum GadgetInteractRsp_CmdId {

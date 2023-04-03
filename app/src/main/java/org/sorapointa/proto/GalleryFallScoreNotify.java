@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FallPlayerBrief.*;
+import org.sorapointa.proto.FallPlayerBrief;
 
 public class GalleryFallScoreNotify {
     public static class MapUidBriefMap {

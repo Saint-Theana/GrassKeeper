@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GallerySettleInfo.*;
+import org.sorapointa.proto.GallerySettleInfo;
+import org.sorapointa.proto.BossSettleInfo.*;
+import org.sorapointa.proto.BossSettleInfo;
 
 public class FleurFairStageSettleNotify {
     public enum FleurFairStageSettleNotify_CmdId {

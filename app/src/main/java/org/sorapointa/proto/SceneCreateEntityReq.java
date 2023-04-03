@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CreateEntityInfo.*;
+import org.sorapointa.proto.CreateEntityInfo;
+import org.sorapointa.proto.CreateReason.*;
+import org.sorapointa.proto.CreateReason;
 
 public class SceneCreateEntityReq {
     public enum SceneCreateEntityReq_CmdId {

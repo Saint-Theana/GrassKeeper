@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BundleInfo.*;
+import org.sorapointa.proto.BundleInfo;
+import org.sorapointa.proto.ScoreChallengeInfo.*;
+import org.sorapointa.proto.ScoreChallengeInfo;
 
 public class SalvageChallengeInfo {
     @Tag(tag=2) public Boolean isUnlock = null;

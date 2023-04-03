@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ActivityAcceptGiftResultInfo.*;
+import org.sorapointa.proto.ActivityAcceptGiftResultInfo;
 
 public class ActivityAcceptGiveGiftRsp {
     public enum ActivityAcceptGiveGiftRsp_CmdId {

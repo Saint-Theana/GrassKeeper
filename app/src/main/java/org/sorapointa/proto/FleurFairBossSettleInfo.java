@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FleurFairPlayerStatInfo.*;
+import org.sorapointa.proto.FleurFairPlayerStatInfo;
 
 public class FleurFairBossSettleInfo {
     @Tag(tag=3) public List<FleurFairPlayerStatInfo> statInfoList = new ArrayList<>();

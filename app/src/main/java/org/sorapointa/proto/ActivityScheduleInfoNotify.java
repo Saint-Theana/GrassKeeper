@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ActivityScheduleInfo.*;
+import org.sorapointa.proto.ActivityScheduleInfo;
 
 public class ActivityScheduleInfoNotify {
     public enum ActivityScheduleInfoNotify_CmdId {

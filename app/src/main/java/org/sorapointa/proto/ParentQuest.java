@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ParentQuestRandomInfo.*;
+import org.sorapointa.proto.ParentQuestRandomInfo;
+import org.sorapointa.proto.ChildQuest.*;
+import org.sorapointa.proto.ChildQuest;
+import org.sorapointa.proto.InferencePageInfo.*;
+import org.sorapointa.proto.InferencePageInfo;
 
 public class ParentQuest {
     public static class MapTimeVarMap {

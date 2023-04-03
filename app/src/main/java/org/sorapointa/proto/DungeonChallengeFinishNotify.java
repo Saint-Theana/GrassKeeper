@@ -2,6 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ChallengeFinishType.*;
+import org.sorapointa.proto.ChallengeFinishType;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonResultInfo.*;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonResultInfo;
+import org.sorapointa.proto.EffigyChallengeDungeonResultInfo.*;
+import org.sorapointa.proto.EffigyChallengeDungeonResultInfo;
+import org.sorapointa.proto.PotionDungeonResultInfo.*;
+import org.sorapointa.proto.PotionDungeonResultInfo;
+import org.sorapointa.proto.CustomDungeonResultInfo.*;
+import org.sorapointa.proto.CustomDungeonResultInfo;
+import org.sorapointa.proto.StrengthenPointData.*;
+import org.sorapointa.proto.StrengthenPointData;
 
 public class DungeonChallengeFinishNotify {
     public static class MapStrengthenPointDataMap {

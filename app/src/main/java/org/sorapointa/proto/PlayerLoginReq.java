@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.TrackingIOInfo.*;
+import org.sorapointa.proto.TrackingIOInfo;
+import org.sorapointa.proto.AdjustTrackingInfo.*;
+import org.sorapointa.proto.AdjustTrackingInfo;
 
 public class PlayerLoginReq {
     public enum PlayerLoginReq_CmdId {

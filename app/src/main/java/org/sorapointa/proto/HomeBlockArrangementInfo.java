@@ -2,6 +2,24 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeFurnitureSuiteData.*;
+import org.sorapointa.proto.HomeFurnitureSuiteData;
+import org.sorapointa.proto.HomeBlockFieldData.*;
+import org.sorapointa.proto.HomeBlockFieldData;
+import org.sorapointa.proto.WeekendDjinnInfo.*;
+import org.sorapointa.proto.WeekendDjinnInfo;
+import org.sorapointa.proto.HomeFurnitureData.*;
+import org.sorapointa.proto.HomeFurnitureData;
+import org.sorapointa.proto.HomeBlockDotPattern.*;
+import org.sorapointa.proto.HomeBlockDotPattern;
+import org.sorapointa.proto.HomeFurnitureGroupData.*;
+import org.sorapointa.proto.HomeFurnitureGroupData;
+import org.sorapointa.proto.HomeNpcData.*;
+import org.sorapointa.proto.HomeNpcData;
+import org.sorapointa.proto.HomeFurnitureCustomSuiteData.*;
+import org.sorapointa.proto.HomeFurnitureCustomSuiteData;
+import org.sorapointa.proto.HomeAnimalData.*;
+import org.sorapointa.proto.HomeAnimalData;
 
 public class HomeBlockArrangementInfo {
     @Tag(tag=12) public List<HomeFurnitureSuiteData> furnitureSuiteList = new ArrayList<>();

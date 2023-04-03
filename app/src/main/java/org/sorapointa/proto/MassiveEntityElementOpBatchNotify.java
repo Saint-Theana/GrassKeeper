@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ShapeSphere.*;
+import org.sorapointa.proto.ShapeSphere;
+import org.sorapointa.proto.ShapeBox.*;
+import org.sorapointa.proto.ShapeBox;
 
 public class MassiveEntityElementOpBatchNotify {
     public enum MassiveEntityElementOpBatchNotify_CmdId {

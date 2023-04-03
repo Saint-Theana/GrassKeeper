@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BartenderTaskInfo.*;
+import org.sorapointa.proto.BartenderTaskInfo;
+import org.sorapointa.proto.BartenderLevelInfo.*;
+import org.sorapointa.proto.BartenderLevelInfo;
 
 public class BartenderInfo {
     @Tag(tag=15) public List<BartenderTaskInfo> unlockTaskList = new ArrayList<>();

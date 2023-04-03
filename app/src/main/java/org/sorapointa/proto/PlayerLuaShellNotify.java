@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LuaShellType.*;
+import org.sorapointa.proto.LuaShellType;
 
 public class PlayerLuaShellNotify {
     public enum PlayerLuaShellNotify_CmdId {

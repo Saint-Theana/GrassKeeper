@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilityAttachedModifier.*;
+import org.sorapointa.proto.AbilityAttachedModifier;
+import org.sorapointa.proto.AbilityString.*;
+import org.sorapointa.proto.AbilityString;
+import org.sorapointa.proto.ModifierAction.*;
+import org.sorapointa.proto.ModifierAction;
+import org.sorapointa.proto.ModifierProperty.*;
+import org.sorapointa.proto.ModifierProperty;
 
 public class AbilityMetaModifierChange {
     @Tag(tag=8) public Integer applyEntityId = null;

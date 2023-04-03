@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.WIDGET_EXTRA_CD_TYPE.*;
+import org.sorapointa.proto.WIDGET_EXTRA_CD_TYPE;
 
 public class WidgetUpdateExtraCDReq {
     public enum WidgetUpdateExtraCDReq_CmdId {

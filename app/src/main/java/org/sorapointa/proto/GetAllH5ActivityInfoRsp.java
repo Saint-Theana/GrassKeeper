@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.H5ActivityInfo.*;
+import org.sorapointa.proto.H5ActivityInfo;
 
 public class GetAllH5ActivityInfoRsp {
     public enum GetAllH5ActivityInfoRsp_CmdId {

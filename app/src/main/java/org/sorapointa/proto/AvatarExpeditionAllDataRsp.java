@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AvatarExpeditionInfo.*;
+import org.sorapointa.proto.AvatarExpeditionInfo;
 
 public class AvatarExpeditionAllDataRsp {
     public static class MapExpeditionInfoMap {

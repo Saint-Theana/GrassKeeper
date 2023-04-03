@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilityString.*;
+import org.sorapointa.proto.AbilityString;
+import org.sorapointa.proto.AbilityAttachedModifier.*;
+import org.sorapointa.proto.AbilityAttachedModifier;
+import org.sorapointa.proto.ModifierDurability.*;
+import org.sorapointa.proto.ModifierDurability;
 
 public class AbilityAppliedModifier {
     @Tag(tag=1,isSigned=true) public Integer modifierLocalId = null;

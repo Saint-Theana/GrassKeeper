@@ -2,6 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BreakoutPhysicalObject.*;
+import org.sorapointa.proto.BreakoutPhysicalObject;
+import org.sorapointa.proto.BreakoutAction.*;
+import org.sorapointa.proto.BreakoutAction;
+import org.sorapointa.proto.BreakoutSpawnPoint.*;
+import org.sorapointa.proto.BreakoutSpawnPoint;
+import org.sorapointa.proto.BreakoutElementReactionCounter.*;
+import org.sorapointa.proto.BreakoutElementReactionCounter;
+import org.sorapointa.proto.BreakoutSyncConnectUidInfo.*;
+import org.sorapointa.proto.BreakoutSyncConnectUidInfo;
 
 public class BreakoutSnapShot {
     @Tag(tag=1) public Long clientGameTime = null;

@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FleurFairChapterInfo.*;
+import org.sorapointa.proto.FleurFairChapterInfo;
+import org.sorapointa.proto.FleurFairDungeonSectionInfo.*;
+import org.sorapointa.proto.FleurFairDungeonSectionInfo;
 
 public class FleurFairInfo {
     public static class MapMinigameInfoMap {

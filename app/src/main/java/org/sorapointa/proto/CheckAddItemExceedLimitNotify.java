@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CheckAddItemExceedLimitNotify_ItemExceedLimitMsgType.*;
+import org.sorapointa.proto.CheckAddItemExceedLimitNotify_ItemExceedLimitMsgType;
 
 public class CheckAddItemExceedLimitNotify {
     public enum CheckAddItemExceedLimitNotify_CmdId {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PlatformType.*;
+import org.sorapointa.proto.PlatformType;
 
 public class LECJEMMHPIA {
     public enum NOBHCGGEENL {

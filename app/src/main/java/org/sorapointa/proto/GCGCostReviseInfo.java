@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGSelectOnStageCostInfo.*;
+import org.sorapointa.proto.GCGSelectOnStageCostInfo;
+import org.sorapointa.proto.GCGAttackCostInfo.*;
+import org.sorapointa.proto.GCGAttackCostInfo;
+import org.sorapointa.proto.GCGPlayCardCostInfo.*;
+import org.sorapointa.proto.GCGPlayCardCostInfo;
 
 public class GCGCostReviseInfo {
     @Tag(tag=2) public Boolean isCanAttack = null;

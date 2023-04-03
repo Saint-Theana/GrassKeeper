@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.OnlinePlayerInfo.*;
+import org.sorapointa.proto.OnlinePlayerInfo;
+import org.sorapointa.proto.PlayerWidgetInfo.*;
+import org.sorapointa.proto.PlayerWidgetInfo;
 
 public class WorldPlayerInfoNotify {
     public enum WorldPlayerInfoNotify_CmdId {

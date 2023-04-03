@@ -2,6 +2,24 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MechanicusInfo.*;
+import org.sorapointa.proto.MechanicusInfo;
+import org.sorapointa.proto.FleurFairInfo.*;
+import org.sorapointa.proto.FleurFairInfo;
+import org.sorapointa.proto.HideAndSeekInfo.*;
+import org.sorapointa.proto.HideAndSeekInfo;
+import org.sorapointa.proto.ChessInfo.*;
+import org.sorapointa.proto.ChessInfo;
+import org.sorapointa.proto.IrodoriChessInfo.*;
+import org.sorapointa.proto.IrodoriChessInfo;
+import org.sorapointa.proto.CharAmusementInfo.*;
+import org.sorapointa.proto.CharAmusementInfo;
+import org.sorapointa.proto.BrickBreakerInfo.*;
+import org.sorapointa.proto.BrickBreakerInfo;
+import org.sorapointa.proto.CoinCollectInfo.*;
+import org.sorapointa.proto.CoinCollectInfo;
+import org.sorapointa.proto.LanV3BoatInfo.*;
+import org.sorapointa.proto.LanV3BoatInfo;
 
 public class MultistagePlayInfo {
     @Tag(tag=13) public Integer stageIndex = null;

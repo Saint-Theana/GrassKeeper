@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SummerTimeDungeonInfo.*;
+import org.sorapointa.proto.SummerTimeDungeonInfo;
 
 public class EchoShellInfo {
     @Tag(tag=10) public List<Integer> shellList = new ArrayList<>();

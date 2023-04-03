@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGDiceSideType.*;
+import org.sorapointa.proto.GCGDiceSideType;
 
 public class DiceRoll {
     @Tag(tag=8) public Integer controllerId = null;

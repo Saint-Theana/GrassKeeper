@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CoopChapter_State.*;
+import org.sorapointa.proto.CoopChapter_State;
+import org.sorapointa.proto.CoopCg.*;
+import org.sorapointa.proto.CoopCg;
+import org.sorapointa.proto.CoopReward.*;
+import org.sorapointa.proto.CoopReward;
+import org.sorapointa.proto.CoopPoint.*;
+import org.sorapointa.proto.CoopPoint;
 
 public class CoopChapter {
     public static class MapSeenEndingMap {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AvatarEquipAffixInfo.*;
+import org.sorapointa.proto.AvatarEquipAffixInfo;
 
 public class AvatarEquipAffixStartNotify {
     public enum AvatarEquipAffixStartNotify_CmdId {

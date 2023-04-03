@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CellInfo.*;
+import org.sorapointa.proto.CellInfo;
 
 public class MapInfo {
     @Tag(tag=1,isSigned=true) public Integer minx = null;

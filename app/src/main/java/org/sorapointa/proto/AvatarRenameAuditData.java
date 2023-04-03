@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AvatarRenameContentAuditField.*;
+import org.sorapointa.proto.AvatarRenameContentAuditField;
+import org.sorapointa.proto.ContentAuditAuxiliaryField.*;
+import org.sorapointa.proto.ContentAuditAuxiliaryField;
 
 public class AvatarRenameAuditData {
     @Tag(tag=1) public String aid = null;

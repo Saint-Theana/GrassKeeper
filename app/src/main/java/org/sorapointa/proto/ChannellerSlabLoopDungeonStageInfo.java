@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonInfo.*;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonInfo;
 
 public class ChannellerSlabLoopDungeonStageInfo {
     @Tag(tag=10) public List<ChannellerSlabLoopDungeonInfo> dungeonInfoList = new ArrayList<>();

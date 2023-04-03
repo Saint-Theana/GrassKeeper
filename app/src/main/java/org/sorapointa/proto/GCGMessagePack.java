@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGActionType.*;
+import org.sorapointa.proto.GCGActionType;
+import org.sorapointa.proto.GCGMessage.*;
+import org.sorapointa.proto.GCGMessage;
 
 public class GCGMessagePack {
     @Tag(tag=12) public Integer controllerId = null;

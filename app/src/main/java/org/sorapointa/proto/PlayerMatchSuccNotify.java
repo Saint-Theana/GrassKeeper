@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GeneralMatchInfo.*;
+import org.sorapointa.proto.GeneralMatchInfo;
+import org.sorapointa.proto.MatchType.*;
+import org.sorapointa.proto.MatchType;
+import org.sorapointa.proto.GCGMatchInfo.*;
+import org.sorapointa.proto.GCGMatchInfo;
 
 public class PlayerMatchSuccNotify {
     public enum PlayerMatchSuccNotify_CmdId {

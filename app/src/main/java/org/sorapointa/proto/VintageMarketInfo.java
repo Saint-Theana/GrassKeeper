@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.VintageMarketDealInfo.*;
+import org.sorapointa.proto.VintageMarketDealInfo;
+import org.sorapointa.proto.VintageMarketStoreInfo.*;
+import org.sorapointa.proto.VintageMarketStoreInfo;
 
 public class VintageMarketInfo {
     public static class MapBargainInfoMap {

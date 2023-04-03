@@ -2,6 +2,22 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.TrialAvatarInfo.*;
+import org.sorapointa.proto.TrialAvatarInfo;
+import org.sorapointa.proto.AvatarFetterInfo.*;
+import org.sorapointa.proto.AvatarFetterInfo;
+import org.sorapointa.proto.AvatarExpeditionState.*;
+import org.sorapointa.proto.AvatarExpeditionState;
+import org.sorapointa.proto.AvatarExcelInfo.*;
+import org.sorapointa.proto.AvatarExcelInfo;
+import org.sorapointa.proto.PIDFKDHMHKA.*;
+import org.sorapointa.proto.PIDFKDHMHKA;
+import org.sorapointa.proto.PropValue.*;
+import org.sorapointa.proto.PropValue;
+import org.sorapointa.proto.AvatarSkillInfo.*;
+import org.sorapointa.proto.AvatarSkillInfo;
+import org.sorapointa.proto.AvatarEquipAffixInfo.*;
+import org.sorapointa.proto.AvatarEquipAffixInfo;
 
 public class AvatarInfo {
     public static class MapPropMap {

@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CrystalLinkDungeonAvatarInfo.*;
+import org.sorapointa.proto.CrystalLinkDungeonAvatarInfo;
+import org.sorapointa.proto.CrystalLinkBuffInfo.*;
+import org.sorapointa.proto.CrystalLinkBuffInfo;
 
 public class CrystalLinkDungeonInfoNotify {
     public enum CrystalLinkDungeonInfoNotify_CmdId {

@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ShopMcoinProduct.*;
+import org.sorapointa.proto.ShopMcoinProduct;
+import org.sorapointa.proto.ShopCardProduct.*;
+import org.sorapointa.proto.ShopCardProduct;
+import org.sorapointa.proto.PlayProduct.*;
+import org.sorapointa.proto.PlayProduct;
+import org.sorapointa.proto.ShopConcertProduct.*;
+import org.sorapointa.proto.ShopConcertProduct;
 
 public class RechargeReq {
     public enum RechargeReq_CmdId {

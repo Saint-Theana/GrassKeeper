@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FlowerStartParam.*;
+import org.sorapointa.proto.FlowerStartParam;
+import org.sorapointa.proto.ElectroherculesStartParam.*;
+import org.sorapointa.proto.ElectroherculesStartParam;
 
 public class GalleryStartNotify {
     public enum GalleryStartNotify_CmdId {

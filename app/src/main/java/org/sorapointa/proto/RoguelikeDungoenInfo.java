@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RogueStageInfo.*;
+import org.sorapointa.proto.RogueStageInfo;
+import org.sorapointa.proto.RoguelikeShikigamiRecord.*;
+import org.sorapointa.proto.RoguelikeShikigamiRecord;
 
 public class RoguelikeDungoenInfo {
     @Tag(tag=6) public List<RogueStageInfo> stageList = new ArrayList<>();

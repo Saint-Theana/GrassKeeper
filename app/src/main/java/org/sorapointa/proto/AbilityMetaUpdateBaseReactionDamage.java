@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilityString.*;
+import org.sorapointa.proto.AbilityString;
 
 public class AbilityMetaUpdateBaseReactionDamage {
     @Tag(tag=12) public Integer reactionType = null;

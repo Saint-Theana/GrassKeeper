@@ -2,6 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Birthday.*;
+import org.sorapointa.proto.Birthday;
+import org.sorapointa.proto.FriendOnlineState.*;
+import org.sorapointa.proto.FriendOnlineState;
+import org.sorapointa.proto.FriendEnterHomeOption.*;
+import org.sorapointa.proto.FriendEnterHomeOption;
+import org.sorapointa.proto.ProfilePicture.*;
+import org.sorapointa.proto.ProfilePicture;
+import org.sorapointa.proto.SocialShowAvatarInfo.*;
+import org.sorapointa.proto.SocialShowAvatarInfo;
 
 public class SocialDetail {
     @Tag(tag=1) public Integer uid = null;

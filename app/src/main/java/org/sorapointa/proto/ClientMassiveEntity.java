@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.WaterInfo.*;
+import org.sorapointa.proto.WaterInfo;
+import org.sorapointa.proto.GrassInfo.*;
+import org.sorapointa.proto.GrassInfo;
+import org.sorapointa.proto.BoxInfo.*;
+import org.sorapointa.proto.BoxInfo;
 
 public class ClientMassiveEntity {
     @Tag(tag=1) public Integer entityType = null;

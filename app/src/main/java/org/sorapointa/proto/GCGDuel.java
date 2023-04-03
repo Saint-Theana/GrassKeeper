@@ -2,6 +2,26 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGCostReviseInfo.*;
+import org.sorapointa.proto.GCGCostReviseInfo;
+import org.sorapointa.proto.GCGGameBusinessType.*;
+import org.sorapointa.proto.GCGGameBusinessType;
+import org.sorapointa.proto.GCGPhase.*;
+import org.sorapointa.proto.GCGPhase;
+import org.sorapointa.proto.GCGCard.*;
+import org.sorapointa.proto.GCGCard;
+import org.sorapointa.proto.GCGMessagePack.*;
+import org.sorapointa.proto.GCGMessagePack;
+import org.sorapointa.proto.GCGControllerShowInfo.*;
+import org.sorapointa.proto.GCGControllerShowInfo;
+import org.sorapointa.proto.JHNLKGDJFCC.*;
+import org.sorapointa.proto.JHNLKGDJFCC;
+import org.sorapointa.proto.GCGPVEIntention.*;
+import org.sorapointa.proto.GCGPVEIntention;
+import org.sorapointa.proto.GCGPlayerField.*;
+import org.sorapointa.proto.GCGPlayerField;
+import org.sorapointa.proto.GCGDuelChallenge.*;
+import org.sorapointa.proto.GCGDuelChallenge;
 
 public class GCGDuel {
     @Tag(tag=1) public List<GCGCard> cardList = new ArrayList<>();

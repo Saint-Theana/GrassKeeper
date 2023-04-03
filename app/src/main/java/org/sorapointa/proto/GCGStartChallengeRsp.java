@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGLevelType.*;
+import org.sorapointa.proto.GCGLevelType;
 
 public class GCGStartChallengeRsp {
     public enum OBMPGGOELEB {

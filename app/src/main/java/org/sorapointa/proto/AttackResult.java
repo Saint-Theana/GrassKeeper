@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AttackHitEffectResult.*;
+import org.sorapointa.proto.AttackHitEffectResult;
+import org.sorapointa.proto.AbilityIdentifier.*;
+import org.sorapointa.proto.AbilityIdentifier;
+import org.sorapointa.proto.HitCollision.*;
+import org.sorapointa.proto.HitCollision;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
 
 public class AttackResult {
     @Tag(tag=6) public Integer endureBreak = null;

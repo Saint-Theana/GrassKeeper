@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ShopGoods.*;
+import org.sorapointa.proto.ShopGoods;
+import org.sorapointa.proto.BuyGoodsParam.*;
+import org.sorapointa.proto.BuyGoodsParam;
 
 public class BatchBuyGoodsRsp {
     public enum PEONLFKKKFC {

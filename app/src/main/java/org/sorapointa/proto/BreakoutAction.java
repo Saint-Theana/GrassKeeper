@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BreakoutActionType.*;
+import org.sorapointa.proto.BreakoutActionType;
+import org.sorapointa.proto.BreakoutVector2.*;
+import org.sorapointa.proto.BreakoutVector2;
 
 public class BreakoutAction {
     @Tag(tag=1) public Integer actionType = null;

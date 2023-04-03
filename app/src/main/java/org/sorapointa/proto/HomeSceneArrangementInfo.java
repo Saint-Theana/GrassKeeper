@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.HomeFurnitureData.*;
+import org.sorapointa.proto.HomeFurnitureData;
+import org.sorapointa.proto.HomeBlockArrangementInfo.*;
+import org.sorapointa.proto.HomeBlockArrangementInfo;
 
 public class HomeSceneArrangementInfo {
     @Tag(tag=15) public Vector djinnPos = null;

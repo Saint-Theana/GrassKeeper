@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MechanicusSettleInfo.*;
+import org.sorapointa.proto.MechanicusSettleInfo;
+import org.sorapointa.proto.ChessSettleInfo.*;
+import org.sorapointa.proto.ChessSettleInfo;
+import org.sorapointa.proto.IrodoriChessSettleInfo.*;
+import org.sorapointa.proto.IrodoriChessSettleInfo;
 
 public class MultistagePlaySettleNotify {
     public enum MultistagePlaySettleNotify_CmdId {

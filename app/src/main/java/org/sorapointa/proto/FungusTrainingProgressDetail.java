@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FungusTrainingPoolPreviewDetail.*;
+import org.sorapointa.proto.FungusTrainingPoolPreviewDetail;
+import org.sorapointa.proto.FungusFighterMonsterDetail.*;
+import org.sorapointa.proto.FungusFighterMonsterDetail;
 
 public class FungusTrainingProgressDetail {
     @Tag(tag=15) public List<Integer> backupMonsterList = new ArrayList<>();

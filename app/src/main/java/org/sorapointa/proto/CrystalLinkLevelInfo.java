@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CrystalLinkTeamInfo.*;
+import org.sorapointa.proto.CrystalLinkTeamInfo;
 
 public class CrystalLinkLevelInfo {
     @Tag(tag=3) public Integer levelId = null;

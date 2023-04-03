@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CombatInvokeEntry.*;
+import org.sorapointa.proto.CombatInvokeEntry;
 
 public class CombatInvocationsNotify {
     public enum CombatInvocationsNotify_CmdId {

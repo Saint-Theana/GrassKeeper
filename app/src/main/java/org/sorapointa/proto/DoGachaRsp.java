@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GachaItem.*;
+import org.sorapointa.proto.GachaItem;
 
 public class DoGachaRsp {
     public enum DoGachaRsp_CmdId {

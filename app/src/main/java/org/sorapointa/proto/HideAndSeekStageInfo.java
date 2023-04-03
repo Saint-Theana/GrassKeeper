@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HideAndSeekStageType.*;
+import org.sorapointa.proto.HideAndSeekStageType;
+import org.sorapointa.proto.HideAndSeekPlayerBattleInfo.*;
+import org.sorapointa.proto.HideAndSeekPlayerBattleInfo;
 
 public class HideAndSeekStageInfo {
     public static class MapBattleInfoMap {

@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MPLevelEntityInfo.*;
+import org.sorapointa.proto.MPLevelEntityInfo;
+import org.sorapointa.proto.TeamEnterSceneInfo.*;
+import org.sorapointa.proto.TeamEnterSceneInfo;
+import org.sorapointa.proto.AvatarEnterSceneInfo.*;
+import org.sorapointa.proto.AvatarEnterSceneInfo;
 
 public class PlayerEnterSceneInfoNotify {
     public enum PlayerEnterSceneInfoNotify_CmdId {

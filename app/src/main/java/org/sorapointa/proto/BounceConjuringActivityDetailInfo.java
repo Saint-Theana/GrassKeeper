@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BounceConjuringChapterInfo.*;
+import org.sorapointa.proto.BounceConjuringChapterInfo;
 
 public class BounceConjuringActivityDetailInfo {
     @Tag(tag=1) public Integer contentCloseTime = null;

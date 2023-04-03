@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RogueShowAvatarTeamInfo.*;
+import org.sorapointa.proto.RogueShowAvatarTeamInfo;
+import org.sorapointa.proto.RoguelikeRuneRecord.*;
+import org.sorapointa.proto.RoguelikeRuneRecord;
 
 public class RogueStageInfo {
     @Tag(tag=8) public Integer cachedCoinBNum = null;

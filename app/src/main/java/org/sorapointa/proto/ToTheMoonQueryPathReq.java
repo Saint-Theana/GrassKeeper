@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.OptionType.*;
+import org.sorapointa.proto.OptionType;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.AStarMethod.*;
+import org.sorapointa.proto.AStarMethod;
+import org.sorapointa.proto.FilterType.*;
+import org.sorapointa.proto.FilterType;
 
 public class ToTheMoonQueryPathReq {
     public enum MAJKIHKKGFG {

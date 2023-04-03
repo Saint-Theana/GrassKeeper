@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ExhibitionDisplayInfo.*;
+import org.sorapointa.proto.ExhibitionDisplayInfo;
+import org.sorapointa.proto.LanV3BoatSettleInfo.*;
+import org.sorapointa.proto.LanV3BoatSettleInfo;
 
 public class LanV3BoatSettleNotify {
     public enum BMIDNGEDLLF {

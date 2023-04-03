@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.UgcType.*;
+import org.sorapointa.proto.UgcType;
+import org.sorapointa.proto.MusicRecord.*;
+import org.sorapointa.proto.MusicRecord;
+import org.sorapointa.proto.UgcMusicBriefInfo.*;
+import org.sorapointa.proto.UgcMusicBriefInfo;
 
 public class SaveUgcReq {
     public enum SaveUgcReq_CmdId {

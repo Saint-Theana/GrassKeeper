@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FishBattleResult.*;
+import org.sorapointa.proto.FishBattleResult;
+import org.sorapointa.proto.FishBattleEndRsp_FishNoRewardReason.*;
+import org.sorapointa.proto.FishBattleEndRsp_FishNoRewardReason;
+import org.sorapointa.proto.ItemParam.*;
+import org.sorapointa.proto.ItemParam;
 
 public class FishBattleEndRsp {
     public enum FishBattleEndRsp_CmdId {

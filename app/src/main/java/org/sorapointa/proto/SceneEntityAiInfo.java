@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.ServantInfo.*;
+import org.sorapointa.proto.ServantInfo;
 
 public class SceneEntityAiInfo {
     public static class MapSkillCdMap {

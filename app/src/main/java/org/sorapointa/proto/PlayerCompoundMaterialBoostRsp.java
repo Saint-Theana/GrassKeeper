@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CompoundBoostTakeStatusType.*;
+import org.sorapointa.proto.CompoundBoostTakeStatusType;
+import org.sorapointa.proto.CompoundQueueData.*;
+import org.sorapointa.proto.CompoundQueueData;
+import org.sorapointa.proto.ItemParam.*;
+import org.sorapointa.proto.ItemParam;
 
 public class PlayerCompoundMaterialBoostRsp {
     public enum HAJAHDPJKBC {

@@ -2,6 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SyncType.*;
+import org.sorapointa.proto.SyncType;
+import org.sorapointa.proto.SyncCreateConnect.*;
+import org.sorapointa.proto.SyncCreateConnect;
+import org.sorapointa.proto.SyncPing.*;
+import org.sorapointa.proto.SyncPing;
+import org.sorapointa.proto.SyncFinishGame.*;
+import org.sorapointa.proto.SyncFinishGame;
+import org.sorapointa.proto.SyncSnapShot.*;
+import org.sorapointa.proto.SyncSnapShot;
+import org.sorapointa.proto.SyncAction.*;
+import org.sorapointa.proto.SyncAction;
 
 public class AbilityMixinBreakout {
     @Tag(tag=13,isSigned=true) public Integer retcode = null;

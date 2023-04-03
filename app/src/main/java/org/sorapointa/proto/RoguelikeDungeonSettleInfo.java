@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RoguelikeSettleCoinInfo.*;
+import org.sorapointa.proto.RoguelikeSettleCoinInfo;
 
 public class RoguelikeDungeonSettleInfo {
     public static class MapFinishedChallengeCellNumMap {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.DungeonEntryInfo.*;
+import org.sorapointa.proto.DungeonEntryInfo;
 
 public class DungeonEntryPointInfo {
     @Tag(tag=1) public Integer sceneId = null;

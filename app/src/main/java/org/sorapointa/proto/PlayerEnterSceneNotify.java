@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.EnterType.*;
+import org.sorapointa.proto.EnterType;
 
 public class PlayerEnterSceneNotify {
     public enum PlayerEnterSceneNotify_CmdId {

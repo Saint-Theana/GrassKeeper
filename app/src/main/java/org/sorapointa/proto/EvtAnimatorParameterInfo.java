@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AnimatorParameterValueInfo.*;
+import org.sorapointa.proto.AnimatorParameterValueInfo;
 
 public class EvtAnimatorParameterInfo {
     @Tag(tag=14) public Integer entityId = null;

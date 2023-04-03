@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SvrMsgId.*;
+import org.sorapointa.proto.SvrMsgId;
+import org.sorapointa.proto.MsgParam.*;
+import org.sorapointa.proto.MsgParam;
 
 public class ShowMessageNotify {
     public enum ShowMessageNotify_CmdId {

@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SummerTimeV2BoatStageInfo.*;
+import org.sorapointa.proto.SummerTimeV2BoatStageInfo;
+import org.sorapointa.proto.SummerTimeV2DungeonStageInfo.*;
+import org.sorapointa.proto.SummerTimeV2DungeonStageInfo;
 
 public class SummerTimeV2Info {
     @Tag(tag=7) public Boolean isContentClosed = null;

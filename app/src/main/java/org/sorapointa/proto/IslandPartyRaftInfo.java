@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GalleryStartSource.*;
+import org.sorapointa.proto.GalleryStartSource;
 
 public class IslandPartyRaftInfo {
     @Tag(tag=10) public Integer coin = null;

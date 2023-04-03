@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.TryCustomDungeonType.*;
+import org.sorapointa.proto.TryCustomDungeonType;
+import org.sorapointa.proto.EnterCustomDungeonType.*;
+import org.sorapointa.proto.EnterCustomDungeonType;
 
 public class CustomDungeonOfficialNotify {
     public enum CustomDungeonOfficialNotify_CmdId {

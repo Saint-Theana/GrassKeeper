@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BreakoutSnapShot.*;
+import org.sorapointa.proto.BreakoutSnapShot;
+import org.sorapointa.proto.MassivePropSyncInfo.*;
+import org.sorapointa.proto.MassivePropSyncInfo;
 
 public class AbilityMixinRecoverInfo {
     @Tag(tag=1) public Integer instancedAbilityId = null;

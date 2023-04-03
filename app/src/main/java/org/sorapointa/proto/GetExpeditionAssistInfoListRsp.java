@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ExpeditionAssistInfo.*;
+import org.sorapointa.proto.ExpeditionAssistInfo;
 
 public class GetExpeditionAssistInfoListRsp {
     public enum GetExpeditionAssistInfoListRsp_CmdId {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ActivityFriendGiftWishData.*;
+import org.sorapointa.proto.ActivityFriendGiftWishData;
 
 public class ActivityGetFriendGiftWishListRsp {
     public enum ActivityGetFriendGiftWishListRsp_CmdId {

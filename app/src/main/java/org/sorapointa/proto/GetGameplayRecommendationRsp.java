@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SkillResponse.*;
+import org.sorapointa.proto.SkillResponse;
+import org.sorapointa.proto.ReliquaryResponse.*;
+import org.sorapointa.proto.ReliquaryResponse;
+import org.sorapointa.proto.ElementReliquaryResponse.*;
+import org.sorapointa.proto.ElementReliquaryResponse;
 
 public class GetGameplayRecommendationRsp {
     public enum GetGameplayRecommendationRsp_CmdId {

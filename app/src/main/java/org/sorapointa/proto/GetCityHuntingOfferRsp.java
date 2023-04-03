@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HuntingPair.*;
+import org.sorapointa.proto.HuntingPair;
+import org.sorapointa.proto.HuntingOfferData.*;
+import org.sorapointa.proto.HuntingOfferData;
 
 public class GetCityHuntingOfferRsp {
     public enum GetCityHuntingOfferRsp_CmdId {

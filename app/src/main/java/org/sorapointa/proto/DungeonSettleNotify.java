@@ -2,6 +2,34 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.TowerLevelEndNotify.*;
+import org.sorapointa.proto.TowerLevelEndNotify;
+import org.sorapointa.proto.TrialAvatarFirstPassDungeonNotify.*;
+import org.sorapointa.proto.TrialAvatarFirstPassDungeonNotify;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonResultInfo.*;
+import org.sorapointa.proto.ChannellerSlabLoopDungeonResultInfo;
+import org.sorapointa.proto.EffigyChallengeDungeonResultInfo.*;
+import org.sorapointa.proto.EffigyChallengeDungeonResultInfo;
+import org.sorapointa.proto.RoguelikeDungeonSettleInfo.*;
+import org.sorapointa.proto.RoguelikeDungeonSettleInfo;
+import org.sorapointa.proto.CrystalLinkSettleInfo.*;
+import org.sorapointa.proto.CrystalLinkSettleInfo;
+import org.sorapointa.proto.SummerTimeV2DungeonSettleInfo.*;
+import org.sorapointa.proto.SummerTimeV2DungeonSettleInfo;
+import org.sorapointa.proto.InstableSpraySettleInfo.*;
+import org.sorapointa.proto.InstableSpraySettleInfo;
+import org.sorapointa.proto.WindFieldDungeonSettleInfo.*;
+import org.sorapointa.proto.WindFieldDungeonSettleInfo;
+import org.sorapointa.proto.EffigyChallengeV2SettleInfo.*;
+import org.sorapointa.proto.EffigyChallengeV2SettleInfo;
+import org.sorapointa.proto.TeamChainSettleInfo.*;
+import org.sorapointa.proto.TeamChainSettleInfo;
+import org.sorapointa.proto.DungeonSettleExhibitionInfo.*;
+import org.sorapointa.proto.DungeonSettleExhibitionInfo;
+import org.sorapointa.proto.ParamList.*;
+import org.sorapointa.proto.ParamList;
+import org.sorapointa.proto.StrengthenPointData.*;
+import org.sorapointa.proto.StrengthenPointData;
 
 public class DungeonSettleNotify {
     public static class MapSettleShow {

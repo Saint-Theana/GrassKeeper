@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGDamageDetail.*;
+import org.sorapointa.proto.GCGDamageDetail;
 
 public class GCGMsgSkillResult {
     @Tag(tag=15) public Integer resultSeq = null;

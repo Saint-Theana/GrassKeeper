@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FirstStageInfo.*;
+import org.sorapointa.proto.FirstStageInfo;
+import org.sorapointa.proto.SecondStageInfo.*;
+import org.sorapointa.proto.SecondStageInfo;
+import org.sorapointa.proto.ThirdStageInfo.*;
+import org.sorapointa.proto.ThirdStageInfo;
 
 public class VintageHuntingInfo {
     @Tag(tag=2) public Integer stageId = null;

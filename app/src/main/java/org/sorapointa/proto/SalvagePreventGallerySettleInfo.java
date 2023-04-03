@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SalvagePreventStopReason.*;
+import org.sorapointa.proto.SalvagePreventStopReason;
 
 public class SalvagePreventGallerySettleInfo {
     @Tag(tag=10) public Integer timeRemain = null;

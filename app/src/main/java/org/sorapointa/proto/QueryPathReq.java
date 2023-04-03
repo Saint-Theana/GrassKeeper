@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector3Int.*;
+import org.sorapointa.proto.Vector3Int;
+import org.sorapointa.proto.QueryPathReq_OptionType.*;
+import org.sorapointa.proto.QueryPathReq_OptionType;
+import org.sorapointa.proto.QueryFilter.*;
+import org.sorapointa.proto.QueryFilter;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
 
 public class QueryPathReq {
     public enum QueryPathReq_CmdId {

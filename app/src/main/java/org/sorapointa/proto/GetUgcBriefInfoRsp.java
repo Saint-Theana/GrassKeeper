@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.UgcType.*;
+import org.sorapointa.proto.UgcType;
+import org.sorapointa.proto.MusicBriefInfo.*;
+import org.sorapointa.proto.MusicBriefInfo;
 
 public class GetUgcBriefInfoRsp {
     public enum GetUgcBriefInfoRsp_CmdId {

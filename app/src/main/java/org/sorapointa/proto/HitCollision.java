@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.HitColliderType.*;
+import org.sorapointa.proto.HitColliderType;
 
 public class HitCollision {
     @Tag(tag=12,isFloat=true) public Float attackeeHitEntityAngle = null;

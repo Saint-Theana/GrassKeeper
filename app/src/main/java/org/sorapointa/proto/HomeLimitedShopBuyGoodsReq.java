@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeLimitedShopGoods.*;
+import org.sorapointa.proto.HomeLimitedShopGoods;
 
 public class HomeLimitedShopBuyGoodsReq {
     public enum HomeLimitedShopBuyGoodsReq_CmdId {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PotionLevelData.*;
+import org.sorapointa.proto.PotionLevelData;
 
 public class PotionStageData {
     @Tag(tag=9) public List<Integer> coolDownAvatarIdList = new ArrayList<>();

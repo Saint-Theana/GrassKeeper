@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BalloonPlayerInfo.*;
+import org.sorapointa.proto.BalloonPlayerInfo;
 
 public class BalloonInfo {
     public static class MapScenePlayerBalloonInfoMap {

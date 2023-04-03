@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MarkMapReq_Operation.*;
+import org.sorapointa.proto.MarkMapReq_Operation;
+import org.sorapointa.proto.MapMarkPoint.*;
+import org.sorapointa.proto.MapMarkPoint;
 
 public class MarkMapReq {
     public enum MarkMapReq_CmdId {

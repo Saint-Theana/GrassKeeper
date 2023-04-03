@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BreakoutVector2.*;
+import org.sorapointa.proto.BreakoutVector2;
+import org.sorapointa.proto.BreakoutPhysicalObjectModifier.*;
+import org.sorapointa.proto.BreakoutPhysicalObjectModifier;
+import org.sorapointa.proto.BreakoutBrickInfo.*;
+import org.sorapointa.proto.BreakoutBrickInfo;
 
 public class BreakoutPhysicalObject {
     @Tag(tag=1) public Integer id = null;

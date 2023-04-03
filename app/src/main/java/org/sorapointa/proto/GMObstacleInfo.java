@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ObstacleInfo_ShapeType.*;
+import org.sorapointa.proto.ObstacleInfo_ShapeType;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.RotationSpeed.*;
+import org.sorapointa.proto.RotationSpeed;
+import org.sorapointa.proto.Vector3Int.*;
+import org.sorapointa.proto.Vector3Int;
 
 public class GMObstacleInfo {
     @Tag(tag=13,isSigned=true) public Long timestamp = null;

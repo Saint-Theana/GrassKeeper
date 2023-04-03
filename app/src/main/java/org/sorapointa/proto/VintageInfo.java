@@ -2,6 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.VintageBoothUsedItemData.*;
+import org.sorapointa.proto.VintageBoothUsedItemData;
+import org.sorapointa.proto.VintageMarketInfo.*;
+import org.sorapointa.proto.VintageMarketInfo;
+import org.sorapointa.proto.VintageHuntingStageData.*;
+import org.sorapointa.proto.VintageHuntingStageData;
+import org.sorapointa.proto.VintagePresentStageData.*;
+import org.sorapointa.proto.VintagePresentStageData;
+import org.sorapointa.proto.VintageCampChallengeStageData.*;
+import org.sorapointa.proto.VintageCampChallengeStageData;
 
 public class VintageInfo {
     public static class MapHuntingStageMap {

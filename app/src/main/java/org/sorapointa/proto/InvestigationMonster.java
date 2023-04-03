@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.WeeklyBossResinDiscountInfo.*;
+import org.sorapointa.proto.WeeklyBossResinDiscountInfo;
+import org.sorapointa.proto.InvestigationMonster_LockState.*;
+import org.sorapointa.proto.InvestigationMonster_LockState;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
 
 public class InvestigationMonster {
     @Tag(tag=1) public Integer nextRefreshTime = null;

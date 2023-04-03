@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PlayerPreEnterMpNotify_State.*;
+import org.sorapointa.proto.PlayerPreEnterMpNotify_State;
 
 public class PlayerPreEnterMpNotify {
     public enum PlayerPreEnterMpNotify_CmdId {

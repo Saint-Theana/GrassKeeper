@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AsterLittleStageState.*;
+import org.sorapointa.proto.AsterLittleStageState;
 
 public class AsterLittleDetailInfo {
     @Tag(tag=13) public Integer stageBeginTime = null;

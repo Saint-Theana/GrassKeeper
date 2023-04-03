@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.RotationSpeed.*;
+import org.sorapointa.proto.RotationSpeed;
+import org.sorapointa.proto.ShapeType.*;
+import org.sorapointa.proto.ShapeType;
 
 public class ToTheMoonObstacleInfo {
     @Tag(tag=3) public Vector center = null;

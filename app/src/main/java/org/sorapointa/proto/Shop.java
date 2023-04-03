@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ShopMcoinProduct.*;
+import org.sorapointa.proto.ShopMcoinProduct;
+import org.sorapointa.proto.ShopConcertProduct.*;
+import org.sorapointa.proto.ShopConcertProduct;
+import org.sorapointa.proto.ShopCardProduct.*;
+import org.sorapointa.proto.ShopCardProduct;
+import org.sorapointa.proto.ShopGoods.*;
+import org.sorapointa.proto.ShopGoods;
 
 public class Shop {
     @Tag(tag=6) public List<ShopMcoinProduct> mcoinProductList = new ArrayList<>();

@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FungusDetail.*;
+import org.sorapointa.proto.FungusDetail;
+import org.sorapointa.proto.FungusTrainingProgressDetail.*;
+import org.sorapointa.proto.FungusTrainingProgressDetail;
+import org.sorapointa.proto.FungusPlotStageDetail.*;
+import org.sorapointa.proto.FungusPlotStageDetail;
+import org.sorapointa.proto.FungusTrainingDungeonDetail.*;
+import org.sorapointa.proto.FungusTrainingDungeonDetail;
 
 public class FungusFighterInfo {
     @Tag(tag=3) public List<FungusDetail> fungusDetailList = new ArrayList<>();

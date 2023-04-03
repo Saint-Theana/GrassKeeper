@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MotionInfo.*;
+import org.sorapointa.proto.MotionInfo;
 
 public class EntityMoveFailInfo {
     @Tag(tag=2) public MotionInfo failMotion = null;

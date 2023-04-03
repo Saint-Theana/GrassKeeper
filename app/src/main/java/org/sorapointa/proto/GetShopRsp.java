@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Shop.*;
+import org.sorapointa.proto.Shop;
 
 public class GetShopRsp {
     public enum GetShopRsp_CmdId {

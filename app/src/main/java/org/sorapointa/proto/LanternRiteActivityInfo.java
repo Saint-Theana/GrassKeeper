@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LanternRiteFireworksInfo.*;
+import org.sorapointa.proto.LanternRiteFireworksInfo;
+import org.sorapointa.proto.LanternProjectionInfo.*;
+import org.sorapointa.proto.LanternProjectionInfo;
+import org.sorapointa.proto.SalvageStageInfo.*;
+import org.sorapointa.proto.SalvageStageInfo;
 
 public class LanternRiteActivityInfo {
     @Tag(tag=6) public LanternRiteFireworksInfo fireworksInfo = null;

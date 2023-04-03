@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PlayerDieType.*;
+import org.sorapointa.proto.PlayerDieType;
+import org.sorapointa.proto.StrengthenPointData.*;
+import org.sorapointa.proto.StrengthenPointData;
 
 public class DungeonPlayerDieNotify {
     public static class MapStrengthenPointDataMap {

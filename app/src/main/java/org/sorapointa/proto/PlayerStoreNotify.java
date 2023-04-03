@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.StoreType.*;
+import org.sorapointa.proto.StoreType;
+import org.sorapointa.proto.TrifleItem.*;
+import org.sorapointa.proto.TrifleItem;
 
 public class PlayerStoreNotify {
     public enum PlayerStoreNotify_CmdId {

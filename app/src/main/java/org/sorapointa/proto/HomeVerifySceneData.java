@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeVerifyBlockData.*;
+import org.sorapointa.proto.HomeVerifyBlockData;
 
 public class HomeVerifySceneData {
     @Tag(tag=11) public Integer sceneId = null;

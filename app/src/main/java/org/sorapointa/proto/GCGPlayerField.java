@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGZone.*;
+import org.sorapointa.proto.GCGZone;
+import org.sorapointa.proto.GCGDiceSideType.*;
+import org.sorapointa.proto.GCGDiceSideType;
+import org.sorapointa.proto.GCGPVEIntention.*;
+import org.sorapointa.proto.GCGPVEIntention;
+import org.sorapointa.proto.GCGWaitingCharacter.*;
+import org.sorapointa.proto.GCGWaitingCharacter;
 
 public class GCGPlayerField {
     public static class MapModifyZoneMap {

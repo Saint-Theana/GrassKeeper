@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CustomDungeonBanInfo.*;
+import org.sorapointa.proto.CustomDungeonBanInfo;
+import org.sorapointa.proto.CustomDungeonBrief.*;
+import org.sorapointa.proto.CustomDungeonBrief;
 
 public class GetCustomDungeonRsp {
     public enum GetCustomDungeonRsp_CmdId {

@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ActivityDungeonAvatar.*;
+import org.sorapointa.proto.ActivityDungeonAvatar;
+import org.sorapointa.proto.RogueDiaryAvatarDisableStatus.*;
+import org.sorapointa.proto.RogueDiaryAvatarDisableStatus;
 
 public class RogueDiaryAvatar {
     @Tag(tag=4) public List<Integer> disableStatusList = new ArrayList<>();

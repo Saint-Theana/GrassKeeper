@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FlightDailyRecord.*;
+import org.sorapointa.proto.FlightDailyRecord;
 
 public class FlightInfo {
     @Tag(tag=5) public List<FlightDailyRecord> dailyRecordList = new ArrayList<>();

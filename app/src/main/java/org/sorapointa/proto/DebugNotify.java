@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.DebugNotify_Retcode.*;
+import org.sorapointa.proto.DebugNotify_Retcode;
 
 public class DebugNotify {
     public enum DebugNotify_Enum {

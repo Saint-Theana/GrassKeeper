@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeGroupPlayerInfo.*;
+import org.sorapointa.proto.HomeGroupPlayerInfo;
 
 public class HomeBalloonGalleryRecord {
     @Tag(tag=2) public Integer hitCount = null;

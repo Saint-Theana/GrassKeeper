@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LunaRiteHintStatusType.*;
+import org.sorapointa.proto.LunaRiteHintStatusType;
+import org.sorapointa.proto.LunaRiteHintPoint.*;
+import org.sorapointa.proto.LunaRiteHintPoint;
 
 public class LunaRiteHintPointRsp {
     public enum LunaRiteHintPointRsp_CmdId {

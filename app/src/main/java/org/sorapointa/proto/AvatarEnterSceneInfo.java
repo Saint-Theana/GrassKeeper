@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilitySyncStateInfo.*;
+import org.sorapointa.proto.AbilitySyncStateInfo;
+import org.sorapointa.proto.ServerBuff.*;
+import org.sorapointa.proto.ServerBuff;
 
 public class AvatarEnterSceneInfo {
     @Tag(tag=8) public Long avatarGuid = null;

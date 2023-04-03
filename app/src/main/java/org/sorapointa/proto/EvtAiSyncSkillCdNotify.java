@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AiSkillCdInfo.*;
+import org.sorapointa.proto.AiSkillCdInfo;
 
 public class EvtAiSyncSkillCdNotify {
     public static class MapAiCdMap {

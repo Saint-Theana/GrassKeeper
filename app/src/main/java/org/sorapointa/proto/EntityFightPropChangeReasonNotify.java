@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PropChangeReason.*;
+import org.sorapointa.proto.PropChangeReason;
+import org.sorapointa.proto.ChangHpReason.*;
+import org.sorapointa.proto.ChangHpReason;
+import org.sorapointa.proto.ChangeEnergyReason.*;
+import org.sorapointa.proto.ChangeEnergyReason;
 
 public class EntityFightPropChangeReasonNotify {
     public enum EntityFightPropChangeReasonNotify_CmdId {

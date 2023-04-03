@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RegionInfo.*;
+import org.sorapointa.proto.RegionInfo;
+import org.sorapointa.proto.ForceUdpate.*;
+import org.sorapointa.proto.ForceUdpate;
+import org.sorapointa.proto.StopServer.*;
+import org.sorapointa.proto.StopServer;
 
 public class QueryCurrRegionHttpRsp {
     @Tag(tag=1,isSigned=true) public Integer retcode = null;

@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.CylinderSize.*;
+import org.sorapointa.proto.CylinderSize;
+import org.sorapointa.proto.PolygonSize.*;
+import org.sorapointa.proto.PolygonSize;
 
 public class PlayerEyePointStateNotify {
     public enum PlayerEyePointStateNotify_CmdId {

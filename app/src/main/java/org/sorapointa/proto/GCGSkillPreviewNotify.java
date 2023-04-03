@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGChangeOnstageInfo.*;
+import org.sorapointa.proto.GCGChangeOnstageInfo;
+import org.sorapointa.proto.GCGSkillPreviewInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewInfo;
+import org.sorapointa.proto.GCGSkillPreviewPlayCardInfo.*;
+import org.sorapointa.proto.GCGSkillPreviewPlayCardInfo;
 
 public class GCGSkillPreviewNotify {
     public enum EBIPPGMBKOL {

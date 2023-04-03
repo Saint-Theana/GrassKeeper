@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ResVersionConfig.*;
+import org.sorapointa.proto.ResVersionConfig;
 
 public class GetNextResourceInfoRsp {
     public enum GetNextResourceInfoRsp_CmdId {

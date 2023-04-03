@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GCGEndReason.*;
+import org.sorapointa.proto.GCGEndReason;
+import org.sorapointa.proto.GCGGameBusinessType.*;
+import org.sorapointa.proto.GCGGameBusinessType;
+import org.sorapointa.proto.ItemParam.*;
+import org.sorapointa.proto.ItemParam;
 
 public class GCGSettleNotify {
     public enum NAEPLBPDGDG {

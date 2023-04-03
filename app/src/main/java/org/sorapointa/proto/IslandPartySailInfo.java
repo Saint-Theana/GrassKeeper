@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.GalleryStartSource.*;
+import org.sorapointa.proto.GalleryStartSource;
+import org.sorapointa.proto.IslandPartySailStage.*;
+import org.sorapointa.proto.IslandPartySailStage;
 
 public class IslandPartySailInfo {
     @Tag(tag=1) public Integer startSource = null;

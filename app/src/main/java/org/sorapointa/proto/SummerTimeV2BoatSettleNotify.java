@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SummerTimeV2BoatGallerySettleInfo.*;
+import org.sorapointa.proto.SummerTimeV2BoatGallerySettleInfo;
 
 public class SummerTimeV2BoatSettleNotify {
     public enum SummerTimeV2BoatSettleNotify_CmdId {

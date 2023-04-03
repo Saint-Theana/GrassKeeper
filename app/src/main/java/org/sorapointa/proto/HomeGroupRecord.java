@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.RacingGalleryInfo.*;
+import org.sorapointa.proto.RacingGalleryInfo;
+import org.sorapointa.proto.BalloonGalleryInfo.*;
+import org.sorapointa.proto.BalloonGalleryInfo;
+import org.sorapointa.proto.StakePlayInfo.*;
+import org.sorapointa.proto.StakePlayInfo;
+import org.sorapointa.proto.SeekFurnitureGalleryInfo.*;
+import org.sorapointa.proto.SeekFurnitureGalleryInfo;
 
 public class HomeGroupRecord {
     @Tag(tag=8) public Integer groupId = null;

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.HomeGroupRecord.*;
+import org.sorapointa.proto.HomeGroupRecord;
 
 public class HomeGetGroupRecordRsp {
     public enum HomeGetGroupRecordRsp_CmdId {

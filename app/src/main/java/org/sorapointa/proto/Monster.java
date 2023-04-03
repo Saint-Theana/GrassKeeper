@@ -2,6 +2,16 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MonsterBornType.*;
+import org.sorapointa.proto.MonsterBornType;
+import org.sorapointa.proto.MonsterRoute.*;
+import org.sorapointa.proto.MonsterRoute;
+import org.sorapointa.proto.FishInfo.*;
+import org.sorapointa.proto.FishInfo;
+import org.sorapointa.proto.FishtankFishInfo.*;
+import org.sorapointa.proto.FishtankFishInfo;
+import org.sorapointa.proto.SceneWeaponInfo.*;
+import org.sorapointa.proto.SceneWeaponInfo;
 
 public class Monster {
     public static class MapSummonTagMap {

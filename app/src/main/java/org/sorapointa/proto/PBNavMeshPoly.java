@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.PBNavMeshPoly_EdgeType.*;
+import org.sorapointa.proto.PBNavMeshPoly_EdgeType;
 
 public class PBNavMeshPoly {
     @Tag(tag=1) public List<Integer> edgeTypes = new ArrayList<>();

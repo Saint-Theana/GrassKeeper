@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilityString.*;
+import org.sorapointa.proto.AbilityString;
+import org.sorapointa.proto.AbilityScalarType.*;
+import org.sorapointa.proto.AbilityScalarType;
 
 public class AbilityScalarValueEntry {
     @Tag(tag=1) public AbilityString key = null;

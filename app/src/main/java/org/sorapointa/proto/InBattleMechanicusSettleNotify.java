@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MultistageSettleWatcherInfo.*;
+import org.sorapointa.proto.MultistageSettleWatcherInfo;
 
 public class InBattleMechanicusSettleNotify {
     public enum InBattleMechanicusSettleNotify_CmdId {

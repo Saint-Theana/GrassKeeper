@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.WinterCampAcceptItemResultInfo.*;
+import org.sorapointa.proto.WinterCampAcceptItemResultInfo;
 
 public class WinterCampAcceptAllGiveItemRsp {
     public enum WinterCampAcceptAllGiveItemRsp_CmdId {

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.SeaLampSectionInfo.*;
+import org.sorapointa.proto.SeaLampSectionInfo;
 
 public class SeaLampActivityInfo {
     @Tag(tag=1) public Boolean isContentClosed = null;

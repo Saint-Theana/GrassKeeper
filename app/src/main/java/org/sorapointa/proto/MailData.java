@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MailTextContent.*;
+import org.sorapointa.proto.MailTextContent;
+import org.sorapointa.proto.MailCollectState.*;
+import org.sorapointa.proto.MailCollectState;
+import org.sorapointa.proto.MailItem.*;
+import org.sorapointa.proto.MailItem;
 
 public class MailData {
     @Tag(tag=1) public Integer mailId = null;

@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.CoinCollectTeamInfoData.*;
+import org.sorapointa.proto.CoinCollectTeamInfoData;
 
 public class CoinCollectLevelData {
     @Tag(tag=15) public Boolean isHavePlayDoubleLevel = null;

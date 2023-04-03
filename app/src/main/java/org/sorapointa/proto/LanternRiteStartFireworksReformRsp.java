@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.LanternRiteFireworksReformFactorInfo.*;
+import org.sorapointa.proto.LanternRiteFireworksReformFactorInfo;
+import org.sorapointa.proto.LanternRiteFireworksReformSkillInfo.*;
+import org.sorapointa.proto.LanternRiteFireworksReformSkillInfo;
 
 public class LanternRiteStartFireworksReformRsp {
     public enum LanternRiteStartFireworksReformRsp_CmdId {

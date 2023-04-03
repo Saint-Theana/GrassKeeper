@@ -2,6 +2,8 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.BattlePassSchedule.*;
+import org.sorapointa.proto.BattlePassSchedule;
 
 public class BattlePassCurScheduleUpdateNotify {
     public enum BattlePassCurScheduleUpdateNotify_CmdId {

@@ -2,6 +2,18 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.AbilitySyncStateInfo.*;
+import org.sorapointa.proto.AbilitySyncStateInfo;
+import org.sorapointa.proto.EntityRendererChangedInfo.*;
+import org.sorapointa.proto.EntityRendererChangedInfo;
+import org.sorapointa.proto.SceneEntityAiInfo.*;
+import org.sorapointa.proto.SceneEntityAiInfo;
+import org.sorapointa.proto.Vector.*;
+import org.sorapointa.proto.Vector;
+import org.sorapointa.proto.EntityClientExtraInfo.*;
+import org.sorapointa.proto.EntityClientExtraInfo;
+import org.sorapointa.proto.AnimatorParameterValueInfoPair.*;
+import org.sorapointa.proto.AnimatorParameterValueInfoPair;
 
 public class EntityAuthorityInfo {
     @Tag(tag=1) public AbilitySyncStateInfo abilityInfo = null;

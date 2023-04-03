@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.VehicleLocationInfo.*;
+import org.sorapointa.proto.VehicleLocationInfo;
+import org.sorapointa.proto.PlayerLocationInfo.*;
+import org.sorapointa.proto.PlayerLocationInfo;
 
 public class ScenePlayerLocationNotify {
     public enum ScenePlayerLocationNotify_CmdId {

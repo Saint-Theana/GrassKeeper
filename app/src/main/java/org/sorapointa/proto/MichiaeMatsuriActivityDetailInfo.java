@@ -2,6 +2,12 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.MichiaeMatsuriChallengePositionInfo.*;
+import org.sorapointa.proto.MichiaeMatsuriChallengePositionInfo;
+import org.sorapointa.proto.MichiaeMatsuriChestPositionInfo.*;
+import org.sorapointa.proto.MichiaeMatsuriChestPositionInfo;
+import org.sorapointa.proto.MichiaeMatsuriStage.*;
+import org.sorapointa.proto.MichiaeMatsuriStage;
 
 public class MichiaeMatsuriActivityDetailInfo {
     @Tag(tag=8) public List<MichiaeMatsuriChallengePositionInfo> challengePosList = new ArrayList<>();

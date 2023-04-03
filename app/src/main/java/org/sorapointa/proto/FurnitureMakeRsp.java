@@ -2,6 +2,14 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.FurnitureMakeSlot.*;
+import org.sorapointa.proto.FurnitureMakeSlot;
+import org.sorapointa.proto.FurnitureMakeHelpData.*;
+import org.sorapointa.proto.FurnitureMakeHelpData;
+import org.sorapointa.proto.FurnitureMakeMakeInfo.*;
+import org.sorapointa.proto.FurnitureMakeMakeInfo;
+import org.sorapointa.proto.FurnitureMakeBeHelpedData.*;
+import org.sorapointa.proto.FurnitureMakeBeHelpedData;
 
 public class FurnitureMakeRsp {
     public enum FurnitureMakeRsp_CmdId {

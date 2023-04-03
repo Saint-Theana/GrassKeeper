@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.ForwardType.*;
+import org.sorapointa.proto.ForwardType;
+import org.sorapointa.proto.EvtAnimatorStateChangedInfo.*;
+import org.sorapointa.proto.EvtAnimatorStateChangedInfo;
 
 public class EvtAnimatorStateChangedNotify {
     public enum EvtAnimatorStateChangedNotify_CmdId {

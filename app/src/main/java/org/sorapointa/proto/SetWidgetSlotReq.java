@@ -2,6 +2,10 @@ package org.sorapointa.proto;
 import io.github.sainttheana.proto.core.Tag;
 import java.util.List;
 import java.util.ArrayList;
+import org.sorapointa.proto.WidgetSlotOp.*;
+import org.sorapointa.proto.WidgetSlotOp;
+import org.sorapointa.proto.WidgetSlotTag.*;
+import org.sorapointa.proto.WidgetSlotTag;
 
 public class SetWidgetSlotReq {
     public enum SetWidgetSlotReq_CmdId {
