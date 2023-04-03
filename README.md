@@ -2,7 +2,7 @@
 
 # A client software reimplementation for a certain anime game.
 
-# Current Version: 3.2 (Will not update probably.)
+# Current Version: 3.4 (Will not update probably.)
 
 # What is the meaning of this?
 ## Chat/GM Bot.
@@ -22,7 +22,7 @@
 
 # How to build?
 ```bash
-bash gradlew fatjar
+bash gradlew jar
 #the jar file will be found in app/build/libs/
 ```
 
