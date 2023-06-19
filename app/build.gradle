@@ -35,14 +35,14 @@ tasks.withType(Jar.class).configureEach {
 
 dependencies {
 	implementation 'com.github.Saint-Theana:ASPEX:1.0.2'
-	implementation 'com.github.Saint-Theana:IOSTerm-X:1.0.21'
+	implementation 'com.github.Saint-Theana:IOSTerm-X:1.0.25'
 	implementation 'com.github.Saint-Theana:kcp-netty:1.0.0'
-	implementation 'io.netty:netty-buffer:4.1.68.Final'
-	implementation 'io.netty:netty-transport:4.1.68.Final'
+	//implementation 'io.netty:netty-buffer:4.1.68.Final'
+	//implementation 'io.netty:netty-transport:4.1.68.Final'
 	implementation 'commons-cli:commons-cli:1.4'
     implementation 'com.google.code.gson:gson:2.10'
     implementation 'bouncycastle:bcprov-jdk15:140'
 	
-   // implementation 'io.netty:netty-all:4.1.68.Final'
+    implementation 'io.netty:netty-all:4.1.68.Final'
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

@@ -26,7 +26,7 @@ public class PacketGetPlayerTokenReq extends BasePacket
 	{
 		GetPlayerTokenReq getPlayerTokenReq=new GetPlayerTokenReq();
 		getPlayerTokenReq.accountType=user.accountType;
-		getPlayerTokenReq.accountToken= Util.bytesToHex(Base64Utils.decode(user.accountToken)).toLowerCase();
+		getPlayerTokenReq.accountToken= user.comboToken;
 		getPlayerTokenReq.accountUid= user.uid+"";
 		getPlayerTokenReq.platformType= clientConfig.platform;
 		getPlayerTokenReq.channelId= clientConfig.channelId;
