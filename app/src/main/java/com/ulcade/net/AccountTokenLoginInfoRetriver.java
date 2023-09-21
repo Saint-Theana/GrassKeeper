@@ -40,6 +40,7 @@ public class AccountTokenLoginInfoRetriver
 //		{
 //			e.printStackTrace();
 //		}
+		//System.out.println(PublicConstant.gson.toJson(info));
 		String result = Http.httpPost(clientInfo.serverAddress + "/hk4e_global/combo/granter/login/v2/login", PublicConstant.gson.toJson(info));
 		
 		

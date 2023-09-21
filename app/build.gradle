@@ -43,6 +43,6 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.10'
     implementation 'bouncycastle:bcprov-jdk15:140'
 	
-    implementation 'io.netty:netty-all:4.1.68.Final'
+   // implementation 'io.netty:netty-all:4.1.68.Final'
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

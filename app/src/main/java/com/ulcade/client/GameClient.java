@@ -431,6 +431,7 @@ public class GameClient extends ChannelInboundHandlerAdapter implements Runnable
 	{
 		//System.out.println("fff");
 		this.regionInfo = new RegionInfoRetriver(user, clientInfo).process();
+		//System.out.println(user.comboToken);
 		if (user.comboToken != null)
 		{
 			//loginwithToken
@@ -445,10 +446,18 @@ public class GameClient extends ChannelInboundHandlerAdapter implements Runnable
 			{
 				System.out.println(loginResultInfo.message);
 				System.out.println("login failed.");
+				user.accountToken = null;
+				user.uid = 0;
+				user.account = null;
+				user.comboToken=null;
+				user.accountToken=null;
+				user.selectedRegion = null;
+				saveUserData(user);
 				return;
 			}
 			else
 			{
+				//System.out.println(PublicConstant.gson.toJson(loginResultInfo));
 				user.uid = Integer.parseInt(loginResultInfo.data.account.uid);
 				user.account = loginResultInfo.data.account.name;
 				user.password = null;
@@ -468,6 +477,8 @@ public class GameClient extends ChannelInboundHandlerAdapter implements Runnable
 			user.accountToken = null;
 			user.uid = 0;
 			user.account = null;
+			user.comboToken=null;
+			user.accountToken=null;
 			user.selectedRegion = null;
 			saveUserData(user);
 			return;
