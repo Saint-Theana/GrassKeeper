@@ -23,9 +23,11 @@ public class GetPlayerTokenRspHandler extends BaseHandler
 	public void process(byte[] header, byte[] payload)
 	{
 		GetPlayerTokenRsp rsp=ProtobufDecoder.decodeFrom(new GetPlayerTokenRsp(), payload);
+		//user.comboToken=rsp.token;
 		byte[] seed = RSAUtils.decryptByPrivateKey(rsp.serverRandKey, clientConfig.privateKey);
 		long serverSeed=Long.parseUnsignedLong(Util.bytesToHex(seed), 16);
 		gameClient.setServerSeed(serverSeed);
+		
 		long newSeed= serverSeed ^ gameClient.getClientSeed();
 		byte[] newXorkey=Ec2b.generateXorKey(newSeed);
 		gameClient.setXorKey(newXorkey);

@@ -34,7 +34,7 @@ public class CurrentRegionInfoRetriver
 		url.append("&account_type="+user.accountType);
 		url.append("&dispatchSeed="+clientInfo.dispatchSeed);
 		url.append("&key_id="+clientInfo.rsaKeyId);
-		String data=Http.httpGet(url.toString());
+		String data=Http.httpGet(url.toString(),user);
 		CurrentRegionInfo regionInfo=PublicConstant.gson.fromJson(data,CurrentRegionInfo.class);
 	    byte[] decrypted=RSAUtils.decryptByPrivateKey(regionInfo.content,clientInfo.privateKey);
 		return ProtobufDecoder.decodeFrom(new QueryCurrRegionHttpRsp(),decrypted);

@@ -21,7 +21,12 @@ public class PlayerLoginRspHandler extends BaseHandler
 	{
 		PlayerLoginRsp playerLoginReq=ProtobufDecoder.decodeFrom(new PlayerLoginRsp(),payload);
 		//playerLoginReq.
-		gameClient.setTotalTickTime(playerLoginReq.totalTickTime);
+		if(playerLoginReq.totalTickTime==null){
+			gameClient.setTotalTickTime(19888.20973493671);
+		}else{
+			gameClient.setTotalTickTime(playerLoginReq.totalTickTime);
+		}
+		
 		gameClient.startHeartBeat();
 		gameClient.updatePlayerFriendList();
 		System.out.println("account logined.");

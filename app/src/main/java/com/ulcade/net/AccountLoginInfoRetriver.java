@@ -27,7 +27,7 @@ public class AccountLoginInfoRetriver
 		loginInfo.account=user.account;
 		loginInfo.game_key=clientInfo.gameKey;
 		loginInfo.password=RSAUtils.encryptByPublicKey(user.password,clientInfo.authPublicKey);
-		String result =Http.httpPost(clientInfo.serverAddress+"/hk4e_global/mdk/shield/api/login",PublicConstant.gson.toJson(loginInfo));
+		String result =Http.httpPost(clientInfo.serverAddress+"/hk4e_global/mdk/shield/api/login",PublicConstant.gson.toJson(loginInfo),user);
 		//System.out.println(result);
 		return PublicConstant.gson.fromJson(result,LoginResultInfo.class);
 	}

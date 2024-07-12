@@ -35,7 +35,7 @@ public class PacketPlayerLoginReq extends BasePacket
 		pleyerLoginReq.clientVersion=clientConfig.clientVersion;
 		pleyerLoginReq.accountType=user.accountType;
 		pleyerLoginReq.platformType=clientConfig.platform;
-		pleyerLoginReq.token=Util.bytesToHex(Base64Utils.decode(user.accountToken)).toLowerCase();
+		pleyerLoginReq.token=user.comboToken;
 		pleyerLoginReq.clientPort=gameClient.getPort();
 		pleyerLoginReq.regPlatform=user.regPlatform;
 		pleyerLoginReq.clientDataVersion=gameClient.getCurrentRegionInfo().regionInfo.clientDataVersion;

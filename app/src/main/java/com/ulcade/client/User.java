@@ -2,6 +2,8 @@ package com.ulcade.client;
 
 public class User
 {
+	public String comboToken;
+	
 	public String password;
 	
 	public int uid;

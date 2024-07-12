@@ -7,6 +7,7 @@ import com.ulcade.util.Base64Utils;
 import com.ulcade.util.Util;
 import io.github.sainttheana.proto.core.ProtobufEncoder;
 import org.sorapointa.proto.GetPlayerTokenReq;
+import com.ulcade.PublicConstant;
 
 public class PacketGetPlayerTokenReq extends BasePacket
 {
@@ -26,7 +27,7 @@ public class PacketGetPlayerTokenReq extends BasePacket
 	{
 		GetPlayerTokenReq getPlayerTokenReq=new GetPlayerTokenReq();
 		getPlayerTokenReq.accountType=user.accountType;
-		getPlayerTokenReq.accountToken= Util.bytesToHex(Base64Utils.decode(user.accountToken)).toLowerCase();
+		getPlayerTokenReq.accountToken= user.comboToken;
 		getPlayerTokenReq.accountUid= user.uid+"";
 		getPlayerTokenReq.platformType= clientConfig.platform;
 		getPlayerTokenReq.channelId= clientConfig.channelId;
@@ -39,6 +40,7 @@ public class PacketGetPlayerTokenReq extends BasePacket
 			e.printStackTrace();
 		}
 		getPlayerTokenReq.keyId= clientConfig.rsaKeyId;
+		//System.out.println(PublicConstant.gson.toJson(getPlayerTokenReq));
 		return new ProtobufEncoder(getPlayerTokenReq).toByteArray();
 	}
 }
