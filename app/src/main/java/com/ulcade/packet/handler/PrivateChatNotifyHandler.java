@@ -7,6 +7,8 @@ import com.ulcade.packet.BaseHandler;
 import io.github.sainttheana.proto.core.ProtobufDecoder;
 import org.sorapointa.proto.ChatInfo;
 import org.sorapointa.proto.PrivateChatNotify;
+import org.sorapointa.proto.*;
+import com.ulcade.packet.*;
 
 public class PrivateChatNotifyHandler extends BaseHandler
 {

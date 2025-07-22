@@ -2,9 +2,16 @@ package com.ulcade.client;
 import com.ulcade.sdk.Api;
 import java.util.List;
 import com.ulcade.sdk.FriendInfo;
+import java.io.File;
 
 public class RobotApi implements Api
 {
+
+    @Override
+    public File getConfigFile(String name) {
+        return new File("plugin/conf/"+name);
+    }
+
 
 	@Override
 	public void sendChannelMessage(Integer channelId, String text)

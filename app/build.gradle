@@ -45,7 +45,7 @@ tasks.register('fatjar', Jar) {
 }
 
 dependencies {
-	implementation 'com.github.Saint-Theana:ASPEX:1.0.2'
+	implementation 'com.github.Saint-Theana:ASPEX:1.0.3'
 	implementation 'com.github.Saint-Theana:IOSTerm-X:1.0.25'
 	implementation 'com.github.Saint-Theana:kcp-netty:1.0.0'
 	//implementation 'io.netty:netty-buffer:4.1.68.Final'
@@ -57,3 +57,4 @@ dependencies {
    // implementation 'io.netty:netty-all:4.1.68.Final'
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
+

@@ -1,5 +1,6 @@
 package com.ulcade.sdk;
 
+import java.io.File;
 import java.util.List;
 
 public interface Api
@@ -27,4 +28,6 @@ public interface Api
 	void requestAddFriend(int uid);
 	
 	void requestDeleteFriend(int uid);
+    
+    File getConfigFile(String name);
 }
