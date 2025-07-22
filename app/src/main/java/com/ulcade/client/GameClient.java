@@ -534,8 +534,14 @@ public class GameClient extends ChannelInboundHandlerAdapter implements Runnable
 
             // Start the client.
 			//todo: domain support
-            ChannelFuture f = b.connect(currentRegionInfo.regionInfo.gateserverIp, currentRegionInfo.regionInfo.gateserverPort).sync();
+			ChannelFuture f = null;
             // Wait until the connection is closed.
+			if (currentRegionInfo.regionInfo.useGateserverDomainName !=null&&currentRegionInfo.regionInfo.useGateserverDomainName){
+				f= b.connect(currentRegionInfo.regionInfo.gateserverDomainName, currentRegionInfo.regionInfo.gateserverPort).sync();
+			}else{
+				f= b.connect(currentRegionInfo.regionInfo.gateserverIp, currentRegionInfo.regionInfo.gateserverPort).sync();
+			}
+            
 
             f.channel().closeFuture().sync();
 	    }

@@ -7,6 +7,7 @@ import com.ulcade.util.Base64Utils;
 import com.ulcade.util.Util;
 import io.github.sainttheana.proto.core.ProtobufEncoder;
 import org.sorapointa.proto.GetPlayerTokenReq;
+import com.ulcade.PublicConstant;
 
 public class PacketGetPlayerTokenReq extends BasePacket
 {
@@ -39,6 +40,7 @@ public class PacketGetPlayerTokenReq extends BasePacket
 			e.printStackTrace();
 		}
 		getPlayerTokenReq.keyId= clientConfig.rsaKeyId;
+		//System.out.println(PublicConstant.gson.toJson(getPlayerTokenReq));
 		return new ProtobufEncoder(getPlayerTokenReq).toByteArray();
 	}
 }

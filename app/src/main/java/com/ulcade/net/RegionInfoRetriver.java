@@ -30,7 +30,7 @@ public class RegionInfoRetriver
 		url.append("&time="+clientInfo.time);
 		url.append("&channel_id="+clientInfo.channelId);
 		url.append("&sub_channel_id="+clientInfo.subChannelId);
-		String regionList=Http.httpGet(url.toString());
+		String regionList=Http.httpGet(url.toString(),user);
 		//System.out.
 		return ProtobufDecoder.decodeFrom(new QueryRegionListHttpRsp(),Base64.getDecoder().decode(regionList));
 		
